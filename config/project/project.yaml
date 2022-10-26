@@ -1,0 +1,22 @@
+dateModified: 1666370796
+email:
+  fromEmail: corey.james.keller@gmail.com
+  fromName: 'Tangent Services'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    83e41cef-d64a-47e2-9d9e-ecd08cdb2829: 'Tangent Services'
+    312438a4-60cf-4fd0-85e1-2146d8d36657: Common
+    ada35ad0-4d42-4ca8-bed9-59ff6816f33f: 'Tangent Services'
+system:
+  edition: solo
+  live: true
+  name: 'Tangent Services'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
