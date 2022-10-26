@@ -1,0 +1,7 @@
+@import '../reference/reference';
+
+$block: 'primary-nav';
+
+.#{$block} {
+	display: block;
+}

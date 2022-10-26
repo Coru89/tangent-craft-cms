@@ -4,5 +4,5 @@ hasUrls: true
 language: en-US
 name: 'Tangent Services'
 primary: true
-siteGroup: 83e41cef-d64a-47e2-9d9e-ecd08cdb2829
+siteGroup: 83e41cef-d64a-47e2-9d9e-ecd08cdb2829 # Tangent Services
 sortOrder: 1

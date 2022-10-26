@@ -1,0 +1,56 @@
+// reference/mixins/_buttons.scss
+
+@mixin button {
+	border: 1px solid $white;
+	color: $white;
+	display: inline-block;
+	font-size: 1rem;
+	padding: .875rem 2.175rem;
+	text-decoration: none;
+	transition: background-color .15s ease-out;
+
+	&:focus,
+	&:hover {
+		background-color: $white;
+		border: 1px solid $blue-regal;
+		color: $blue-regal;
+	}
+}
+
+@mixin action-button {
+	background: $blue;
+	border: 0;
+	border-radius: 40px;
+	box-sizing: border-box;
+	color: $white;
+	font-size: $font-size-small;
+	font-weight: $font-weight-semibold;
+	padding-bottom: 0.625rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	padding-top: 0.76rem;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all 150ms ease;
+	width: 100%;
+
+	&:focus,
+	&:hover {
+		background-color: $blue-dark;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+		transform: translateY(-2px);
+	}
+}
+
+@mixin light-button {
+	background-color: $white;
+	transition:  all 150ms ease;
+
+	&:focus,
+	&:hover {
+		background-color: $blue-dark;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+		color: $white;
+		transform: translateY(-2px);
+	}
+}
