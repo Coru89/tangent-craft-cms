@@ -56,7 +56,7 @@
 						<div class="header__row">
 							<div class="header__column">
 								<a href="/" class="header__logo-anchor" title="Tangent Design Engineering logo">
-									<svg height="50" fill="#234a9e" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Layer_1" x="0" y="0" version="1.1" viewBox="0 0 1125 284">
+									<svg height="45" fill="#234a9e" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Layer_1" x="0" y="0" version="1.1" viewBox="0 0 1125 284">
 										<g id="Tangent_design_enigineering" transform="translate(29.667 27.333)">
 											<g id="Group_1">
 											<path id="Path_198" d="M378.45 63.65 323.21-6.73h-26.72v108.65h26.72V31.55l55.24 70.38h26.71V-6.73h-26.71v70.38zm107.7 50.44h-19.82v24.14h56.05c-1.17-21.98-7.45-24.14-36.23-24.14zM169.7-6.73l-48.25 108.65h27.92l6.68-16.18h51.92l6.68 16.18h27.91L194.29-6.73H169.7zm-4.44 70.21 16.73-40.47 16.75 40.47h-33.48zM-17 17.08h43.03v84.84h26.72V17.08h38.93V-6.73H-17v23.81zM522.88 9.9c11.51 0 22.46 5 29.99 13.72l17.61-17.6c-24-26.31-64.78-28.19-91.1-4.19-26.31 24-28.19 64.78-4.19 91.1a64.537 64.537 0 0 0 34.07 19.59c9.65-2.43 12.45-8.42 13.18-22.99-21.98-.33-39.54-18.42-39.21-40.41.33-21.7 17.96-39.13 39.65-39.22zm365.69 53.83L833.28-6.73h-26.73v108.79h26.73V31.6l55.31 70.46h26.76V-6.73h-26.76l-.02 70.46zm80.98-70.46v23.84h43.08v84.94h26.74V17.11h38.97V-6.73H969.55zM523 138.23h52.17v-24.14H559.2c-28.18 0-34.86 2.72-36.2 24.14zm0-96.92.08 5.96V65h36.65c-6.19 14.86-20.72 24.53-36.81 24.53.73 14.72 3.59 20.68 13.36 23.04 32.91-6.81 54.98-37.87 50.59-71.19L523 41.31zm117.76 60.76h102.27V78.21h-75.51V59.13h68.61V35.29h-68.61V17.11h75.51V-6.73H640.76v108.8z" class="st0"/>
@@ -85,12 +85,18 @@
 								</a>
 							</div>
 							<div class="header__column">
+							<a href="/contact" class="button header__contact">Contact Us</a>
 								<button aria-label="Open mobile navigation" class="header__mobile-nav-button" type="button">
-									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" stroke="#293339" stroke-linecap="round" stroke-width="2">
+									<svg fill="#234a9e" viewBox="0 0 100 80" width="25" height="25">
+										<rect width="100" height="15"></rect>
+										<rect y="30" width="100" height="15"></rect>
+										<rect y="60" width="100" height="15"></rect>
+									</svg>
+									{# <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" stroke="#234a9e" stroke-linecap="round" stroke-width="2">
 										<g fill="none" fill-rule="evenodd">
 											<path d="M1 10.54545h14M1 6h14M1 1.45455h14"/>
 										</g>
-									</svg>
+									</svg> #}
 								</button>
 								<nav class="primary-nav">
 									<ul class="primary-nav__list" role="menu">
@@ -101,6 +107,33 @@
 												role="menuitem"
 											>
 												Work
+											</a>
+										</li>
+										<li class="primary-nav__item" role="presentation">
+											<a
+												class="primary-nav__anchor"
+												href="/"
+												role="menuitem"
+											>
+												Services
+											</a>
+										</li>
+										<li class="primary-nav__item" role="presentation">
+											<a
+												class="primary-nav__anchor"
+												href="/"
+												role="menuitem"
+											>
+												Process
+											</a>
+										</li>
+										<li class="primary-nav__item" role="presentation">
+											<a
+												class="primary-nav__anchor"
+												href="/"
+												role="menuitem"
+											>
+												Company
 											</a>
 										</li>
 									</ul>
@@ -168,11 +201,22 @@
 			</footer> #}
 
 		</div>
+			<nav class="mobile-nav">
+			<button aria-label="Exit mobile navigation" class="mobile-nav__exit-button js-mobile-nav-link" tabindex="-1" type="button"></button>
+			<ul class="mobile-nav__list" role="menu">
+				<li class="mobile-nav__item" role="presentation">
+					<a
+						class="mobile-nav__anchor js-mobile-nav-link"
+						href=""
+						role="menuitem"
+					>
+						Work
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<script src="/assets/scripts/nav.js" async defer></script>
 
-		{# <script src="/scripts/body.min.js" async defer></script>
-		{% block scripts %} 
-
-		{% endblock %}#}
 	</body>
 
 </html>

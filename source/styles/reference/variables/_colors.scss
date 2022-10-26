@@ -4,16 +4,18 @@
 $white: #fff;
 $black: #000;
 
-$grey-dark: #202020;
-$grey: #3d3d3d;
-$grey-ash: #919090;
-$grey-light: #c6c4c4;
-$grey-lighter: #e9e9e9;
+$grey-dark: #313131;
+$grey: #e6e7e8;
 
-$blue: #094cae;
-$blue-regal: #092d51;
-$blue-light: #28abe3;
-$blue-lighter: #a5e4ff;
-$blue-dark: #1e5791;
+$blue-lighter: #094cae; //remove this or the next?
+$blue-light: #1e5791;
+$blue: #234a9e; // logo blue, contact button
+$blue-dark: #173066; //hover for contact
+$blue-darker: #0a2152; //remove?
 
-$blue-pale: #f0f5fb;
+$orange: #9E4433;
+$orange-dark: #6a2e22;
+
+//colors from static site that may go unused
+$purple: #52547a;
+
