@@ -1,0 +1,16 @@
+columnSuffix: phsneans
+contentColumnType: string
+fieldGroup: 20318baf-14d6-49f8-964e-a646e56d5446 # Footer
+handle: address
+instructions: null
+name: 'Footer Address'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_address}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,156 @@
+fieldLayouts:
+  42be0741-c519-4730-a6ed-39ee4d71a773:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 348809a3-b71e-4ab4-ba64-0953b1159392 # Service Links
+            instructions: null
+            label: Services
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d8ae0a8d-e5e7-419a-9d7c-09ca9ebc0e81
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1464aa75-afee-4de6-8db0-67994226a779 # Company Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9d6244cc-e11d-482f-86ce-048d05c708c5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 926c474a-be7d-4dcf-959a-39bee8fee865 # Meta Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 820e3732-58b6-4f24-89ba-98ee6ca7e39f
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Footer Menus'
+        uid: acb2868c-456f-4352-bb4a-754294574a24
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a2e99dfb-65fc-4b17-a2c4-71341754c504 # Footer Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 777d0b37-2c54-45c9-88ae-b841dd5a8366
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e6a86a4f-dcd0-4b30-a64c-61c5ad178338 # Contact Link Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: db7af444-fbd9-4c5e-b563-44a8eeb11c9c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 64868fe3-409c-48a4-988b-b52ac547cd98 # Contact Link URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f72a4f79-483a-482f-8e6b-d266ad0449b2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 17fb87a7-ccf9-42fb-a8f7-1bf0f4f55811 # Email Link Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 593f405c-ac83-422c-af74-89dd75c9c0e6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 927a9ac0-0d29-4349-b085-3e1ba7c4ecb7 # Email Link URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ccf9f08-4586-4f67-9ed5-33e3aec022c3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4e5884b3-b026-4738-8814-53759a352cc1 # Telephone Link Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 03d328d1-d647-412c-93aa-11e6b4db24db
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1db92dd4-db41-4f28-827e-d5fbbc19a4eb # Telephone Link URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b4803de0-6043-4e02-b907-de84f52ecf0a
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Conact Info'
+        uid: 9064ca35-cce0-4d41-a046-5cf463c66066
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2c098049-a68a-47fd-a4e2-21c2b59e38ae # Footer Tagline
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f77798a0-9da1-48fd-97e1-b6f246e30f24
+            userCondition: null
+            warning: null
+            width: 100
+        name: Tagline
+        uid: 220cf6b5-a2eb-496d-ac67-8076ddc009b7
+        userCondition: null
+handle: footer
+name: Footer
+sortOrder: 1

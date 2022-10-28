@@ -1,0 +1,19 @@
+columnSuffix: gynhidev
+contentColumnType: text
+fieldGroup: 20318baf-14d6-49f8-964e-a646e56d5446 # Footer
+handle: emailLinkText
+instructions: null
+name: 'Email Link Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

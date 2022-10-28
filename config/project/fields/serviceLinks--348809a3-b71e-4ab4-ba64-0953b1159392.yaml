@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 20318baf-14d6-49f8-964e-a646e56d5446 # Footer
+handle: serviceLinks
+instructions: null
+name: 'Service Links'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_servicelinks}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

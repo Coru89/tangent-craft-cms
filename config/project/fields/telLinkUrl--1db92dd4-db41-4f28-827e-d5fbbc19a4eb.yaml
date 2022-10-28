@@ -1,0 +1,14 @@
+columnSuffix: ynogyyne
+contentColumnType: string(255)
+fieldGroup: 20318baf-14d6-49f8-964e-a646e56d5446 # Footer
+handle: telLinkUrl
+instructions: null
+name: 'Telephone Link URL'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

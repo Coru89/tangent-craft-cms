@@ -1,0 +1,73 @@
+field: 348809a3-b71e-4ab4-ba64-0953b1159392 # Service Links
+fieldLayouts:
+  edf8cdec-f7a7-4789-9860-6adf97b6d4b8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 48f6d6ac-c949-4690-9375-e750acbee372 # Link Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eab38c98-dcfe-4bfc-9e01-9da16a04a30d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6cb4a748-ab1e-45fb-93c9-0264d82a83b2 # Link URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eedf4e9c-8957-494a-9f30-ef761a330306
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2381e6b5-0ed5-42c9-9e9e-c72cfa5a8534
+        userCondition: null
+fields:
+  6cb4a748-ab1e-45fb-93c9-0264d82a83b2: # Link URL
+    columnSuffix: btevrufz
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: footerLinkUrl
+    instructions: null
+    name: 'Link URL'
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  48f6d6ac-c949-4690-9375-e750acbee372: # Link Text
+    columnSuffix: eefywsrp
+    contentColumnType: text
+    fieldGroup: null
+    handle: footerLinkText
+    instructions: null
+    name: 'Link Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: footerLink
+name: 'Footer Link'
+sortOrder: 1

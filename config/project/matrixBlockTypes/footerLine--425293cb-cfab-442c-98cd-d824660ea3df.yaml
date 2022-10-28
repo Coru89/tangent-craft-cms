@@ -1,0 +1,46 @@
+field: a2e99dfb-65fc-4b17-a2c4-71341754c504 # Footer Address
+fieldLayouts:
+  b2b38a7a-9390-4ef9-9bfa-2a1650f578fa:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c736d40d-ae16-4b84-92d2-f5dcfa89b6b9 # Line
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 05c42722-7197-4271-bf4c-2427c5238a06
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f578928f-2fd8-4fa7-bac7-76406965367c
+        userCondition: null
+fields:
+  c736d40d-ae16-4b84-92d2-f5dcfa89b6b9: # Line
+    columnSuffix: fglfwtua
+    contentColumnType: text
+    fieldGroup: null
+    handle: line
+    instructions: null
+    name: Line
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: footerLine
+name: 'Footer Line'
+sortOrder: 1

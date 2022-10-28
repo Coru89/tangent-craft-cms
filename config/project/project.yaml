@@ -1,4 +1,4 @@
-dateModified: 1666938293
+dateModified: 1666955160
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -14,18 +14,42 @@ fs:
 meta:
   __names__:
     1b4cc869-d062-4e3e-889e-419528ae7deb: Hero # Hero
+    1db92dd4-db41-4f28-827e-d5fbbc19a4eb: 'Telephone Link URL' # Telephone Link URL
+    2c098049-a68a-47fd-a4e2-21c2b59e38ae: Tagline # Footer Tagline
+    4e5884b3-b026-4738-8814-53759a352cc1: 'Telephone Link Text' # Telephone Link Text
+    5a45201d-e111-4e97-8cdc-d0373939f355: 'Footer Link' # Footer Link
+    6cb4a748-ab1e-45fb-93c9-0264d82a83b2: 'Link URL' # Link URL
+    17fb87a7-ccf9-42fb-a8f7-1bf0f4f55811: 'Email Link Text' # Email Link Text
     39ce3f74-ea40-48bd-a6e1-3251031cee8b: Title # Title
+    48f6d6ac-c949-4690-9375-e750acbee372: 'Link Text' # Link Text
     55aeb36a-1a23-40a5-b308-cd2b88181da7: 'Link Text' # Link Text
     67f8d806-5e24-46a3-a15c-9339f5bf04dc: Home # Home
+    69d2ce3a-3133-46ae-a01c-76b2c87e9a90: 'Link URL' # Link URL
     83e41cef-d64a-47e2-9d9e-ecd08cdb2829: 'Tangent Services' # Tangent Services
     112efcad-1a5a-40bd-87f8-dc0ea2e5f742: Subtitle # Subtitle
+    167db148-a36c-4eb2-8da4-85676831d3f1: 'Footer Link' # Footer Link
+    926c474a-be7d-4dcf-959a-39bee8fee865: 'Meta Links' # Meta Links
+    927a9ac0-0d29-4349-b085-3e1ba7c4ecb7: 'Email Link URL' # Email Link URL
+    1292bc45-6ade-4009-ae28-921557c098c1: 'Link Text' # Link Text
+    1464aa75-afee-4de6-8db0-67994226a779: 'Company Links' # Company Links
     18995cfd-16c6-457d-8ead-6dadaf3f1d09: Video # Video
+    20318baf-14d6-49f8-964e-a646e56d5446: Footer # Footer
+    64868fe3-409c-48a4-988b-b52ac547cd98: 'Contact Link URL' # Contact Link URL
     312438a4-60cf-4fd0-85e1-2146d8d36657: Common # Common
+    348809a3-b71e-4ab4-ba64-0953b1159392: 'Service Links' # Service Links
+    425293cb-cfab-442c-98cd-d824660ea3df: 'Footer Line' # Footer Line
     818276ab-339c-4835-80cf-0d925ad564cc: 'Hero Link Url' # Hero Link Url
+    a2e99dfb-65fc-4b17-a2c4-71341754c504: 'Footer Address' # Footer Address
+    acf40d2d-7210-41a6-b9be-13946da9867d: Footer # Footer
     ada35ad0-4d42-4ca8-bed9-59ff6816f33f: 'Tangent Services' # Tangent Services
-    b0b6c620-6b04-45eb-b0ae-510789c4c7fb: 'Vertical Background Position' # Vertical Bacground Position
+    b0b6c620-6b04-45eb-b0ae-510789c4c7fb: 'Vertical Background Position' # Vertical Background Position
     b391a624-f2b4-474c-b0ef-a640f03c071b: 'Background Image' # Background Image
     b834c143-a4d7-4d69-92b8-7f3e442af425: Home # Home
+    c736d40d-ae16-4b84-92d2-f5dcfa89b6b9: Line # Line
+    e6a86a4f-dcd0-4b30-a64c-61c5ad178338: 'Contact Link Text' # Contact Link Text
+    ea4e97b8-5d2c-431c-ade8-54d0dba16497: 'Link URL' # Link URL
+    ee855152-e938-4c52-a926-8b120aca878a: 'Link Text' # Link Text
+    f0d4de03-0fd4-43fd-ae9e-cb5745829d9b: 'Footer Link' # Footer Link
     f2ff0c12-9108-4b60-b65e-9effcc913281: Projects # Projects
 plugins:
   ckeditor:
