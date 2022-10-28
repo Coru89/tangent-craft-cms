@@ -1,9 +1,9 @@
 // reference/variables/_typography.scss
 
 // Font Family
-$font-family-futura: 'Futura Std Book', Helvetica, Arial, sans-serif;;
+$font-family-roboto: 'Roboto', Helvetica, Arial, sans-serif;
 
-$font-family-sansserif: #{$font-family-futura}, Helvetica, Arial, sans-serif;
+$font-family-sansserif: #{$font-family-roboto}, Helvetica, Arial, sans-serif;
 $font-family-monospace: Consolas, monospace;
 
 // $font-family-body: $font-family-serif;
@@ -21,7 +21,7 @@ $font-size-larger: 1.25rem;
 
 // Font Weight
 
-$font-weight-light: 100;
+$font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-semibold: 500;
 $font-weight-bold: 700;

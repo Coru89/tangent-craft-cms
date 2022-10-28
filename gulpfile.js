@@ -15,12 +15,7 @@ const typescript = require('gulp-typescript');
 function watchTask(){
 	browserSync.init({
 		proxy: {
-			target: "https://tangent.ddev.site/",
-			proxyRes: [
-				function(proxyRes, req, res) {
-					console.log(proxyRes.headers);
-				}
-			]
+			target: "https://tangent.ddev.site/"
     	}
 	});
 
@@ -37,7 +32,7 @@ function scss() {
 	  .pipe(sass())
 	  .pipe(prefix('last 2 versions'))
 	  .pipe(minify())
-	  .pipe(dest('./web/assets/css')) // change to your final/public directory
+	  .pipe(dest('./web/assets/styles')) // change to your final/public directory
 	  .pipe(browserSync.stream());
   };
 

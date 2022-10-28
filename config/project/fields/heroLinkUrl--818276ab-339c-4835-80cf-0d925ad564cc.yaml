@@ -1,0 +1,14 @@
+columnSuffix: ffpovipz
+contentColumnType: string(255)
+fieldGroup: 1b4cc869-d062-4e3e-889e-419528ae7deb # Hero
+handle: heroLinkUrl
+instructions: null
+name: 'Hero Link Url'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

@@ -1,15 +1,32 @@
-dateModified: 1666763698
+dateModified: 1666938293
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  projects:
+    hasUrls: true
+    name: Projects
+    settings:
+      path: '@webroot/assets/images/projects'
+    type: craft\fs\Local
+    url: '@web/assets/images/projects'
 meta:
   __names__:
+    1b4cc869-d062-4e3e-889e-419528ae7deb: Hero # Hero
+    39ce3f74-ea40-48bd-a6e1-3251031cee8b: Title # Title
+    55aeb36a-1a23-40a5-b308-cd2b88181da7: 'Link Text' # Link Text
     67f8d806-5e24-46a3-a15c-9339f5bf04dc: Home # Home
     83e41cef-d64a-47e2-9d9e-ecd08cdb2829: 'Tangent Services' # Tangent Services
+    112efcad-1a5a-40bd-87f8-dc0ea2e5f742: Subtitle # Subtitle
+    18995cfd-16c6-457d-8ead-6dadaf3f1d09: Video # Video
     312438a4-60cf-4fd0-85e1-2146d8d36657: Common # Common
+    818276ab-339c-4835-80cf-0d925ad564cc: 'Hero Link Url' # Hero Link Url
     ada35ad0-4d42-4ca8-bed9-59ff6816f33f: 'Tangent Services' # Tangent Services
+    b0b6c620-6b04-45eb-b0ae-510789c4c7fb: 'Vertical Background Position' # Vertical Bacground Position
+    b391a624-f2b4-474c-b0ef-a640f03c071b: 'Background Image' # Background Image
     b834c143-a4d7-4d69-92b8-7f3e442af425: Home # Home
+    f2ff0c12-9108-4b60-b65e-9effcc913281: Projects # Projects
 plugins:
   ckeditor:
     edition: standard

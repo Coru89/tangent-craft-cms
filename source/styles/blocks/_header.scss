@@ -56,7 +56,7 @@ $block: 'header';
 
 			@include media-min(lg) {
 				height: auto;
-				width: 210px;
+				width: 168px;
 			}
 		}
 	}
@@ -97,7 +97,7 @@ $block: 'header';
 		padding: 1.5rem 0;
 
 		@include media-min(lg) {
-			padding: 2rem 0;
+			padding: 1.5rem 0;
 		}
 
 		// &--utility {

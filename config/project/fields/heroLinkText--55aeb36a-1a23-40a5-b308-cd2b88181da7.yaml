@@ -1,0 +1,19 @@
+columnSuffix: bontjnyd
+contentColumnType: text
+fieldGroup: 1b4cc869-d062-4e3e-889e-419528ae7deb # Hero
+handle: heroLinkText
+instructions: null
+name: 'Link Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

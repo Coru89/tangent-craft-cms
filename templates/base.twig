@@ -32,11 +32,11 @@
 			rel="author" href="/humans.txt"/> #}
 
 			<!--Inline the critical CSS. -->
-			<link rel="stylesheet" href="/assets/css/critical.css">
+			<link rel="stylesheet" href="/assets/styles/critical.css">
 
 			<!--Asynchronously load the non-critical CSS. -->
 			<link
-			rel="stylesheet" rel="preload" as="style" href="/assets/css/style.css">
+			rel="stylesheet" rel="preload" as="style" href="/assets/styles/style.css">
 
 			{% block styles %}
 
@@ -44,7 +44,7 @@
 
 			<!--If no js is available, load the non-critical CSS immediately. -->
 			<noscript>
-				<link rel="stylesheet" href="/assets/css/style.css">
+				<link rel="stylesheet" href="/assets/styles/style.css">
 			</noscript>
 	</head>
 

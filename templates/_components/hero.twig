@@ -1,0 +1,25 @@
+
+<section class="hero">
+    <div class="u-container">
+                    {% if entry.heroVideo %}
+                <div class="hero__video-container">
+                    <video class="hero__video" src="{{ entry.heroVideo[0].getUrl() }}" autoplay muted loop></video>
+                </div>
+        <div class="hero__container">
+
+            {% elseif entry.heroBackgrondImage %}
+                 <div class="hero__image-container">
+                 </div>
+            {% endif %}
+            <div class="hero__row">
+                <div class="hero__text">
+                    <h2 class="hero__title">{{ entry.heroTitle }} </h2>
+                    <h3 class="hero__subtitle">{{ entry.heroSubtitle }}</h3>
+                    {% if entry.heroLinkText and entry.heroLinkUrl %}
+                        <a href={{ entry.heroLinkUrl }} class="button button--secondary button--arrow">{{ entry.heroLinkText }}</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
