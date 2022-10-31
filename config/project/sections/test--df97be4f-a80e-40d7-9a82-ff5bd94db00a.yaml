@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: test
+name: test
+propagationMethod: all
+siteSettings:
+  ada35ad0-4d42-4ca8-bed9-59ff6816f33f: # Tangent Services
+    enabledByDefault: true
+    hasUrls: true
+    template: test/_entry
+    uriFormat: 'test/{slug}'
+structure:
+  maxLevels: 2
+  uid: 39638162-03ac-443e-8c25-6006dbc7d1c3
+type: structure

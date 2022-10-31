@@ -7,10 +7,30 @@
   },
   "dependencies": {
     "browser-sync": "^2.27.10",
+    "browserify": "^17.0.0",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2"
-  }
+    "gulp-uglify": "^3.0.2",
+    "isotope-layout": "^3.0.6",
+    "webpack-cli": "^4.10.0"
+  },
+  "name": "tangent",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coru89/tangent-craft-cms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coru89/tangent-craft-cms/issues"
+  },
+  "homepage": "https://github.com/Coru89/tangent-craft-cms#readme",
+  "description": ""
 }

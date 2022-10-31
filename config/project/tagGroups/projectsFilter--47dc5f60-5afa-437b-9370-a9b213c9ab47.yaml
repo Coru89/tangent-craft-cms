@@ -1,0 +1,37 @@
+fieldLayouts:
+  12ecd67c-cee3-4baa-b146-82caaa5720b8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 5c91fc6e-4dc2-44c3-989a-50daadcac49c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f9c865c2-b9d1-4a56-be55-3b32d112084c
+        userCondition: null
+handle: projectsFilter
+name: 'Projects Filter'

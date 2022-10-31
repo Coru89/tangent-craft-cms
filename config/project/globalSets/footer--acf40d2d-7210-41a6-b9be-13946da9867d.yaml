@@ -138,7 +138,7 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 2c098049-a68a-47fd-a4e2-21c2b59e38ae # Footer Tagline
+            fieldUid: 2c098049-a68a-47fd-a4e2-21c2b59e38ae # Tagline
             instructions: null
             label: null
             required: false
