@@ -1,25 +1,63 @@
-
 <section class="hero">
-    <div class="u-container">
-                    {% if entry.heroVideo %}
-                <div class="hero__video-container">
-                    <video class="hero__video" src="{{ entry.heroVideo[0].getUrl() }}" autoplay muted loop></video>
-                </div>
-        <div class="hero__container">
+	<div class="u-container">
 
-            {% elseif entry.heroBackgrondImage %}
-                 <div class="hero__image-container">
-                 </div>
-            {% endif %}
-            <div class="hero__row">
-                <div class="hero__text">
-                    <h2 class="hero__title">{{ entry.heroTitle }} </h2>
-                    <h3 class="hero__subtitle">{{ entry.heroSubtitle }}</h3>
-                    {% if entry.heroLinkText and entry.heroLinkUrl %}
-                        <a href={{ entry.heroLinkUrl }} class="button button--secondary button--arrow">{{ entry.heroLinkText }}</a>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </div>
+		{% if (entry.heroVideo | length) %}
+			<div class="hero__video-container">
+				<video class="hero__video" src="{{ entry.heroVideo[0].getUrl() }}" autoplay muted loop></video>
+			</div>
+
+		{% elseif (entry.heroBackgroundImage | length) %}
+			{% set image = entry.heroBackgroundImage.one() %}
+			{% set transform1x = {
+                        format: 'webp',
+                        mode: 'crop',
+                        width: 1200,
+                        quality: 85
+                    } %}
+			{% set transform2x = {
+                        format: 'webp',
+                        mode: 'crop',
+                        width: 2400,
+                        quality: 85
+                    } %}
+			{% set transform3x = {
+                        format: 'webp',
+                        mode: 'crop',
+                        width: 3600,
+                        quality: 85
+                    } %}
+			{% set transformFallback = {
+                        format: 'jpeg',
+                        mode: 'crop',
+                        width: 1200,
+                        quality: 80
+                    } %}
+			<div class="hero__image"
+                style="
+                    background-image: url({{image.getUrl(transformFallback)}});
+                    background-image: -webkit-image-set(
+                        url({{image.getUrl(transform1x)}}) 1x,
+                        url({{image.getUrl(transform2x)}}) 2x,
+                        url({{image.getUrl(transform3x)}}) 3x
+                    );
+                    background-image: image-set(
+                        url({{image.getUrl(transform1x)}}) 1x,
+                        url({{image.getUrl(transform2x)}}) 2x,
+                        url({{image.getUrl(transform3x)}}) 3x
+                    )">
+			</div>
+		{% endif %}
+		<div class="hero__container">
+			<div class="hero__row">
+				<div class="hero__text">
+					<h2 class="hero__title">{{ entry.heroTitle }}
+					</h2>
+					<h3 class="hero__subtitle">{{ entry.heroSubtitle }}</h3>
+					{% if entry.heroLinkText and entry.heroLinkUrl %}
+						<a href={{ entry.heroLinkUrl }} class="button button--secondary button--arrow">{{ entry.heroLinkText }}</a>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
