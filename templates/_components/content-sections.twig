@@ -2,88 +2,54 @@
 	{% if block.type == "hero" %}
 		<section class="hero">
             <div class="u-container">
-
+             <div class="hero__container{% if block.heroTextPosition == 'right' %} hero__container--end{% endif %}{% if (block.heroVideo | length) %} hero__container--video{% endif %}">
                 {% if (block.heroVideo | length) %}
-                    <div class="hero__video-container">
+                    <div class="hero__media-container">
                         <video class="hero__video" src="{{ block.heroVideo[0].getUrl() }}" autoplay muted loop></video>
                     </div>
 
                 {% elseif (block.heroBackgroundImage | length) %}
                     {% set image = block.heroBackgroundImage.one() %}
-                    {# {% set transform1x = {
-                                format: 'webp',
-                                mode: 'crop',
-                                width: 1600,
-                                quality: 85
-                            } %}
-                    {% set transform2x = {
-                                format: 'webp',
-                                mode: 'crop',
-                                width: 3200,
-                                quality: 85
-                            } %}
-                    {% set transform3x = {
-                                format: 'webp',
-                                mode: 'crop',
-                                width: 4800,
-                                quality: 85
-                            } %}
-                    {% set transformFallback = {
-                                format: 'jpeg',
-                                mode: 'crop',
-                                width: 1600,
-                                quality: 80
-                            } %}
-                    <div class="hero__image"       
-                 style="
-                    background-image: url({{image.getUrl(transformFallback)}});
-                    background-image: -webkit-image-set(
-                        url({{image.getUrl(transform1x)}}) 1x,
-                        url({{image.getUrl(transform2x)}}) 2x,
-                        url({{image.getUrl(transform3x)}}) 3x
-                    );
-                    background-image: image-set(
-                        url({{image.getUrl(transform1x)}}) 1x,
-                        url({{image.getUrl(transform2x)}}) 2x,
-                        url({{image.getUrl(transform3x)}}) 3x
-                    )">
-			</div>  #}
+                    
 
-            {% set webpTransform = {
-                format: 'webp',
-                quality: 85,
-            } %}
-            {% set jpegTransform = {
-                format: 'jpeg',
-                quality: 75,
-            } %}
+                    {% set webpTransform = {
+                        format: 'webp',
+                        quality: 85,
+                    } %}
+                    {% set jpegTransform = {
+                        format: 'jpeg',
+                        quality: 75,
+                    } %}
 
 
-            <picture class="hero__video-container">
-                <source type="image/webp" srcset="{{ image.getSrcSet([1600, 3200, 4800], webpTransform) }}">
-				<source type="image/jpeg" srcset="{{ image.getSrcSet([1600, 3200, 4800], jpegTransform) }}">
-                <img class="hero__image" src={{image.url}} alt="">
-			</picture>
+                    <picture class="hero__media-container">
+                        <source type="image/webp" srcset="{{ image.getSrcSet([1600, 3200, 4800], webpTransform) }}">
+                        <source type="image/jpeg" srcset="{{ image.getSrcSet([1600, 3200, 4800], jpegTransform) }}">
+                        <img class="hero__image" src={{image.url}} alt="">
+                    </picture>
 
 
                 {% endif %}
-                <div class="hero__container{% if block.heroTextPosition == 'right' %} hero__container--end{% endif %}">
-                    <div class="hero__row">
-                        <div class="hero__text">
-                            {% if block.heroSupertitle %}
-                                <div class="hero__supertitle">{{ block.heroSupertitle }}</div>
-                            {% endif %}
-                            <h2 class="hero__title">{{ block.heroTitle }}</h2>
-                            {% if block.heroSubtitle %}
-                                <h3 class="hero__subtitle">{{ block.heroSubtitle }}</h3>
-                            {% endif %}
-                            {% if block.heroLinkText and block.heroLinkUrl %}
-                                <a href={{ block.heroLinkUrl }} class="button button--secondary button--arrow">{{ block.heroLinkText }}</a>
-                            {% endif %}
-                        </div>
+                <div class="hero__row">
+                    <div class="hero__text">
+                        {% if block.heroSupertitle %}
+                            <div class="hero__supertitle">{{ block.heroSupertitle }}</div>
+                        {% endif %}
+                        <h2 class="hero__title">{{ block.heroTitle }}</h2>
+                        {% if block.heroSubtitle %}
+                            <h3 class="hero__subtitle">{{ block.heroSubtitle }}</h3>
+                        {% endif %}
+                        {% if block.heroLinkText and block.heroLinkUrl %}
+                            <a href={{ block.heroLinkUrl }} class="button button--secondary button--arrow">{{ block.heroLinkText }}</a>
+                        {% endif %}
                     </div>
                 </div>
+                
             </div>
+                
+               
+            </div>
+
         </section>
 
 	
