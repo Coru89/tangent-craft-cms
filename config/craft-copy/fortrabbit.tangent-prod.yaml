@@ -1,0 +1,9 @@
+app: tangent
+ssh_url: tangent@deploy.us1.frbit.com
+git_remote: tangent/master
+before:
+    code/up: {  }
+after:
+    code/down:
+        - 'php craft migrate/all'
+        - 'php craft project-config/apply'

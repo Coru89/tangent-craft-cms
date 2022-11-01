@@ -1,4 +1,4 @@
-dateModified: 1667215495
+dateModified: 1667278066
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -65,6 +65,10 @@ meta:
     f73e980f-3442-4216-afe2-909f913e5f22: Default # Default
 plugins:
   ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  copy:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
