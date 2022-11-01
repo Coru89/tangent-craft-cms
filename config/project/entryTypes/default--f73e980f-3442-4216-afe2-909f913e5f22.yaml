@@ -30,6 +30,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: df3156de-6146-4d1d-9618-bd2ac26a1832
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: b8f6afd5-4eb0-4f9f-9791-88b26e03e9e8
         userCondition: null
@@ -74,108 +86,6 @@ fieldLayouts:
             width: 100
         name: 'Featured Rollup'
         uid: 4c717746-3784-4387-baa5-bafdaebf787a
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: 39ce3f74-ea40-48bd-a6e1-3251031cee8b # Title
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 488c9ff2-e79b-41a4-a498-3652850cd844
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 3c29a686-fff4-421f-a776-99099065609a # Super Title
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: eae820b7-2c34-48c0-a0d1-067ca9319387
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 112efcad-1a5a-40bd-87f8-dc0ea2e5f742 # Subtitle
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 29f2d0f0-525f-444c-b443-908ae0d45e83
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 7166386d-a511-42df-a908-1e859dfba3e2 # Text Position
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 57e3cebf-3b1a-4793-9609-081542305ce0
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 55aeb36a-1a23-40a5-b308-cd2b88181da7 # Link Text
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 96d0bf5b-08a4-4311-b3dc-ae24300b28c4
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 818276ab-339c-4835-80cf-0d925ad564cc # Hero Link Url
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: fb1ca552-8301-4493-b62a-acfd07ad8f57
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 18995cfd-16c6-457d-8ead-6dadaf3f1d09 # Video
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: cc6337f9-112a-42c2-94f9-4dde41af48a7
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: b391a624-f2b4-474c-b0ef-a640f03c071b # Background Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: a0e57442-a4ad-46c3-ae94-a30da44f56c8
-            userCondition: null
-            warning: null
-            width: 100
-        name: Hero
-        uid: 58c3abc0-7eb7-473a-806a-ec947d190ec7
         userCondition: null
 handle: default
 hasTitleField: true

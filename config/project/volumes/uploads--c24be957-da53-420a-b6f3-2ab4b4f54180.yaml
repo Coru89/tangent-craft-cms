@@ -1,5 +1,5 @@
 fieldLayouts:
-  1a1bec41-ea83-4c9a-b6af-c78407d8ed78:
+  aad5163e-8202-4d84-a68a-5b62c614dcc7:
     tabs:
       -
         elementCondition: null
@@ -26,40 +26,17 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\assets\AssetTitleField
-            uid: 49918ed0-e2c8-461b-b99a-23632658526e
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            attribute: alt
-            class: null
-            cols: null
-            disabled: false
-            elementCondition: null
-            id: null
-            instructions: null
-            label: null
-            name: null
-            orientation: null
-            placeholder: null
-            readonly: false
-            requirable: true
-            required: false
-            rows: null
-            tip: null
-            title: null
-            type: craft\fieldlayoutelements\assets\AltField
-            uid: ed4f7bf1-2e56-4ec5-8c91-3202d11a07de
+            uid: 77da6491-1ac2-475e-9a90-81e700e40ba0
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: e3893cea-e5a2-416f-8201-a932f608bb86
+        uid: 6a5d2eaf-58ac-4ce7-8fe8-f74f8e09c192
         userCondition: null
-fs: projects
-handle: projects
-name: Projects
-sortOrder: 1
+fs: uploads
+handle: uploads
+name: Uploads
+sortOrder: 2
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: ''

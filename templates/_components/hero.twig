@@ -32,7 +32,7 @@
                         width: 1600,
                         quality: 80
                     } %}
-			<div class="hero__image"       
+			{# <div class="hero__image"       
                  style="
                     background-image: url({{image.getUrl(transformFallback)}});
                     background-image: -webkit-image-set(
@@ -45,7 +45,18 @@
                         url({{image.getUrl(transform2x)}}) 2x,
                         url({{image.getUrl(transform3x)}}) 3x
                     )">
-			</div>
+			</div> #}
+
+            {% set webpTransform = {
+                format: 'webp',
+                quality: 75,
+            } %}
+
+
+            <picture class="hero__video-container">
+				<source type="image/webp" srcset="{{ image.getSrcSet([800, 1200], webpTransform) }}">
+			</picture>
+
 
 		{% endif %}
 		<div class="hero__container{% if entry.heroTextPosition == 'right' %} hero__container--end{% endif %}">

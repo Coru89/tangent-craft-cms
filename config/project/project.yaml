@@ -1,4 +1,4 @@
-dateModified: 1667307440
+dateModified: 1667325924
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -8,9 +8,16 @@ fs:
     hasUrls: true
     name: Projects
     settings:
-      path: '@webroot/assets/images/projects'
+      path: '@webroot/projects'
     type: craft\fs\Local
-    url: '@web/assets/images/projects'
+    url: '@web/projects'
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@web/uploads'
 meta:
   __names__:
     1b4cc869-d062-4e3e-889e-419528ae7deb: Hero # Hero
@@ -21,22 +28,32 @@ meta:
     3c29a686-fff4-421f-a776-99099065609a: 'Super Title' # Super Title
     4e5884b3-b026-4738-8814-53759a352cc1: 'Telephone Link Text' # Telephone Link Text
     5a45201d-e111-4e97-8cdc-d0373939f355: 'Footer Link' # Footer Link
+    5bdd3bf2-3db4-435f-aea7-89660ac769e3: Title # Title
     6cb4a748-ab1e-45fb-93c9-0264d82a83b2: 'Link URL' # Link URL
+    7f7aae0f-02c0-4ea3-b3a5-a9073b29991e: Image # Image
+    9af4d796-46ae-40c3-92dc-6e4cab4780db: Hero # Hero
+    15e254f0-a128-4ec1-88b9-b754fcb121ee: 'Super Title' # Super Title
     17fb87a7-ccf9-42fb-a8f7-1bf0f4f55811: 'Email Link Text' # Email Link Text
     39ce3f74-ea40-48bd-a6e1-3251031cee8b: Title # Title
     47dc5f60-5afa-437b-9370-a9b213c9ab47: 'Projects Filter' # Projects Filter
     48f6d6ac-c949-4690-9375-e750acbee372: 'Link Text' # Link Text
     55aeb36a-1a23-40a5-b308-cd2b88181da7: 'Link Text' # Link Text
+    66f3e21d-e765-45d3-8f6f-dcddecf9e2af: 'Projects Limit' # Projects Limit
     67f8d806-5e24-46a3-a15c-9339f5bf04dc: Home # Home
     69d2ce3a-3133-46ae-a01c-76b2c87e9a90: 'Link URL' # Link URL
+    70a258c5-7119-407e-83ae-18a8b70590e2: Heading # Heading
     83e41cef-d64a-47e2-9d9e-ecd08cdb2829: 'Tangent Services' # Tangent Services
+    86bc8e7a-cd28-4c53-b542-4c88a24dc76c: 'Sub Title' # Sub Title
     112efcad-1a5a-40bd-87f8-dc0ea2e5f742: Subtitle # Subtitle
     167db148-a36c-4eb2-8da4-85676831d3f1: 'Footer Link' # Footer Link
+    690cb815-b85f-467e-a047-43e23b08ee2b: Video # Video
     926c474a-be7d-4dcf-959a-39bee8fee865: 'Meta Links' # Meta Links
     927a9ac0-0d29-4349-b085-3e1ba7c4ecb7: 'Email Link URL' # Email Link URL
     1292bc45-6ade-4009-ae28-921557c098c1: 'Link Text' # Link Text
     1464aa75-afee-4de6-8db0-67994226a779: 'Company Links' # Company Links
+    2070cdb0-2bf5-4ec9-bcc2-7086f75c8f29: 'Text Position' # Text Position
     4554b864-9bc7-4e0d-9a92-41307f4cef13: Projects # Projects
+    6333f983-d637-4788-90b6-722a343922f6: 'Projects Rollup' # Projects Rollup
     9126f58d-d92d-42a3-b976-80161de3a478: 'Rollup Image' # Rollup Image
     18995cfd-16c6-457d-8ead-6dadaf3f1d09: Video # Video
     20318baf-14d6-49f8-964e-a646e56d5446: Footer # Footer
@@ -45,6 +62,7 @@ meta:
     348809a3-b71e-4ab4-ba64-0953b1159392: 'Service Links' # Service Links
     425293cb-cfab-442c-98cd-d824660ea3df: 'Footer Line' # Footer Line
     818276ab-339c-4835-80cf-0d925ad564cc: 'Hero Link Url' # Hero Link Url
+    05986233-da3a-4937-85f9-b2b7784bc596: 'Link Url' # Link Url
     7166386d-a511-42df-a908-1e859dfba3e2: 'Text Position' # Text Position
     a2e99dfb-65fc-4b17-a2c4-71341754c504: 'Footer Address' # Footer Address
     a5b8be6a-fa7e-4457-ba84-2dbf40eac704: 'Filter Tags' # Filter Tags
@@ -52,8 +70,11 @@ meta:
     ada35ad0-4d42-4ca8-bed9-59ff6816f33f: 'Tangent Services' # Tangent Services
     b391a624-f2b4-474c-b0ef-a640f03c071b: 'Background Image' # Background Image
     b834c143-a4d7-4d69-92b8-7f3e442af425: Home # Home
+    b5628d29-8e5c-49cd-97e7-ccc8a9d42ae4: 'Link Text' # Link Text
+    c24be957-da53-420a-b6f3-2ab4b4f54180: Uploads
     c736d40d-ae16-4b84-92d2-f5dcfa89b6b9: Line # Line
     cd8f97bb-1019-4201-947a-62825eab84e5: Projects # Projects
+    decd8b6d-bb52-417b-9572-0a9e873b774c: Content # Content
     e6a86a4f-dcd0-4b30-a64c-61c5ad178338: 'Contact Link Text' # Contact Link Text
     ea4e97b8-5d2c-431c-ade8-54d0dba16497: 'Link URL' # Link URL
     ee855152-e938-4c52-a926-8b120aca878a: 'Link Text' # Link Text
@@ -66,6 +87,10 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
   copy:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  tag-manager:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0

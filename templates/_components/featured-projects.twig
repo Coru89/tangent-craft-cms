@@ -10,7 +10,7 @@
 			{% endfor %}
 		</div>
 		<div class="featured-projects__grid">
-			{% for project in craft.entries.section('projects') %}
+			{% for project in craft.entries.section('projects').limit({{block.projectsLimit}}) %}
 				{% set cssFilterClassess = "" %}
 				{% set allTagsArray = project.projectsTags.all() %}
 				
@@ -47,6 +47,7 @@
 							} %}
 
 						<div class="featured-projects__inner"
+							{% if image %}
 							style="
 								background-image: url({{image.getUrl(transformFallback)}});
 								background-image: -webkit-image-set(
@@ -59,6 +60,7 @@
 									url({{image.getUrl(transform2x)}}) 2x,
 									url({{image.getUrl(transform3x)}}) 3x
 								)"
+							{% endif %}
 						>
 							<div class="featured-projects__overlay">
 								<p class="featured-projects__description">{{ project.projectsRollupDescription }}</p>
