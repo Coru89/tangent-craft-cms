@@ -11,29 +11,29 @@
 			{% set transform1x = {
                         format: 'webp',
                         mode: 'crop',
-                        width: 1200,
+                        width: 1600,
                         quality: 85
                     } %}
 			{% set transform2x = {
                         format: 'webp',
                         mode: 'crop',
-                        width: 2400,
+                        width: 3200,
                         quality: 85
                     } %}
 			{% set transform3x = {
                         format: 'webp',
                         mode: 'crop',
-                        width: 3600,
+                        width: 4800,
                         quality: 85
                     } %}
 			{% set transformFallback = {
                         format: 'jpeg',
                         mode: 'crop',
-                        width: 1200,
+                        width: 1600,
                         quality: 80
                     } %}
-			<div class="hero__image"
-                style="
+			<div class="hero__image"       
+                 style="
                     background-image: url({{image.getUrl(transformFallback)}});
                     background-image: -webkit-image-set(
                         url({{image.getUrl(transform1x)}}) 1x,
@@ -46,10 +46,15 @@
                         url({{image.getUrl(transform3x)}}) 3x
                     )">
 			</div>
+
 		{% endif %}
-		<div class="hero__container">
+		<div class="hero__container{% if entry.heroTextPosition == 'right' %} hero__container--end{% endif %}">
 			<div class="hero__row">
 				<div class="hero__text">
+                    {% if entry.heroSupertitle %}
+                        <div class="hero__supertitle">{{ entry.heroSupertitle }}</div>
+                    {% endif %}
+                    
 					<h2 class="hero__title">{{ entry.heroTitle }}
 					</h2>
 					<h3 class="hero__subtitle">{{ entry.heroSubtitle }}</h3>

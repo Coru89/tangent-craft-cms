@@ -19,7 +19,7 @@
 				{% endfor %}
 
 				<div class="featured-projects__item {{cssFilterClassess | lower}}">
-					<a class="featured-projects__anchor" href={{ project.url }}>
+					<a class="featured-projects__anchor" href={{ project.uri }}>
 						{% set image = project.projectsRollupImage.one() %}
 							{% set transform1x = {
 								format: 'webp',

@@ -1,0 +1,34 @@
+columnSuffix: wqlaspvy
+contentColumnType: string
+fieldGroup: 1b4cc869-d062-4e3e-889e-419528ae7deb # Hero
+handle: heroTextPosition
+instructions: null
+name: 'Text Position'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Left
+        -
+          - value
+          - left
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - Right
+        -
+          - value
+          - right
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

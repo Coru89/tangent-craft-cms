@@ -14,8 +14,14 @@ $block: 'hero';
 
         @include media-min(md) {
              align-items: flex-end;
-             justify-content: flex-end;
+             justify-content: flex-start;
              min-height: 535px;
+        }
+
+        &--end {
+            @include media-min(md) {
+                justify-content: flex-end;
+           }
         }
     }
 
@@ -41,17 +47,16 @@ $block: 'hero';
     }
 
     &__image {
-        background-position: center;
         background-size: cover;
+        clip: initial;
         height: 100%;
         left: 0;
+        min-height: 400px;
+        overflow: hidden;
         position: absolute;
+        top: 0;
         width: 100%;
-        max-height: 500px;
-
-        @include media-min(md) {
-            max-height: 600px;
-        }
+        z-index: -1;
     }
 
     &__text {
@@ -60,6 +65,13 @@ $block: 'hero';
         color: $white;
         margin-bottom: 2rem;
         padding: 2rem;
+    }
+
+    &__supertitle {
+        font-family: "PT Mono",sans-serif;
+        font-size: .8rem;
+        line-height: .83;
+        margin-bottom: 1rem;
     }
 
     &__title {

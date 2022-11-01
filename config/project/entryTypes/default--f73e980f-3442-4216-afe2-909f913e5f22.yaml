@@ -92,6 +92,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 3c29a686-fff4-421f-a776-99099065609a # Super Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eae820b7-2c34-48c0-a0d1-067ca9319387
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 112efcad-1a5a-40bd-87f8-dc0ea2e5f742 # Subtitle
             instructions: null
             label: null
@@ -99,6 +111,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 29f2d0f0-525f-444c-b443-908ae0d45e83
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7166386d-a511-42df-a908-1e859dfba3e2 # Text Position
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 57e3cebf-3b1a-4793-9609-081542305ce0
             userCondition: null
             warning: null
             width: 100
