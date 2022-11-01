@@ -13,7 +13,7 @@
 
     # From App URL to your domain
     RewriteCond %{HTTP_HOST} ^.*\.frb\.io$ [NC]
-    RewriteRule .* https://www.tangentservices.com/%{REQUEST_URI} [r=301,L,N]
+    <!-- RewriteRule .* https://www.tangentservices.com/%{REQUEST_URI} [r=301,L,N] -->
 </IfModule>
 
 
