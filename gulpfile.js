@@ -57,7 +57,10 @@ function scss() {
 //compile ts and minify
 function ts() {
     return src('./source/scripts/*.ts')
-    .pipe(typescript())
+	.pipe(typescript({
+		noImplicitAny: true,
+		outFile: 'output.js'
+	}))
     .pipe(uglify())
     .pipe(dest('./web/assets/scripts'))
 	.pipe(browserSync.stream());

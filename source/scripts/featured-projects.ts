@@ -1,46 +1,18 @@
-var Isotope = require('isotope-layout');
+///  <reference types="/web/assets/scripts/vendor/isotope.d.ts"></reference>
 
-const grid = document.querySelector('.featured-projects__grid');
+const grid: HTMLElement = document.querySelector('.featured-projects__grid');
 
-// store filter for each group
-var filters = {};
-
-var filterFns = {
-};
-
-var iso = new Isotope( grid, {
+var iso = new Isotope(grid, {
 	// options...
 	itemSelector: '.featured-projects__item',
-	layoutMode: 'masonry',
-	filter: function( itemElem ) {
-
-	 	var isMatched = true;
-	
-	 	for ( var prop in filters ) {
-	 	  var filter = filters[ prop ];
-	 	  // use function if it matches
-	 	  filter = filterFns[ filter ] || filter;
-	 	  // test each filter
-	 	  var filterType = typeof filter;
-		  if ( filter && filterType == 'function' ) {
-	 		isMatched = filter( itemElem );
-	 	  } else if ( filter ) {
-	 		isMatched = itemElem.matches(filter);
-	 	  }
-	 	  // break if not matched
-	 	  if ( !isMatched ) {
-	 		break;
-	 	  }
-	 	}
-	 	return isMatched;
-	   }
+	layoutMode: 'masonry'
 });
 
 const elFilters: any = document.querySelector('.featured-projects__filters');
 const elButtons = document.querySelectorAll('.featured-projects__filters-link');
 
 if (elFilters) {
-	elFilters.addEventListener( 'click', function( event ) {
+	elFilters.addEventListener( 'click', function( event: any ) {
 		// only work with buttons
 		if (event.target && !event.target.matches('button')) {
 		  return;
@@ -56,11 +28,7 @@ if (elFilters) {
 		// add active style to filter
 		event.target.classList.add("featured-projects__filters-link--active");
 
-
-		var filterGroup = event.target.getAttribute('data-filter-group');
-		// set filter for group
-		filters[ filterGroup ] = event.target.getAttribute('data-filter');
-		// arrange, and use filter fn
-		iso.arrange({});
+		const filterValue = event.target.getAttribute('data-filter');
+		iso.arrange({ filter: filterValue });
 	  });
 }
