@@ -1,5 +1,4 @@
-//var Isotope = require('isotope-layout');
-//import Isotope from './../../node_modules/isotope-layout/dist/isotope.pkgd.js';
+var Isotope = require('isotope-layout');
 
 const grid = document.querySelector('.featured-projects__grid');
 
@@ -65,5 +64,3 @@ if (elFilters) {
 		iso.arrange({});
 	  });
 }
-
-  
