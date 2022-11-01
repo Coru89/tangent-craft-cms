@@ -8,7 +8,9 @@ $block: 'hero';
         display: flex;
         flex-direction: row;
         justify-content: center;
-        min-height: 500px;
+        //min-height: 500px;
+        margin-bottom: 6rem;
+        min-height: 300px;
         overflow: visible;
         position: relative;
 
@@ -16,6 +18,7 @@ $block: 'hero';
              align-items: flex-end;
              justify-content: flex-start;
              min-height: 535px;
+             margin: 0;
         }
 
         &--end {
@@ -33,7 +36,7 @@ $block: 'hero';
         z-index: 0;
 
         &-container {
-            height: 400px;
+            height: 300px;
             left: 0;
             min-width: 100%;
             position: absolute;
@@ -41,7 +44,7 @@ $block: 'hero';
             z-index: -1;
 
             @include media-min(md) {
-                height: 550px;
+                height: 535px;
             }
         }
     }
@@ -49,7 +52,6 @@ $block: 'hero';
     &__image {
         background-size: cover;
         clip: initial;
-        height: 100%;
         left: 0;
         min-height: 400px;
         overflow: hidden;
@@ -57,14 +59,23 @@ $block: 'hero';
         top: 0;
         width: 100%;
         z-index: -1;
+
+        @include media-min(md) {
+            height: 100%;
+        }
     }
 
     &__text {
-        background-color: rgb(0,0,0, 0.5);
+        background-color: $white;
         box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.05);
-        color: $white;
-        margin-bottom: 2rem;
+        //margin-bottom: 2rem;
         padding: 2rem;
+
+        @include media-min(md) {
+            background-color: rgb(0,0,0, 0.5);
+            color: $white;
+            margin-bottom: 2rem;
+        }
     }
 
     &__supertitle {
@@ -87,9 +98,15 @@ $block: 'hero';
 
     &__row {
         width: 100%;
+        position: absolute;
+        bottom: -6rem;
+        //bottom: -50%;
+        //transform: translateY(-50%);
 
         @include media-min(md) {
             width: initial;
+            position: static;
+            transform: none;
         }
     }
 }
