@@ -115,6 +115,19 @@
 
 FileETag None
 
+<IfModule mod_headers.c>
+    #  images expire after 1 month
+    <FilesMatch ".(gif|png|jpg|jpeg|webp|ico|pdf|svg|js)$">
+        Header set Cache-Control "max-age=2592000"
+    </FilesMatch>
+    # CSS expires after 1 day
+    <FilesMatch ".(css)$">
+        Header set Cache-Control "max-age=86400"
+    </FilesMatch>
+    <FilesMatch ".(woff2)$">
+        Header set Cache-Control "max-age=86400"
+    </FilesMatch>
+</IfModule>
 
 
 # ----------------------------------------------------------------------
