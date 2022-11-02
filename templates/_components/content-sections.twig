@@ -1,167 +1,146 @@
 {% for block in entry.contentPanels.all() %}
-	{% if block.type == "hero" %}
-		<section class="hero">
-            <div class="u-container">
-             <div class="hero__container{% if block.heroTextPosition == 'right' %} hero__container--end{% endif %}{% if (block.heroVideo | length) %} hero__container--video{% endif %}">
-                {% if (block.heroVideo | length) %}
-                    <div class="hero__media-container">
-                        <video class="hero__video" src="{{ block.heroVideo[0].getUrl() }}" autoplay muted loop></video>
-                    </div>
-
-                {% elseif (block.heroBackgroundImage | length) %}
-                    {% set image = block.heroBackgroundImage.one() %}
-                    
-
-                    {% set webpTransform = {
-                        format: 'webp',
-                        quality: 85,
-                    } %}
-                    {% set jpegTransform = {
-                        format: 'jpeg',
-                        quality: 75,
-                    } %}
-
-
-                    <picture class="hero__media-container">
-                        <source type="image/webp" srcset="{{ image.getSrcSet([1600, 3200, 4800], webpTransform) }}">
-                        <source type="image/jpeg" srcset="{{ image.getSrcSet([1600, 3200, 4800], jpegTransform) }}">
-                        <img class="hero__image" src={{image.url}} alt="">
-                    </picture>
-
-
-                {% endif %}
-                <div class="hero__row">
-                    <div class="hero__text">
-                        {% if block.heroSupertitle %}
-                            <div class="hero__supertitle">{{ block.heroSupertitle }}</div>
-                        {% endif %}
-                        <h2 class="hero__title">{{ block.heroTitle }}</h2>
-                        {% if block.heroSubtitle %}
-                            <h3 class="hero__subtitle">{{ block.heroSubtitle }}</h3>
-                        {% endif %}
-                        {% if block.heroLinkText and block.heroLinkUrl %}
-                            <a href={{ block.heroLinkUrl }} class="button button--secondary button--arrow">{{ block.heroLinkText }}</a>
-                        {% endif %}
-                    </div>
-                </div>
-                
-            </div>
-                
-               
-            </div>
-
-        </section>
-
-	
-	{% elseif block.type == "callToAction" %}
-		<section class="call-to-action">
-			<div class="u-container">
-				<div class="call-to-action__content">
-					<h3 class="call-to-action__headline">
-						{{block.panelTitle}}
-					</h3>
-					{% if block.buttonText %}
-						<a class="button button--action" href="{{block.buttonHref}}">
-							{{block.buttonText}}
-						</a>
+	{% if block.type == "imagePanel" %}
+		{% set image = block.image.one() %}
+		{% if block.imageBehavior == 'full' %}
+			<section class="image-panel-full-width">
+				<picture class="image-panel-full-width__picture" role="presentation">
+					<img class="image-panel-full-width__image" src="{{image.getUrl()}}" loading="lazy"/>
+				</picture>
+			</section>
+		{% else %}
+			<section class="image-panel">
+				<div class="u-container-small">
+					<img class="image-panel__image" src="{{image.getUrl()}}" loading="lazy"/>
+				</div>
+			</section>
+		{% endif %}
+	{% elseif block.type == "imageTextPanel" %}
+		<section class="image-text-panel">
+			<div class="u-container-small">
+				<div class="image-text-panel__container">
+					<div class="image-text-panel__content{% if block.imagePosition == 'left' %} image-text-panel__content--reverse{% endif %}">
+						{% if block.subject %}
+							<h4 class="image-text-panel__subject">{{ block.subject }}</h4>
+						{% endif %}
+						<h1 class="image-text-panel__title panel__heading">{{block.panelTitle}}</h1>
+						<div class="image-text-panel__description panel__content">{{block.panelContent | nl2br}}</div>
+					</div>
+					{% if (block.image | length) %}
+						{% set image = block.image.one() %}
+						<div class="image-text-panel__picture-container">
+							<picture class="image-text-panel__picture panel__picture panel__picture--position-middle-center u-hidden-on-no-js">
+								<img alt="" class="image-text-panel__image panel__image" src="{{image.getUrl()}}" loading="lazy"/>
+							</picture>
+						</div>
 					{% endif %}
 				</div>
 			</div>
 		</section>
-	{% elseif block.type == "imagePanel" %}
-		<section class="image-panel">
-			<picture class="image-panel__picture" role="presentation">
-				{% set image = block.image.one() %}
-				<img alt="" class="image-panel__image" src="{{image.getUrl()}}" loading="lazy"/>
-			</picture>
+
+	{% elseif block.type == "doubleTextColumns" %}
+		<section class="text-columns-panel">
+			<div class="u-container-small">
+				<div class="text-columns-panel__container">
+					<div class="text-columns-panel__content">
+						{% if block.subjectLeft %}
+							<h4 class="text-columns-panel__subject">{{ block.subjectLeft }}</h4>
+						{% endif %}
+						<h1 class="text-columns-panel__title panel__heading">{{block.panelTitleLeft}}</h1>
+						<div class="text-columns-panel__description panel__content">{{block.panelContentLeft | nl2br}}</div>
+					</div>
+					<div class="text-columns-panel__content">
+						{% if block.subjectRight %}
+							<h4 class="text-columns-panel__subject">{{ block.subjectRight }}</h4>
+						{% endif %}
+						<h1 class="text-columns-panel__title panel__heading">{{block.panelTitleRight}}</h1>
+						<div class="text-columns-panel__description panel__content">{{block.panelContentRight | nl2br}}</div>
+					</div>
+				</div>
+			</div>
 		</section>
-	
+
 	{% elseif block.type == "contentPanel" %}
 		<section class="content-panel">
-			<div class="u-container">
+			<div class="u-container-small">
 				<div class="content-panel__container">
 					<h1 class="panel__heading">{{ block.panelTitle }}</h1>
-					<div class="panel__content">{{ block.panelSubheading }}</div>
+					<div class="panel__content">{{ block.panelContent | nl2br}}</div>
 				</div>
 			</div>
 		</section>
-	{% elseif block.type == "iconPanel" %}
-		<section class="feature-panel">
-			<div class="u-container">
-				<h1 class="feature-panel__heading panel__heading">
-					{{ block.panelTitle }}
-				</h1>
-				<div class="feature-panel__wrapper">
-					{% for item in block.iconItems.all() %}
-						<div class="feature-panel__item">
-							<div class="feature-panel__picture">
-								<picture class="feature-panel__picture u-hidden-on-no-js">
-									{% set icon = item.itemIcon.one() %}
-									<img alt="{{ item.itemHeading }} icon" class="feature-panel__image object-fit" src="{{icon.getUrl()}}" loading="lazy">
-								</picture>
-							</div>
-							<h2>{{ item.itemHeading }}</h2>
-							<div class="feature-panel__item--description">
-								{{ item.itemDescription }}
-							</div>
+		{# {% elseif block.type == "iconPanel" %}
+				<section class="feature-panel">
+					<div class="u-container">
+						<h1 class="feature-panel__heading panel__heading">
+							{{ block.panelTitle }}
+						</h1>
+						<div class="feature-panel__wrapper">
+							{% for item in block.iconItems.all() %}
+								<div class="feature-panel__item">
+									<div class="feature-panel__picture">
+										<picture class="feature-panel__picture u-hidden-on-no-js">
+											{% set icon = item.itemIcon.one() %}
+											<img alt="{{ item.itemHeading }} icon" class="feature-panel__image object-fit" src="{{icon.getUrl()}}" loading="lazy">
+										</picture>
+									</div>
+									<h2>{{ item.itemHeading }}</h2>
+									<div class="feature-panel__item--description">
+										{{ item.itemDescription }}
+									</div>
+								</div>
+							{% endfor %}
 						</div>
+					</div>
+				</section> #}
+
+	{% elseif block.type == "projectsRollup" %}
+		<section class="featured-projects">
+			<div class="u-container">
+				<h2 class="featured-projects__heading">{{ block.projectsPanelHeading }}</h2>
+				<div class="featured-projects__filters" data-filter-group="category">
+					{% set myTagQuery = craft.tags().group('projectsFilter') %}
+					<button class="featured-projects__filters-link featured-projects__filters-link--active" data-filter="*">All</button>
+					{% set tags = myTagQuery.all() %}
+					{% for tag in tags %}
+						<button class="featured-projects__filters-link" data-filter=".{{ tag.title | lower }}">{{ tag.title }}</button>
 					{% endfor %}
 				</div>
-			</div>
-		</section>
-
-    {% elseif block.type == "projectsRollup" %}
-		<section class="featured-projects">
-            <div class="u-container">
-                <h2 class="featured-projects__heading">{{ block.projectsPanelHeading }}</h2>
-                <div class="featured-projects__filters" data-filter-group="category">
-                    {% set myTagQuery = craft.tags().group('projectsFilter') %}
-                    <button class="featured-projects__filters-link featured-projects__filters-link--active" data-filter="*">All</button>
-                    {% set tags = myTagQuery.all() %}
-                    {% for tag in tags %}
-                        <button class="featured-projects__filters-link" data-filter=".{{ tag.title | lower }}">{{ tag.title }}</button>
-                    {% endfor %}
-                </div>
-                <div class="featured-projects__grid">
-                    {% for project in craft.entries.section('projects').limit(block.projectsLimit) %}
-                        {% set cssFilterClassess = "" %}
-                        {% set allTagsArray = project.projectsTags.all() %}
-                        
-                        {% for item in allTagsArray %}
-                            {% set cssFilterClassess = cssFilterClassess ~ ' ' ~ item.title %}
-                        {% endfor %}
-
-                        <div class="featured-projects__item {{cssFilterClassess | lower}}">
-                            <a class="featured-projects__anchor" href={{ project.uri }}>
-                                {% set image = project.projectsRollupImage.one() %}
-                                    {% set transform1x = {
+				<div class="featured-projects__grid">
+					{% for project in craft.entries.section('projects').limit(block.projectsLimit) %}
+						{% set cssFilterClassess = "" %}
+						{% set allTagsArray = project.projectsTags.all() %}
+						{% for item in allTagsArray %}
+							{% set cssFilterClassess = cssFilterClassess ~ ' ' ~ item.title %}
+						{% endfor %}
+						<div class="featured-projects__item {{cssFilterClassess | lower}}">
+							<a class="featured-projects__anchor" href={{ project.uri }}>
+								{% set image = project.projectsRollupImage.one() %}
+								{% set transform1x = {
                                         format: 'webp',
                                         mode: 'crop',
                                         width: 650,
                                         quality: 85
-                                    } %}	
-                                    {% set transform2x = {
+                                    } %}
+								{% set transform2x = {
                                         format: 'webp',
                                         mode: 'crop',
                                         width: 1300,
                                         quality: 85
                                     } %}
-                                    {% set transform3x = {
+								{% set transform3x = {
                                         format: 'webp',
                                         mode: 'crop',
                                         width: 1950,
                                         quality: 85
                                     } %}
-                                    {% set transformFallback = {
+								{% set transformFallback = {
                                         format: 'jpeg',
                                         mode: 'crop',
                                         width: 650,
                                         quality: 80
                                     } %}
 
-                                <div class="featured-projects__inner"
-                                    {% if image %}
-                                    style="
+								<div class="featured-projects__inner" {% if image %} style="
                                         background-image: url({{image.getUrl(transformFallback)}});
                                         background-image: -webkit-image-set(
                                             url({{image.getUrl(transform1x)}}) 1x,
@@ -172,17 +151,16 @@
                                             url({{image.getUrl(transform1x)}}) 1x,
                                             url({{image.getUrl(transform2x)}}) 2x,
                                             url({{image.getUrl(transform3x)}}) 3x
-                                        )"
-                                    {% endif %}
-                                >
-                                    <div class="featured-projects__overlay">
-                                        <p class="featured-projects__description">{{ project.projectsRollupDescription }}</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    {% endfor %}
-                    {#<div class="featured-projects__item industrial" data-category="consumer">
+                                        )" {% endif %}
+                                    >
+									<div class="featured-projects__overlay">
+										<p class="featured-projects__description">{{ project.projectsRollupDescription }}</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					{% endfor %}
+					{#<div class="featured-projects__item industrial" data-category="consumer">
                         <a class="featured-projects__anchor" href="/contact">
                             <div class="featured-projects__inner featured-projects__inner--no-image">
                                 <div class="featured-projects__overlay">
@@ -198,9 +176,10 @@
                             </div>
                         </a>
                     </div>#}
-                </div>
-            </div>
-        </section>
+				</div>
+			</div>
+		</section>
 	{% endif %}
 
 {% endfor %}
+

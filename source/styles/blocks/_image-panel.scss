@@ -1,0 +1,60 @@
+@import '../reference/reference';
+
+$block: 'image-panel';
+$block-full-width: 'image-panel-full-width';
+
+.#{$block} {
+	&__picture {
+		height: 100%;
+	}
+
+	&__image {
+		display: block;
+		box-shadow: $box-shadow;
+		height: auto;
+		margin: 0 auto;
+		max-width: 100%;
+		width: 100%;
+
+		// @include media-min (md) {
+		// 	max-height: 500px;
+		// 	width: unset;
+		// }
+		
+	}
+}
+
+.#{$block-full-width} {
+	height: 275px;
+	margin: 1.5rem;
+	overflow: hidden;
+	position: relative;
+
+	@include media-min(md) {
+		margin: 3rem 0;
+	}
+
+	@include media-min(lg) {
+		height: 500px;
+	}
+
+	&__picture {
+		height: 100%;
+		left: 0;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+
+	&__image {
+		display: block;
+		font-family: "object-fit:cover;object-position:center center";
+		height: 100%;
+		object-fit: cover;
+		object-position: center center;
+		user-select: none;
+		width: 100%;
+	}
+}

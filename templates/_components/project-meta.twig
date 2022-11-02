@@ -1,0 +1,49 @@
+<div class="project-meta">
+
+	<div class="u-container">
+
+		<div class="project-meta__inner">
+			<div class="project-meta__column">
+				<div class="project-meta__label">Client</div>
+				<div class="project-meta__item">{{ entry.projectsClient }}</div>
+
+			</div>
+
+			<div class="project-meta__column">
+				<div class="project-meta__label">Location</div>
+				<div class="project-meta__item">{{ entry.projectsLocation }}</div>
+			</div>
+
+			<div class="project-meta__column">
+				<div class="project-meta__label">Category</div>
+				<ul class="project-meta__list">
+				{% set tags = entry.projectsTags.all() %}
+				
+					{% for item in tags %}
+						<li class="project-meta__link-item">
+							<a href="" class="project-meta__link">{{item.title}}</a>{% if loop.last == false %},{% endif %}
+						</li>
+						{% endfor %}
+				</ul>
+			</div>
+
+
+			<div class="project-meta__column">
+				<div class="project-meta__label">Services</div>
+				{# <ul class="project-meta__list">
+					<li class="project-meta__link-item">
+						<a href="" class="project-meta__link">item here</a>
+					</li>
+					<li class="project-meta__link-item">
+						<a href="" class="project-meta__link">item here</a>
+					</li>
+					<li class="project-meta__link-item">
+						<a href="" class="project-meta__link">item here</a>
+					</li>
+				</ul> #}
+			</div>
+		</div>
+
+	</div>
+</div>
+

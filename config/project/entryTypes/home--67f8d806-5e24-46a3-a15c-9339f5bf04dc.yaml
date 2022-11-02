@@ -57,6 +57,108 @@ fieldLayouts:
         name: Content
         uid: adeeb1d8-b55d-4170-b843-a14991efcb7c
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3c29a686-fff4-421f-a776-99099065609a # Super Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 12a8023e-1d5d-48c7-a2e0-7ffb8aa54633
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 39ce3f74-ea40-48bd-a6e1-3251031cee8b # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ce2fc00b-55c6-4b99-ae44-c491ac67b1ec
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 112efcad-1a5a-40bd-87f8-dc0ea2e5f742 # Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8b6597d3-60ce-43c9-80aa-37cbb2c195c2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7166386d-a511-42df-a908-1e859dfba3e2 # Text Position
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b410c401-f467-4e84-8f03-7b6783bdbc0b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 818276ab-339c-4835-80cf-0d925ad564cc # Hero Link Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b991235-bfa3-45a7-8e59-20e8fb95af9c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 55aeb36a-1a23-40a5-b308-cd2b88181da7 # Link Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eb57e77a-bfc1-4ab6-a1d3-7236df64dd2d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 18995cfd-16c6-457d-8ead-6dadaf3f1d09 # Video
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 120f4b05-6b72-4421-9faa-bc28f9b8c00a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b391a624-f2b4-474c-b0ef-a640f03c071b # Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8bde94ae-a491-4458-bfb4-7a8dad07cc97
+            userCondition: null
+            warning: null
+            width: 100
+        name: Hero
+        uid: cbac14f3-1784-49df-9c27-0e11437401b0
+        userCondition: null
 handle: home
 hasTitleField: true
 name: Home

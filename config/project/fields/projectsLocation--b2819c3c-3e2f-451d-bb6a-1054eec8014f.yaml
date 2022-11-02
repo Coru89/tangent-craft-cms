@@ -1,0 +1,19 @@
+columnSuffix: uciorjzu
+contentColumnType: text
+fieldGroup: cd8f97bb-1019-4201-947a-62825eab84e5 # Projects
+handle: projectsLocation
+instructions: null
+name: Location
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
