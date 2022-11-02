@@ -10,14 +10,6 @@ $block: 'content-panel';
 		padding: 3rem 0;
 	}
 
-	// &__container {
-	// 	padding: 0 4rem;
-
-	// 	// @include media-min(lg) {
-	// 	// 	padding: 0 12rem;
-	// 	// }
-	// }
-
 	a {
 		color: #3d3d3d;
 		box-shadow: inset 0 -1px 0 $black;
@@ -28,5 +20,3 @@ $block: 'content-panel';
 		}
 	}
 }
-
-

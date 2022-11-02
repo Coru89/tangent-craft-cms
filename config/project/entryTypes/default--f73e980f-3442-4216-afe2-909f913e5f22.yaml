@@ -50,36 +50,6 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 9126f58d-d92d-42a3-b976-80161de3a478 # Rollup Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 73eab484-55c9-43f8-a105-cdfb81508da5
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 2b2271de-7d81-4a96-8a7d-a22ee9982c33 # Description
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 0a6f1cc1-ab9f-4b10-bacc-5b53893f2b6b
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'Featured Rollup'
-        uid: 4c717746-3784-4387-baa5-bafdaebf787a
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
             fieldUid: 12c4284f-ef55-4f05-b11c-ef3e46a06a5b # Client
             instructions: null
             label: null
@@ -106,11 +76,35 @@ fieldLayouts:
             elementCondition: null
             fieldUid: a5b8be6a-fa7e-4457-ba84-2dbf40eac704 # Filter Tags
             instructions: null
-            label: null
+            label: 'Featured Filter Tags'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: d820ff1d-2aaf-4b09-b68b-c61212193c76
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9126f58d-d92d-42a3-b976-80161de3a478 # Rollup Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73eab484-55c9-43f8-a105-cdfb81508da5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2b2271de-7d81-4a96-8a7d-a22ee9982c33 # Description
+            instructions: null
+            label: 'Featured Rollup Description'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a6f1cc1-ab9f-4b10-bacc-5b53893f2b6b
             userCondition: null
             warning: null
             width: 100

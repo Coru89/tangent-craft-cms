@@ -58,6 +58,7 @@ $block: 'image-text-panel';
 	}
 
 	&__image {
+		box-shadow: $box-shadow;
 		display: block;
 		font-family: 'object-fit:cover';
 		height: 100%;

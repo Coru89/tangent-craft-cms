@@ -4,6 +4,12 @@ $block: 'image-panel';
 $block-full-width: 'image-panel-full-width';
 
 .#{$block} {
+	padding: 1rem 0;
+
+	@include media-min(md) {
+		padding: 1.5rem 0;
+	}
+
 	&__picture {
 		height: 100%;
 	}
@@ -16,10 +22,10 @@ $block-full-width: 'image-panel-full-width';
 		max-width: 100%;
 		width: 100%;
 
-		// @include media-min (md) {
-		// 	max-height: 500px;
-		// 	width: unset;
-		// }
+		@include media-min (md) {
+			max-height: 500px;
+		 	width: auto;
+		 }
 		
 	}
 }

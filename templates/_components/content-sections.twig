@@ -10,7 +10,9 @@
 		{% else %}
 			<section class="image-panel">
 				<div class="u-container-small">
-					<img class="image-panel__image" src="{{image.getUrl()}}" loading="lazy"/>
+					<picture class="image-panel__picture" role="presentation">
+						<img class="image-panel__image" src="{{image.getUrl()}}" loading="lazy"/>
+					</picture>
 				</div>
 			</section>
 		{% endif %}
