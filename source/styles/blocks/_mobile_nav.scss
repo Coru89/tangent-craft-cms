@@ -31,7 +31,7 @@ $block: 'mobile-nav';
 	}
 
 	&__anchor {
-		color: $grey-dark;
+		color: $purple;
 		display: inline-block;
 		font-size: 1.375rem;
 		font-weight: $font-weight-semibold;
@@ -39,7 +39,7 @@ $block: 'mobile-nav';
 		text-decoration: none;
 
 		&--active {
-			color: #094cae;
+			color: $blue-darker;
 		}
 	}
 

@@ -2,11 +2,12 @@
 
 const grid: HTMLElement = document.querySelector('.featured-projects__grid');
 
-var iso = new Isotope(grid, {
-	// options...
-	itemSelector: '.featured-projects__item',
-	layoutMode: 'masonry'
-});
+if (grid) {
+	var iso = new Isotope(grid, {
+		itemSelector: '.featured-projects__item',
+		layoutMode: 'masonry'
+	});
+}
 
 const elFilters: any = document.querySelector('.featured-projects__filters');
 const elButtons = document.querySelectorAll('.featured-projects__filters-link');
