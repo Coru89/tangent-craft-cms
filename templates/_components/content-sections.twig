@@ -101,6 +101,67 @@
 					</div>
 				</section> #}
 
+	{% elseif block.type == "relatedProjects" %}
+		<section class="related-projects">
+			<div class="u-container">
+				<h2 class="related-projects__heading">{{ block.projectsPanelHeading }}</h2>
+			</div>
+			<div id="grid" class="related-projects__grid">
+				{% set slugs = block.projectsSlug %}
+				{% for slug in slugs %}
+					{% set project = craft.entries.section('projects').slug(slug).one() %}
+
+					<div id="project-item" class="related-projects__item">
+						<a class="related-projects__anchor" href={{ project.uri }}>
+							{% set image = project.projectsRollupImage.one() %}
+							{% set transform1x = {
+									format: 'webp',
+									mode: 'crop',
+									width: 650,
+									quality: 85
+								} %}
+							{% set transform2x = {
+									format: 'webp',
+									mode: 'crop',
+									width: 1300,
+									quality: 85
+								} %}
+							{% set transform3x = {
+									format: 'webp',
+									mode: 'crop',
+									width: 1950,
+									quality: 85
+								} %}
+							{% set transformFallback = {
+									format: 'jpeg',
+									mode: 'crop',
+									width: 650,
+									quality: 80
+								} %}
+
+							<div class="related-projects__inner" {% if image %} style="
+									background-image: url({{image.getUrl(transformFallback)}});
+									background-image: -webkit-image-set(
+										url({{image.getUrl(transform1x)}}) 1x,
+										url({{image.getUrl(transform2x)}}) 2x,
+										url({{image.getUrl(transform3x)}}) 3x
+									);
+									background-image: image-set(
+										url({{image.getUrl(transform1x)}}) 1x,
+										url({{image.getUrl(transform2x)}}) 2x,
+										url({{image.getUrl(transform3x)}}) 3x
+									)" {% endif %}
+								>
+								<div class="related-projects__overlay">
+									<p class="related-projects__description">{{ project.projectsRollupDescription }}</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				{% endfor %}
+			</div>
+		</section>
+
 	{% elseif block.type == "projectsRollup" %}
 		<section class="featured-projects">
 			<div class="u-container">
@@ -113,14 +174,14 @@
 						<button class="featured-projects__filters-link" data-filter=".{{ tag.title | lower }}">{{ tag.title }}</button>
 					{% endfor %}
 				</div>
-				<div class="featured-projects__grid">
+				<div id="grid" class="featured-projects__grid">
 					{% for project in craft.entries.section('projects').limit(block.projectsLimit) %}
 						{% set cssFilterClassess = "" %}
 						{% set allTagsArray = project.projectsTags.all() %}
 						{% for item in allTagsArray %}
 							{% set cssFilterClassess = cssFilterClassess ~ ' ' ~ item.title %}
 						{% endfor %}
-						<div class="featured-projects__item {{cssFilterClassess | lower}}">
+						<div id="project-item" class="featured-projects__item {{cssFilterClassess | lower}}">
 							<a class="featured-projects__anchor" href={{ project.uri }}>
 								{% set image = project.projectsRollupImage.one() %}
 								{% set transform1x = {

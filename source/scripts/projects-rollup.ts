@@ -1,10 +1,10 @@
 ///  <reference types="/web/assets/scripts/vendor/isotope.d.ts"></reference>
 
-const grid: HTMLElement = document.querySelector('.featured-projects__grid');
+const grid: HTMLElement = document.querySelector('#grid');
 
 if (grid) {
 	var iso = new Isotope(grid, {
-		itemSelector: '.featured-projects__item',
+		itemSelector: '#project-item',
 		layoutMode: 'masonry'
 	});
 }

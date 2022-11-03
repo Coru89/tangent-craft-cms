@@ -1,4 +1,4 @@
-dateModified: 1667481494
+dateModified: 1667495535
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -62,6 +62,7 @@ meta:
     927a9ac0-0d29-4349-b085-3e1ba7c4ecb7: 'Email Link URL' # Email Link URL
     1292bc45-6ade-4009-ae28-921557c098c1: 'Link Text' # Link Text
     1464aa75-afee-4de6-8db0-67994226a779: 'Company Links' # Company Links
+    1664b5ae-26d9-489d-806f-92bf711be8c7: Heading
     2070cdb0-2bf5-4ec9-bcc2-7086f75c8f29: 'Text Position' # Text Position
     4554b864-9bc7-4e0d-9a92-41307f4cef13: Projects # Projects
     6333f983-d637-4788-90b6-722a343922f6: 'Projects Rollup' # Projects Rollup
@@ -97,6 +98,8 @@ meta:
     ce952b0d-2fbf-486d-91a3-bd3bf4ec3715: 'Content Left' # Content Left
     decc83c4-cef5-4022-83d6-300cd31ed6aa: 'Content Panel' # Content Panel
     decd8b6d-bb52-417b-9572-0a9e873b774c: Content # Content
+    dfb5fe6a-ff67-4c22-97b3-03cb427ed972: 'Project Slug' # Project Slug
+    e3fecf8d-b1f3-4fb7-9de4-79e27606ee2c: 'Related Projects' # Related Projects
     e6a86a4f-dcd0-4b30-a64c-61c5ad178338: 'Contact Link Text' # Contact Link Text
     e7f7c437-7a08-45bb-99c8-27ddc00ef227: 'Subject Left' # Subject Left
     ea4e97b8-5d2c-431c-ade8-54d0dba16497: 'Link URL' # Link URL
