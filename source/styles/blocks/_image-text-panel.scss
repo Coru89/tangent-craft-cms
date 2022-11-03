@@ -43,6 +43,10 @@ $block: 'image-text-panel';
 			@include media-min(lg) {
 				padding: 0 0 0 4rem;
 			}
+
+			+ .image-text-panel__picture-container > .image-text-panel__picture {
+					direction: rtl;
+			}
 		}
 	}
 
@@ -66,6 +70,10 @@ $block: 'image-text-panel';
 		object-position: center center;
 		user-select: none;
 		width: 100%;
+
+		@include media-min(xl) {
+			width: 120%;
+		}
 	}
 
 	&__subject {

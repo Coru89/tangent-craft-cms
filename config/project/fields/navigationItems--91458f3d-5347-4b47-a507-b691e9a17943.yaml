@@ -1,0 +1,58 @@
+columnSuffix: bkoedaxb
+contentColumnType: text
+fieldGroup: 312438a4-60cf-4fd0-85e1-2146d8d36657 # Common
+handle: navigationItems
+instructions: null
+name: 'Navigation Items'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Title
+            -
+              - handle
+              - title
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - Path
+            -
+              - handle
+              - path
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+  maxRows: null
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

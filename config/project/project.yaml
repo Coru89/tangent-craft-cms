@@ -1,4 +1,4 @@
-dateModified: 1667410011
+dateModified: 1667481494
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -25,6 +25,7 @@ meta:
     1e3b5809-5a23-4d9c-ae0b-afe84f958383: 'Image and Text Panel' # Image and Text Panel
     2b2271de-7d81-4a96-8a7d-a22ee9982c33: Description # Description
     2c098049-a68a-47fd-a4e2-21c2b59e38ae: Tagline # Tagline
+    3a25d975-5d0c-431a-94d6-a3a578faebf1: 'Primary Navigation' # Primary Navigation
     3a66029f-ef5b-468f-933e-ed82347b358b: Subject # Subject
     3be11231-26fa-497b-8791-d2e78eb7493b: 'Image Position' # Image Position
     3c29a686-fff4-421f-a776-99099065609a: 'Super Title' # Super Title
@@ -69,6 +70,8 @@ meta:
     20318baf-14d6-49f8-964e-a646e56d5446: Footer # Footer
     64868fe3-409c-48a4-988b-b52ac547cd98: 'Contact Link URL' # Contact Link URL
     84950cbc-dc7b-4aa4-9c7e-884d62b0e417: 'Title Right' # Title Right
+    86832c8f-0e26-4321-892d-3f2b670e5d40: 'Hero Title (line 2)' # Hero Title (line 2)
+    91458f3d-5347-4b47-a507-b691e9a17943: 'Navigation Items' # Navigation Items
     312438a4-60cf-4fd0-85e1-2146d8d36657: Common # Common
     348809a3-b71e-4ab4-ba64-0953b1159392: 'Service Links' # Service Links
     425293cb-cfab-442c-98cd-d824660ea3df: 'Footer Line' # Footer Line
@@ -78,6 +81,7 @@ meta:
     87380890-913a-4519-9afb-69424757bfc7: Image # Image
     a2e99dfb-65fc-4b17-a2c4-71341754c504: 'Footer Address' # Footer Address
     a5b8be6a-fa7e-4457-ba84-2dbf40eac704: 'Filter Tags' # Filter Tags
+    ab49e488-9485-4b3b-87f2-dd0ea10a4725: Caption # Caption
     ac66404b-5c2b-46e4-ae14-a597a755c168: 'Title Left' # Title Left
     acf40d2d-7210-41a6-b9be-13946da9867d: Footer # Footer
     ad87a9d5-a093-49e4-9a43-91fe8e162ce1: 'Content Right' # Content Right

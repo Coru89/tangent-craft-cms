@@ -29,6 +29,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: ab49e488-9485-4b3b-87f2-dd0ea10a4725 # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a8aacc0a-b604-48ea-b10a-f42e4bf21daa
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 65d09ba0-c32c-4de9-9519-c1fac8d17b2d
         userCondition: null
@@ -115,6 +127,26 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
+  ab49e488-9485-4b3b-87f2-dd0ea10a4725: # Caption
+    columnSuffix: qlgpotbw
+    contentColumnType: text
+    fieldGroup: null
+    handle: imageCaption
+    instructions: null
+    name: Caption
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
 handle: imagePanel
 name: 'Image Panel'
 sortOrder: 4

@@ -2,7 +2,9 @@
 
 $block: 'hero';
 
-.#{$block} {
+.#{$block} {    
+    position: relative;
+
     &__container {
         align-items: flex-end;
         display: flex;
@@ -19,8 +21,8 @@ $block: 'hero';
         }
 
         @include media-min(lg) {
-             margin: 0;
-             position: static;
+            margin: 0;
+            position: static;
             min-height: 400px;
         }
 
@@ -35,7 +37,7 @@ $block: 'hero';
         }
 
         &--end {
-            @include media-min(lg) {
+            @include media-min(md) {
                 justify-content: flex-end;
            }
         }
@@ -67,11 +69,22 @@ $block: 'hero';
         top: 0;
         z-index: -1;
 
+        &:before {
+            content: '';
+            display: block;
+            background-color: $black;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            opacity: .35;
+        }
+
         @include media-min(lg) {
             height: 535px;
             left: 0;
             right: 0;
-            top: 90px;
         }
     }
 
@@ -91,31 +104,38 @@ $block: 'hero';
     }
 
     &__text {
-        background-color: $white;
+        // background-color: rgba(230, 231, 232, 0.9);
+        // background-color: $blue;
+        background-color: rgba(23, 48, 102, .95);
+        color: $white;
+        border-radius: 4px;
         box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.05);
-        margin: 1.5rem;
         padding: 2rem;
 
         @include media-min(lg) {
-            background-color: rgb(0,0,0, 0.5);
-            color: $white;
             margin: 0 0 2rem;
+            max-width: 600px;
         }
     }
 
     &__supertitle {
+        display: none;
         font-family: "PT Mono",sans-serif;
         font-size: .8rem;
         line-height: .83;
         margin-bottom: 1rem;
+
+        @include media-min(lg) {
+            display: block;
+        }
     }
 
     &__title {
-        margin-bottom: 2rem;
+        color: $white;
+        margin-bottom: 1rem;
     }
 
     &__subtitle {
-        display: inline-block;
         font-weight: $font-weight-light;
         margin-bottom: 0;
         margin-right: 1rem;
@@ -127,12 +147,18 @@ $block: 'hero';
         position: absolute;
         transform: translateY(50%);
 
+        @include media-min(md) {
+            width: auto;
+        }
+
 
         @include media-min(lg) {
-            position: static;
-            transform: none;
             width: initial;
         }
+    }
+
+    .button {
+        margin-top: 1.5rem;
     }
 }
 

@@ -5,11 +5,10 @@ $block: 'project-meta';
 .#{$block} {
    background-color: $white;
    background-color: #F5F5F5;
-   //margin: 8rem 0 2rem 0;
    padding-bottom: 1rem;
 
-   @include media-min(lg) {
-      margin-bottom: 2rem;
+   @include media-min(md) {
+      margin: 8rem 0 2rem 0;
       padding-bottom: 0;
    }
 
@@ -26,15 +25,11 @@ $block: 'project-meta';
       padding-bottom: 1rem;
    }
 
-   // &__item {
-   //    font-weight: 300;
-   // }
 
    &__list {
       padding: 0;
       margin: 0;
       list-style: none;
-      //columns: 2;
    }
 
    &__link {
@@ -43,7 +38,6 @@ $block: 'project-meta';
          font-weight: 400;
          display: inline-block;
       }
-
    }
 
    a {

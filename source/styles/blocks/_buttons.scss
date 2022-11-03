@@ -2,6 +2,10 @@
     @include button;    
 }
 
+.button--inverse {
+    @include button--inverse;    
+}
+
 .button--arrow {
     @include button--arrow;
 }

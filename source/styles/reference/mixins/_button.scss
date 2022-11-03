@@ -17,6 +17,37 @@
 	}
 }
 
+
+
+@mixin button--inverse {
+	border-radius: .1rem;
+	display: inline-block;
+	font-size: 1rem;
+	line-height: 1.5;
+	padding: .5rem 1rem;
+	text-decoration: none;
+	transition: background-color .15s ease-out;
+    background-color: $white;
+    border-color: $white;
+    box-shadow: 0 0.125rem 0.25rem rgb(23 31 56 / 8%);
+    color: $blue;
+
+	&:focus,
+	&:hover {
+		border-color: $white;
+		color: $white;
+		background-color: $blue;
+
+		&::after {
+			background-image: url('/assets/images/icons/arrow.svg') !important;
+		}
+	}
+
+	&::after {
+		background-image: url('/assets/images/icons/arrow-blue.svg') !important;
+	}
+}
+
 @mixin button--secondary {
 	background-color: $orange;
 

@@ -33,12 +33,15 @@
                         {% if entry.heroSupertitle %}
                             <div class="hero__supertitle">{{ entry.heroSupertitle }}</div>
                         {% endif %}
-                        <h2 class="hero__title">{{ entry.heroTitle }}</h2>
+                        <h1 class="hero__title">{{ entry.heroTitle }}</h1>
+                        {% if entry.heroTitle2 %}
+                            <h1 class="hero__title">{{ entry.heroTitle2 }}</h1>
+                        {% endif %}
                         {% if entry.heroSubtitle %}
                             <h3 class="hero__subtitle">{{ entry.heroSubtitle }}</h3>
                         {% endif %}
                         {% if entry.heroLinkText and entry.heroLinkUrl %}
-                            <a href={{ entry.heroLinkUrl }} class="button button--secondary button--arrow">{{ entry.heroLinkText }}</a>
+                            <a href={{ entry.heroLinkUrl }} class="button button--inverse button--arrow">{{ entry.heroLinkText }}</a>
                         {% endif %}
                     </div>
                 </div>

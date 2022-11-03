@@ -1,0 +1,19 @@
+columnSuffix: phrcievw
+contentColumnType: text
+fieldGroup: 1b4cc869-d062-4e3e-889e-419528ae7deb # Hero
+handle: heroTitle2
+instructions: null
+name: 'Hero Title (line 2)'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

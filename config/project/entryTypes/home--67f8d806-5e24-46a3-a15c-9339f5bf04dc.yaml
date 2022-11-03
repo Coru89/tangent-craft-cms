@@ -42,18 +42,6 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            elementCondition: null
-            fieldUid: 2c1cc454-aca1-4dc5-8ab8-220b7257e993
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 4981fc81-16fe-477c-a1be-329aab10915b
-            userCondition: null
-            warning: null
-            width: 100
         name: Content
         uid: adeeb1d8-b55d-4170-b843-a14991efcb7c
         userCondition: null
@@ -81,6 +69,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: ce2fc00b-55c6-4b99-ae44-c491ac67b1ec
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 86832c8f-0e26-4321-892d-3f2b670e5d40 # Hero Title (line 2)
+            instructions: null
+            label: 'Title (line 2)'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6f74255d-00ff-4313-8e06-af2568ac044e
             userCondition: null
             warning: null
             width: 100

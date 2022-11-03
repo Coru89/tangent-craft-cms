@@ -10,9 +10,15 @@
 		{% else %}
 			<section class="image-panel">
 				<div class="u-container-small">
-					<picture class="image-panel__picture" role="presentation">
-						<img class="image-panel__image" src="{{image.getUrl()}}" loading="lazy"/>
-					</picture>
+					<figure class="image-panel__figure">
+						<picture class="image-panel__picture" role="presentation">
+							<img class="image-panel__image" src="{{image.getUrl()}}" loading="lazy"/>
+						</picture>
+						{% if (block.imageCaption | length) %}
+							<figcaption>{{block.imageCaption}}</figcaption>
+						{% endif %}
+					</figure>
+
 				</div>
 			</section>
 		{% endif %}
