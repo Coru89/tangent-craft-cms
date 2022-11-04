@@ -1,0 +1,110 @@
+field: df5feffa-a83a-4b14-9c2f-f1529461780b # Content Home
+fieldLayouts:
+  41759c81-ac3b-42cf-8314-8cd881b6cf2a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 99f31099-70b9-4d16-9b42-ffd5ab7bba89 # Sub Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b0131547-bf33-4485-ae1c-18f0dc93f58c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 09ddce29-589a-4765-945a-81708dbd94ac # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45f2736d-bcb8-4713-87da-5d36ace1248f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 975669f6-1e7a-4565-a122-632b27c87106 # Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 87a52ca7-2136-48df-bf5e-8f589cd6194a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bd44921d-0b99-4e18-accd-5dc5fec65214
+        userCondition: null
+fields:
+  09ddce29-589a-4765-945a-81708dbd94ac: # Title
+    columnSuffix: yfwrccsv
+    contentColumnType: text
+    fieldGroup: null
+    handle: panelTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  99f31099-70b9-4d16-9b42-ffd5ab7bba89: # Sub Heading
+    columnSuffix: kleosyeb
+    contentColumnType: text
+    fieldGroup: null
+    handle: panelSubheading
+    instructions: null
+    name: 'Sub Heading'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  975669f6-1e7a-4565-a122-632b27c87106: # Content
+    columnSuffix: vxerldig
+    contentColumnType: text
+    fieldGroup: null
+    handle: panelContent
+    instructions: null
+    name: Content
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: contentPanel
+name: 'Content Panel'
+sortOrder: 3

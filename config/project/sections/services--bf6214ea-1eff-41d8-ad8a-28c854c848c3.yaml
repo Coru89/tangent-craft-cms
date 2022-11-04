@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: services
+name: Services
+propagationMethod: all
+siteSettings:
+  ada35ad0-4d42-4ca8-bed9-59ff6816f33f: # Tangent Services
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages\interior_services
+    uriFormat: 'services/{slug}'
+structure:
+  maxLevels: null
+  uid: b5b535eb-fc90-425d-ace4-35f973964cf6
+type: structure

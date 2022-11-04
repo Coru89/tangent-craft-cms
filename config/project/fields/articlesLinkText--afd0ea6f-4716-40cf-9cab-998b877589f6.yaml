@@ -1,0 +1,19 @@
+columnSuffix: qwbqgigo
+contentColumnType: text
+fieldGroup: 82543b94-e029-479e-87c5-9a486bd77e1f # Articles
+handle: articlesLinkText
+instructions: null
+name: 'Link Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Learn More'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: articles
+name: Articles
+propagationMethod: all
+siteSettings:
+  ada35ad0-4d42-4ca8-bed9-59ff6816f33f: # Tangent Services
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages\interior_articles
+    uriFormat: 'articles/{slug}'
+structure:
+  maxLevels: null
+  uid: 8c3a78e0-49a1-4c6c-a687-c551a780db84
+type: structure

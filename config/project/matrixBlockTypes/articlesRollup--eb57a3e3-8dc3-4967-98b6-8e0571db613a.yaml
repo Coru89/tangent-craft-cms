@@ -1,0 +1,79 @@
+field: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
+fieldLayouts:
+  e31787c7-cbc0-4a38-a303-4248b568c133:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: aa5b171c-8732-4890-a829-6edd8b58835e # Articles Panel Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 02361fad-bcab-4f09-a255-fb49856ee9a6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5fec6bae-4077-489c-9b77-47e8c2b7ef80 # Articles Limit
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5cba2892-83d5-4d8d-bddb-b02f1615c1cd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ca61abda-bc78-4ffd-bcc2-ebc58cc767cc
+        userCondition: null
+fields:
+  5fec6bae-4077-489c-9b77-47e8c2b7ef80: # Articles Limit
+    columnSuffix: koexyxvc
+    contentColumnType: smallint(1)
+    fieldGroup: null
+    handle: articlesLimit
+    instructions: null
+    name: 'Articles Limit'
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: 6
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  aa5b171c-8732-4890-a829-6edd8b58835e: # Articles Panel Heading
+    columnSuffix: qvtejezb
+    contentColumnType: text
+    fieldGroup: null
+    handle: articlesPanelHeading
+    instructions: null
+    name: 'Articles Panel Heading'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: articlesRollup
+name: 'Articles Rollup'
+sortOrder: 9

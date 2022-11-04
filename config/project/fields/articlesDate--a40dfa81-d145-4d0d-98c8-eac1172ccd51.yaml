@@ -1,0 +1,17 @@
+columnSuffix: urygmate
+contentColumnType: datetime
+fieldGroup: 82543b94-e029-479e-87c5-9a486bd77e1f # Articles
+handle: articlesDate
+instructions: null
+name: Date
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

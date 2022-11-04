@@ -1,0 +1,85 @@
+fieldLayouts:
+  3c8cda13-5dc5-451b-aeec-6d448d7fbaba:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1e2f7825-d80f-4fb1-bc48-a1df1d0c381a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f19d591-ce53-4c98-92b2-e7b515f83b64
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 68ebfb10-859d-4c60-901c-20fa1970eeb7
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 475c7edd-ba22-46da-8dca-8dc985338cb2 # Services Rollup Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 858a5c63-31c2-4c65-b580-e3838b95d117
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 277862de-1b83-406a-a0bf-a30726615b44 # Services Rollup Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7b234cf7-7fe7-40a7-8561-ca71e6870a72
+            userCondition: null
+            warning: null
+            width: 100
+        name: Meta
+        uid: c2fa21d2-b957-43c6-ae9d-c5a94a1f4926
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: bf6214ea-1eff-41d8-ad8a-28c854c848c3 # Services
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

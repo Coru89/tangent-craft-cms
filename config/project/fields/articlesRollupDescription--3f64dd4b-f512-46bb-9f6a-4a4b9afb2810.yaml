@@ -1,0 +1,19 @@
+columnSuffix: qanjyevh
+contentColumnType: text
+fieldGroup: 82543b94-e029-479e-87c5-9a486bd77e1f # Articles
+handle: articlesRollupDescription
+instructions: null
+name: 'Rollup Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

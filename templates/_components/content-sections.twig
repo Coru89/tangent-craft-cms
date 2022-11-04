@@ -298,7 +298,89 @@
 				</div>
 			</div>
 		</section>
-	{% endif %}
 
+	{% elseif block.type == "servicesRollup" %}
+		<section class="services-rollup">
+			<div class="u-container">
+				<div class="services-rollup__inner">
+					<h2 class="articles-rollup__heading">{{block.servicesPanelHeading}}</h2>
+					<h4>{{block.servicesPanelSubheading}}</h4>
+						<div class="services-rollup__items">
+							{% for item in craft.entries.section('services').all() %}
+								<div class="services-rollup__item">
+									{% set image = item.servicesRollupImage.one() %}
+									<a href={{item.uri}}>
+										<picture class="services-rollup__picture">
+											<source {{ attr({
+												type: 'image/webp',
+												srcset: image.getSrcset(
+													[320, 360, 412, 600, 768, 1024, 1280, 1440],
+													{ format: 'webp', }
+												),
+												sizes: '320px',
+											}) }}>
+											<source {{ attr({
+												type: 'image/jpeg',
+												srcset: image.getSrcset(
+													[320, 360, 412, 600, 768, 1024, 1280, 1440],
+													{ format: 'jpeg', }
+												),
+												sizes: '320px',
+											}) }}>
+											<img alt="" class="services-rollup__image" alt="{{ image.alt }}" src={{image.url}} loading="lazy"/>
+										</picture>
+									</a>
+									<div class="services-rollup__text">
+										<a href={{item.uri}}>
+											<h3 class="services-rollup__title">
+												{{ item.title }}
+											</h3>
+										</a>
+										<div class="services-rollup__description">
+											{{ item.servicesRollupDescription }}
+										</div>
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+				</div>
+			</div>
+		</section>
+
+	{% elseif block.type == "articlesRollup" %}
+		<section class="articles-rollup">
+			<div class="u-container">
+				<div class="articles-rollup__inner">
+					<h2 class="articles-rollup__heading">{{block.articlesPanelHeading}}</h2>
+						<div class="articles-rollup__items">
+							{% for item in craft.entries.section('articles').limit(block.articlesLimit) %}
+								<div class="articles-rollup__item">
+									{% set image = item.articlesImage.one() %}
+									<picture class="articles-rollup__picture">
+										<source {{ attr({
+											type: 'image/webp',
+											srcset: image.getSrcset(
+												[320, 360, 412, 600, 768, 1024, 1280, 1440],
+												{ format: 'webp', }
+											),
+											sizes: '450px',
+										}) }}>
+										<source {{ attr({
+											type: 'image/jpeg',
+											srcset: image.getSrcset(
+												[320, 360, 412, 600, 768, 1024, 1280, 1440],
+												{ format: 'jpeg', }
+											),
+											sizes: '450px',
+										}) }}>
+										<img alt="" class="articles-rollup__image" alt="{{ image.alt }}" src={{image.url}} loading="lazy"/>
+									</picture>
+								</div>
+							{% endfor %}
+						</div>
+				</div>
+			</div>
+		</section>
+	{% endif %}
 {% endfor %}
 

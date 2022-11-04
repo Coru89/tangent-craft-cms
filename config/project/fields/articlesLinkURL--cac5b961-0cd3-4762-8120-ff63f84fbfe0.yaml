@@ -1,0 +1,14 @@
+columnSuffix: mnnibwix
+contentColumnType: string(255)
+fieldGroup: 82543b94-e029-479e-87c5-9a486bd77e1f # Articles
+handle: articlesLinkURL
+instructions: null
+name: 'Link URL'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

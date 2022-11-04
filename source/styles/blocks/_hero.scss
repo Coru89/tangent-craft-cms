@@ -110,6 +110,12 @@ $block: 'hero';
         color: $black;
         padding: 1.5rem;
 
+        @include media-min(md) {
+            margin: 0 0 2rem;
+            max-width: 600px;
+            padding: 2rem;
+        }
+
         @include media-min(lg) {
             margin: 0 0 2rem;
             max-width: 600px;
@@ -133,22 +139,24 @@ $block: 'hero';
         display: inline;
     }
 
-
-
     &__subtitle {
         font-weight: $font-weight-light;
         margin: .75rem 0 0 0;
 
         @include media-min(md) {
-            margin: 2rem 0 0 0;
+            margin: 1rem 0 0 0;
         }
     }
 
     &__row {
         bottom: 0;
         position: absolute;
-        transform: translateY(50%);
+        transform: translateY(60%);
         width: 100%;
+
+        @include media-min(sm) {
+            transform: translateY(50%);
+        }
 
         @include media-min(md) {
             width: auto;
