@@ -25,15 +25,10 @@ $block: 'related-projects';
 		width: 100%;
       grid-auto-rows: 1fr;
    
-		@include media-min(md) {
-			width: calc(50% - 4px);
-         padding-right: 4px;
-		}
-
 		@include media-min(lg) {
 			width: calc(33.33% - 4px);
          padding-right: 4px;
-		}
+      }
 	  }
 
      &__background {
