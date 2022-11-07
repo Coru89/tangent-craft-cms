@@ -5,26 +5,53 @@ $block: 'articles-rollup';
 .#{$block} {
    padding: 3rem 0;
 
-	// &__inner {
-	
-	// }
-
 	&__heading {
 		color: $blue;
 		font-weight: 500;
 		margin-bottom: 2rem;
-		}
+	}
 
 	&__items {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 10px;
-	}
+		grid-gap: 2rem;
 
+		@include media-min(lg) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
 
    &__item {
 		width: 100%;
       	grid-auto-rows: 1fr;
+		border: 1px solid $grey;
+	}
+
+	&__image {
+		width: 100%;
+	}
+
+
+	&__text {
+		padding: 1.5rem;
+	}
+
+	&__date {
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 0;
+		padding-left: .5rem;
+		padding-top: 2px;
+
+		&-container {
+			align-items: center;
+			display: flex;
+			padding-bottom: 1.5rem;
+		}
+	}
+
+	&__summary {
+		font-weight: 300;
+		padding-bottom: 2rem;
 	}
 
 }

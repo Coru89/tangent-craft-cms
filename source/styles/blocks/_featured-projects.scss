@@ -12,7 +12,7 @@ $block: 'featured-projects';
    }
 
    &__filters {
-      border-bottom: 0.0625rem solid #e6e7e8;
+      border-bottom: 0.0625rem solid $grey;
       margin-bottom: 24px;
 
       &-link {
@@ -25,8 +25,8 @@ $block: 'featured-projects';
 
          &--active {
             color: #0a2152;
-            background-color: #e6e7e8;
-            border-color: #fafafb #fafafb #e6e7e8;
+            background-color: $grey;
+            border-color: $grey;
          }
       }
    }
