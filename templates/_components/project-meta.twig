@@ -1,42 +1,42 @@
-<div class="project-meta">
+<div class="meta">
 
 	<div class="u-container">
 
-		<div class="project-meta__inner">
-			<div class="project-meta__column">
-				<div class="project-meta__label">Client</div>
-				<div class="project-meta__item">{{ entry.projectsClient }}</div>
+		<div class="meta__inner">
+			<div class="meta__column">
+				<div class="meta__label">Client</div>
+				<div class="meta__item">{{ entry.projectsClient }}</div>
 			</div>
 
-			<div class="project-meta__column">
-				<div class="project-meta__label">Location</div>
-				<div class="project-meta__item">{{ entry.projectsLocation }}</div>
+			<div class="meta__column">
+				<div class="meta__label">Location</div>
+				<div class="meta__item">{{ entry.projectsLocation }}</div>
 			</div>
 
-			<div class="project-meta__column">
-				<div class="project-meta__label">Category</div>
-				<ul class="project-meta__list">
+			<div class="meta__column">
+				<div class="meta__label">Category</div>
+				<ul class="meta__list">
 					{% set tags = entry.projectsTags.all() %}
 					
 					{% for item in tags %}
-						<li class="project-meta__link-item">
-							<a href="" class="project-meta__link">{{item.title}}</a>{% if loop.last == false %},{% endif %}
+						<li class="meta__link-item">
+							<a href="" class="meta__link">{{item.title}}</a>{% if loop.last == false %},{% endif %}
 						</li>
 					{% endfor %}
 				</ul>
 			</div>
 
-			<div class="project-meta__column">
-				<div class="project-meta__label">Services</div>
-				{# <ul class="project-meta__list">
-					<li class="project-meta__link-item">
-						<a href="" class="project-meta__link">item here</a>
+			<div class="meta__column">
+				<div class="meta__label">Services</div>
+				{# <ul class="meta__list">
+					<li class="meta__link-item">
+						<a href="" class="meta__link">item here</a>
 					</li>
-					<li class="project-meta__link-item">
-						<a href="" class="project-meta__link">item here</a>
+					<li class="meta__link-item">
+						<a href="" class="meta__link">item here</a>
 					</li>
-					<li class="project-meta__link-item">
-						<a href="" class="project-meta__link">item here</a>
+					<li class="meta__link-item">
+						<a href="" class="meta__link">item here</a>
 					</li>
 				</ul> #}
 			</div>

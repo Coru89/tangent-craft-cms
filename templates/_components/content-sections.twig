@@ -117,6 +117,28 @@
 			</div>
 		</section>
 
+	{# {% elseif block.type == "doubleCardPanel" %}
+		<section class="double-card-panel">
+			<div class="u-container">
+				<div class="double-card-panel__container">
+					<div class="double-card-panel__inner">
+						<div class="double-card-panel__heading">
+							{{block.doubleCardHeadingLeft}}
+						</div>
+						<div class="double-card-panel__summary">{{block.doubleCardSummaryLeft}}</div>
+						<a href={{block.doubleCardLinkUrlLeft}} class="double-card__link button button--arrow">{{block.doubleCardLinkTextLeft}}</a>
+					</div>
+					<div  class="double-card-panel__inner">
+						<div class="double-card-panel__heading">
+							{{block.doubleCardaHeadingRight}}
+						</div>
+						<div class="double-card-panel__summary">{{block.doubleCardSummaryRight}}</div>
+						<a href={{block.doubleCardLinkUrlRight}} class="double-card-panel__link button button--arrow">{{block.doubleCardLinkTextRight}}</a>
+					</div>
+				</div>
+			</div>
+		</section> #}
+
 	{% elseif block.type == "contentPanel" %}
 		<section class="content-panel">
 			<div class="u-container-small">
@@ -137,17 +159,17 @@
 			</blockquote>
 		</div>
 	{% elseif block.type == "cta" %}
-	<sectiion class="cta">
-		<div class="u-container">
-			<div  class="cta__inner">
-				<div class="cta__heading">
-					{{block.ctaHeading}}
+		<sectiion class="cta">
+			<div class="u-container">
+				<div  class="cta__inner">
+					<div class="cta__heading">
+						{{block.ctaHeading}}
+					</div>
+					<div class="cta__summary">{{block.ctaSummary}}</div>
+					<a href={{block.ctaLinkURL}} class="cta__link button button--arrow">{{block.ctaLinkText}}</a>
 				</div>
-				<div class="cta__summary">{{block.ctaSummary}}</div>
-				<a href={{block.ctaLinkURL}} class="cta__link button button--arrow">{{block.ctaLinkText}}</a>
 			</div>
-		</div>
-	</sectiion>					
+		</sectiion>					
 
 	{% elseif block.type == "relatedProjects" %}
 		<section class="related-projects">
