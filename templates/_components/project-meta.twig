@@ -6,7 +6,6 @@
 			<div class="project-meta__column">
 				<div class="project-meta__label">Client</div>
 				<div class="project-meta__item">{{ entry.projectsClient }}</div>
-
 			</div>
 
 			<div class="project-meta__column">
@@ -17,16 +16,15 @@
 			<div class="project-meta__column">
 				<div class="project-meta__label">Category</div>
 				<ul class="project-meta__list">
-				{% set tags = entry.projectsTags.all() %}
-				
+					{% set tags = entry.projectsTags.all() %}
+					
 					{% for item in tags %}
 						<li class="project-meta__link-item">
 							<a href="" class="project-meta__link">{{item.title}}</a>{% if loop.last == false %},{% endif %}
 						</li>
-						{% endfor %}
+					{% endfor %}
 				</ul>
 			</div>
-
 
 			<div class="project-meta__column">
 				<div class="project-meta__label">Services</div>

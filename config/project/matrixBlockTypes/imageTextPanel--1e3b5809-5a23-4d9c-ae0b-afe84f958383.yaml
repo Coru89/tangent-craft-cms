@@ -133,21 +133,17 @@ fields:
     name: Content
     searchable: false
     settings:
-      availableTransforms: ''
-      availableVolumes: '*'
-      columnType: text
-      defaultTransform: null
-      initJs: null
-      purifierConfig: null
-      purifyHtml: true
-      removeEmptyTags: false
-      removeInlineStyles: false
-      removeNbsp: false
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: false
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
-    type: craft\ckeditor\Field
+    type: craft\fields\PlainText
   87380890-913a-4519-9afb-69424757bfc7: # Image
     columnSuffix: null
     contentColumnType: string

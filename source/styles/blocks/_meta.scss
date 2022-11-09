@@ -1,6 +1,6 @@
 @import '../reference/reference';
 
-$block: 'project-meta';
+$block: 'meta';
 
 .#{$block} {
    background-color: $white;
@@ -24,7 +24,6 @@ $block: 'project-meta';
       font-weight: 700;
       padding-bottom: 1rem;
    }
-
 
    &__list {
       padding: 0;

@@ -1,0 +1,32 @@
+<div class="meta">
+	<div class="u-container">
+		<div class="meta__inner">
+			<div class="meta__column">
+				<div class="meta__label">Posted:</div>
+				<div class="meta__item">{{ entry.articlesDate | date('medium') }}</div>
+			</div>
+
+			<div class="meta__column">
+				<div class="meta__label">Author</div>
+				<div class="meta__item">{{ entry.articlesAuthor }}</div>
+			</div>
+
+			<div class="meta__column">
+				<div class="meta__label">Category</div>
+				<ul class="meta__list">
+					{% if entry.articlesTags %}
+						{% set tags = entry.articlesTags.all() %}
+
+						{% for item in tags %}
+							<li class="meta__link-item">
+								<a href="" class="meta__link">{{item.title}}</a>{% if loop.last == false %},{% endif %}
+							</li>
+						{% endfor %}
+					{% endif %}
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</div>
+

@@ -25,7 +25,6 @@ $block: 'services-rollup';
 		}
 	}
 
-
    &__item {
 		display: flex;
 		flex-direction: column;
@@ -44,11 +43,18 @@ $block: 'services-rollup';
 	}
 
 	&__picture {
+		background-color: $grey;
+		display: block;
+		height: 0;
 		margin: 0 0 2rem 0;
+		overflow: hidden;
+		padding-bottom: 56%;
 		position: relative;
 	}
 
 	&__image {
+		display: block;
+		height: auto;
 		width: 100%;
 	}
 

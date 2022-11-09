@@ -1,4 +1,4 @@
-dateModified: 1667553077
+dateModified: 1667973003
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -27,6 +27,7 @@ fs:
     url: '@web/uploads'
 meta:
   __names__:
+    0c2a4468-23fd-410a-ac25-92a49d710291: Author
     0eff976d-ffc1-473d-93ad-a835e1f0c01f: 'Super Title' # Super Title
     1a47a2a1-be15-45b5-b8b4-73078d135b00: Heading # Heading
     1b4cc869-d062-4e3e-889e-419528ae7deb: Hero # Hero
@@ -63,6 +64,7 @@ meta:
     7ef51be8-44ac-4817-be0a-c6516005904e: Title # Title
     7f7aae0f-02c0-4ea3-b3a5-a9073b29991e: Image # Image
     7fad34cd-6234-4461-9c88-6f7445d78d6f: 'Services Panel Subheading' # Services Panel Subheading
+    8a7b57b6-654d-4101-a804-0767e738113b: 'Link Text' # Link Text
     8c0e35bb-24b0-4d5d-9ad8-df4932968e62: Heading # Heading
     8c86aa0c-506c-4214-9a07-72229738379b: 'Title Right' # Title Right
     8e2d0d22-60a3-43c4-9b2c-06542b3c09db: 'Subject Left' # Subject Left
@@ -81,6 +83,7 @@ meta:
     47dc5f60-5afa-437b-9370-a9b213c9ab47: 'Projects Filter' # Projects Filter
     48f6d6ac-c949-4690-9375-e750acbee372: 'Link Text' # Link Text
     55aeb36a-1a23-40a5-b308-cd2b88181da7: 'Link Text' # Link Text
+    66e0079e-3e32-43e4-8854-46a7567dfdc3: 'Articles Category' # Articles Category
     66f3e21d-e765-45d3-8f6f-dcddecf9e2af: 'Projects Limit' # Projects Limit
     67bffa1c-524b-4aa7-9d5c-59dd14717926: 'Title Right' # Title Right
     67f8d806-5e24-46a3-a15c-9339f5bf04dc: Home # Home
@@ -104,6 +107,8 @@ meta:
     318fb216-96ea-4db1-8ea1-95540e98ee1f: 'Project Slug' # Project Slug
     392a5840-4224-4dc1-8d57-0296ac0dc4d9: 'Project Slug' # Project Slug
     475c7edd-ba22-46da-8dca-8dc985338cb2: 'Services Rollup Description' # Services Rollup Description
+    560d95b7-aa2f-434d-a4c6-e4b4ae11c104: 'Link URL' # Link URL
+    580ead99-292c-46b6-8a9d-92d5a33da487: Test # Test
     597cef0a-b5bd-4e4c-aec4-2fe935e3b539: Title # Title
     690cb815-b85f-467e-a047-43e23b08ee2b: Video # Video
     711fa1de-ef75-4399-bbfe-badcb165f8ec: 'Projects Limit' # Projects Limit
@@ -122,16 +127,19 @@ meta:
     5663a898-2246-4b0e-bd1f-a2d7e7c83d78: Title # Title
     6333f983-d637-4788-90b6-722a343922f6: 'Projects Rollup' # Projects Rollup
     8007fc25-3d33-4ee5-ade0-cadfb61b1591: 'Image Position' # Image Position
+    8770da8e-c789-47dc-b7d1-fd7d92d1a97c: 'Call To Action Panel' # Call To Action Panel
     9126f58d-d92d-42a3-b976-80161de3a478: 'Rollup Image' # Rollup Image
     18995cfd-16c6-457d-8ead-6dadaf3f1d09: Video # Video
     20318baf-14d6-49f8-964e-a646e56d5446: Footer # Footer
     024419d5-0e91-499a-8b08-b35392a91d6e: 'Content Panel' # Content Panel
+    52756a4b-7e10-4fec-a57a-8599921de625: Test # Test
     64868fe3-409c-48a4-988b-b52ac547cd98: 'Contact Link URL' # Contact Link URL
     82543b94-e029-479e-87c5-9a486bd77e1f: Articles # Articles
     84950cbc-dc7b-4aa4-9c7e-884d62b0e417: 'Title Right' # Title Right
     86832c8f-0e26-4321-892d-3f2b670e5d40: 'Hero Title (line 2)' # Hero Title (line 2)
     91458f3d-5347-4b47-a507-b691e9a17943: 'Navigation Items' # Navigation Items
     98758e9a-baa8-4869-b1d4-3606bc8e2e37: Content # Content
+    193943ff-1e5e-4506-a088-6188dbd693ce: Author # Author
     277862de-1b83-406a-a0bf-a30726615b44: 'Services Rollup Image' # Services Rollup Image
     312438a4-60cf-4fd0-85e1-2146d8d36657: Common # Common
     348809a3-b71e-4ab4-ba64-0953b1159392: 'Service Links' # Service Links
@@ -144,6 +152,7 @@ meta:
     5174132d-9dbb-4c75-afc9-bd2feca3684e: Services # Services
     05986233-da3a-4937-85f9-b2b7784bc596: 'Link Url' # Link Url
     7166386d-a511-42df-a908-1e859dfba3e2: 'Text Position' # Text Position
+    39564368-f8fd-4cc9-b130-190da7c1c62c: Quote # Quote
     87380890-913a-4519-9afb-69424757bfc7: Image # Image
     a2e99dfb-65fc-4b17-a2c4-71341754c504: 'Footer Address' # Footer Address
     a5b8be6a-fa7e-4457-ba84-2dbf40eac704: 'Filter Tags' # Filter Tags
@@ -164,6 +173,7 @@ meta:
     b2819c3c-3e2f-451d-bb6a-1054eec8014f: Location # Location
     b5628d29-8e5c-49cd-97e7-ccc8a9d42ae4: 'Link Text' # Link Text
     b5807a47-39e7-480a-ab04-0e0c4d998d82: Title # Title
+    b2623688-8e4c-4d5a-9406-28c978d3196d: Quote # Quote
     ba713a50-5f2f-4866-8967-ff7e83003bff: 'Image Behavior' # Image Behavior
     bd89cd7e-66e0-4794-bad5-d1cb9ed9a92f: Caption # Caption
     bf6214ea-1eff-41d8-ad8a-28c854c848c3: Services # Services
@@ -178,6 +188,7 @@ meta:
     cb5442c0-49a7-4318-8854-2e233310c321: Image # Image
     cd8f97bb-1019-4201-947a-62825eab84e5: Projects # Projects
     ce952b0d-2fbf-486d-91a3-bd3bf4ec3715: 'Content Left' # Content Left
+    db62a3b5-a50d-4140-9a44-5fda6bbf4455: Heading # Heading
     decc83c4-cef5-4022-83d6-300cd31ed6aa: 'Content Panel' # Content Panel
     decd8b6d-bb52-417b-9572-0a9e873b774c: Content # Content
     df5feffa-a83a-4b14-9c2f-f1529461780b: 'Content Home' # Content Home
@@ -190,6 +201,7 @@ meta:
     e91f8199-f095-4d9b-bfde-6a952581f45c: 'Title Left' # Title Left
     e1934e78-f05a-4dd4-814a-63a11c149db2: 'Link Text' # Link Text
     ea4e97b8-5d2c-431c-ade8-54d0dba16497: 'Link URL' # Link URL
+    eb38f97d-70d0-44c2-8c89-b868fc2322d3: Summary # Summary
     eb57a3e3-8dc3-4967-98b6-8e0571db613a: 'Articles Rollup' # Articles Rollup
     eb67d980-7620-4451-b35a-3d68ef8cdf30: 'Subject Right' # Subject Right
     ec12c69e-c5dc-414d-a452-a04051f2d911: Image # Image
@@ -201,6 +213,7 @@ meta:
     f2ff0c12-9108-4b60-b65e-9effcc913281: Projects # Projects
     f6a4d113-b4a6-4ad9-988c-d6e06e7d3067: 'Subject Right' # Subject Right
     f73e980f-3442-4216-afe2-909f913e5f22: Default # Default
+    fdc9e6e5-abfe-4999-97d2-fc95b08ac39a: Category # Category
     ffadfc30-d3dc-4d63-9602-ac99106c32d9: 'Image Panel' # Image Panel
 plugins:
   ckeditor:
