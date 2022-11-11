@@ -10,7 +10,7 @@
 								<source {{ attr({
 									type: 'image/webp',
 									srcset: image.getSrcset(
-										[320, 360, 412, 600, 768, 1024, 1280, 1440, 1600, 1920, 2560],
+										[304, 320, 360, 412, 600, 768, 1024, 1280, 1440],
 										{ format: 'webp', }
 									),
 									sizes: '(max-width: 768px) 100vw, 304px',
@@ -18,12 +18,12 @@
 								<source {{ attr({
 									type: 'image/jpeg',
 									srcset: image.getSrcset(
-										[320, 360, 412, 600, 768, 1024, 1280, 1440, 1600, 1920, 2560],
+										[304, 320, 360, 412, 600, 768, 1024, 1280, 1440],
 										{ format: 'jpeg', }
 									),
 									sizes: '(max-width: 768px) 100vw, 304px',
 								}) }}>
-								<img class="team__image team__image--front" src={{item.image}} alt={{item.teamName}} loading="lazy">
+								<img class="team__image team__image--front" src={{item.image}} alt={{item.teamName}} width={{image.width}} height={{image.height}} loading="lazy">
 							</picture>
 
 
@@ -32,7 +32,7 @@
 								<source {{ attr({
 									type: 'image/webp',
 									srcset: image.getSrcset(
-										[320, 360, 412, 600, 768, 1024, 1280, 1440, 1600, 1920, 2560],
+										[304, 320, 360, 412, 600, 768, 1024, 1280, 1440],
 										{ format: 'webp', }
 									),
 									sizes: '(max-width: 768px) 100vw, 304px',
@@ -40,12 +40,12 @@
 								<source {{ attr({
 									type: 'image/jpeg',
 									srcset: image.getSrcset(
-										[320, 360, 412, 600, 768, 1024, 1280, 1440, 1600, 1920, 2560],
+										[304, 320, 360, 412, 600, 768, 1024, 1280, 1440],
 										{ format: 'jpeg', }
 									),
 									sizes: '(max-width: 768px) 100vw, 304px',
 								}) }}>
-								<img class="team__image team__image--front" src={{item.image}} alt={{item.teamName}} loading="lazy">
+								<img class="team__image team__image--front" src={{item.image}} alt={{item.teamName}} width={{image.width}} height={{image.height}} loading="lazy">
 							</picture>
 						</div>
 						<div class="team__text">
@@ -55,10 +55,8 @@
 					</div>
 				{% elseif item.type.handle == 'stat' %}
 					<div class="stat__item">
-						{# <div class="stat__item-inner"> #}
 						<div class="stat__digit">{{ item.teamStatDigit}}</div>
 						<div class="stat__description">{{ item.teamStatDescription}}</div>
-						{# </div> #}
 					</div>
 				{% endif %}  
 			{% endfor %}
