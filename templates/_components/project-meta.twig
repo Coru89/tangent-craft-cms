@@ -19,8 +19,8 @@
 					{% set tags = entry.projectsTags.all() %}
 					
 					{% for item in tags %}
-						<li class="meta__link-item">
-							<a href="" class="meta__link">{{item.title}}</a>{% if loop.last == false %},{% endif %}
+						<li class="meta-item">
+							{{item.title}}{% if loop.last == false %},{% endif %}
 						</li>
 					{% endfor %}
 				</ul>
@@ -28,17 +28,17 @@
 
 			<div class="meta__column">
 				<div class="meta__label">Services</div>
-				{# <ul class="meta__list">
-					<li class="meta__link-item">
-						<a href="" class="meta__link">item here</a>
-					</li>
-					<li class="meta__link-item">
-						<a href="" class="meta__link">item here</a>
-					</li>
-					<li class="meta__link-item">
-						<a href="" class="meta__link">item here</a>
-					</li>
-				</ul> #}
+				<ul class="meta__list">
+					{% if entry.projectsRelatedServices | length %}
+						{% set tags = entry.projectsRelatedServices.all() %}
+						
+						{% for item in tags %}
+							<li class="meta__link-item">
+								<a href={{item.path}} class="meta__link">{{item.title}}</a>{% if loop.last == false %},{% endif %}
+							</li>
+						{% endfor %}
+					{% endif %}
+				</ul> 
 			</div>
 		</div>
 

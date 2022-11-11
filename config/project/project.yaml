@@ -1,4 +1,4 @@
-dateModified: 1668145203
+dateModified: 1668154332
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -42,12 +42,9 @@ meta:
     1c775643-0aac-4173-9282-6c3dafa2e85f: 'Image Behavior' # Image Behavior
     1db92dd4-db41-4f28-827e-d5fbbc19a4eb: 'Telephone Link URL' # Telephone Link URL
     1e3b5809-5a23-4d9c-ae0b-afe84f958383: 'Image and Text Panel' # Image and Text Panel
-    1fa73bea-e392-4dad-b407-5a15f60fdf3a: Hero # Hero
     2b2271de-7d81-4a96-8a7d-a22ee9982c33: Description # Description
     2c098049-a68a-47fd-a4e2-21c2b59e38ae: Tagline # Tagline
     2ce30b21-fd7e-48cb-9035-15fdf918f29e: Video # Video
-    2d067362-f285-412b-884e-f4aec2728d6c: 'Related Projects' # Related Projects
-    2f8f0fd8-f124-414e-840b-13df0e306b12: 'Projects Rollup' # Projects Rollup
     3a25d975-5d0c-431a-94d6-a3a578faebf1: 'Primary Navigation' # Primary Navigation
     3a66029f-ef5b-468f-933e-ed82347b358b: Subject # Subject
     3be11231-26fa-497b-8791-d2e78eb7493b: 'Image Position' # Image Position
@@ -93,6 +90,7 @@ meta:
     47dc5f60-5afa-437b-9370-a9b213c9ab47: 'Projects Filter' # Projects Filter
     48f6d6ac-c949-4690-9375-e750acbee372: 'Link Text' # Link Text
     55aeb36a-1a23-40a5-b308-cd2b88181da7: 'Link Text' # Link Text
+    57ab0089-120f-4527-8a8b-7c4ca8f96874: Services # Services
     66e0079e-3e32-43e4-8854-46a7567dfdc3: 'Articles Category' # Articles Category
     66f3e21d-e765-45d3-8f6f-dcddecf9e2af: 'Projects Limit' # Projects Limit
     67bffa1c-524b-4aa7-9d5c-59dd14717926: 'Title Right' # Title Right
@@ -105,12 +103,11 @@ meta:
     74ca99f7-d587-4651-ac47-2742f32ea85f: Title # Title
     083bb327-4c9f-4082-befb-de9729e351d9: 'Sub Title' # Sub Title
     83e41cef-d64a-47e2-9d9e-ecd08cdb2829: 'Tangent Services' # Tangent Services
+    84e08e65-309b-4656-bf18-ffe1057f7379: Path # Path
     86bc8e7a-cd28-4c53-b542-4c88a24dc76c: 'Sub Title' # Sub Title
     87b91c84-b88d-413a-899d-51d555390e33: Subject # Subject
-    89e77aea-7873-4e14-973d-a20e61ecb572: 'Text Columns' # Text Columns
     95e17c5c-5cc4-4035-a138-fba1add5c711: Content # Content
     96f358ab-f9f7-4e0f-83ff-26c351c4ffaa: Video # Video
-    98b25ffa-a661-4027-bbdc-44c70a454462: 'Image and Text Panel' # Image and Text Panel
     99f31099-70b9-4d16-9b42-ffd5ab7bba89: 'Sub Heading' # Sub Heading
     112efcad-1a5a-40bd-87f8-dc0ea2e5f742: Subtitle # Subtitle
     167db148-a36c-4eb2-8da4-85676831d3f1: 'Footer Link' # Footer Link
@@ -135,6 +132,7 @@ meta:
     1464aa75-afee-4de6-8db0-67994226a779: 'Company Links' # Company Links
     1664b5ae-26d9-489d-806f-92bf711be8c7: Heading # Heading
     2070cdb0-2bf5-4ec9-bcc2-7086f75c8f29: 'Text Position' # Text Position
+    4286b563-2204-41e7-b3ef-832fb11cd7e1: 'Related Services' # Related Services
     4554b864-9bc7-4e0d-9a92-41307f4cef13: Projects # Projects
     005220a4-ab87-4642-b55a-e04e0fb6e503: Default # Default
     5663a898-2246-4b0e-bd1f-a2d7e7c83d78: Title # Title
@@ -145,7 +143,6 @@ meta:
     9126f58d-d92d-42a3-b976-80161de3a478: 'Rollup Image' # Rollup Image
     18995cfd-16c6-457d-8ead-6dadaf3f1d09: Video # Video
     20318baf-14d6-49f8-964e-a646e56d5446: Footer # Footer
-    024419d5-0e91-499a-8b08-b35392a91d6e: 'Content Panel' # Content Panel
     52756a4b-7e10-4fec-a57a-8599921de625: Company # Company
     64868fe3-409c-48a4-988b-b52ac547cd98: 'Contact Link URL' # Contact Link URL
     82543b94-e029-479e-87c5-9a486bd77e1f: Articles # Articles
@@ -158,7 +155,6 @@ meta:
     277862de-1b83-406a-a0bf-a30726615b44: 'Services Rollup Image' # Services Rollup Image
     312438a4-60cf-4fd0-85e1-2146d8d36657: Common # Common
     348809a3-b71e-4ab4-ba64-0953b1159392: 'Service Links' # Service Links
-    398317bc-4928-48f7-a575-f5323ca2a70e: 'Image Panel' # Image Panel
     425293cb-cfab-442c-98cd-d824660ea3df: 'Footer Line' # Footer Line
     512736c9-b13f-45b8-b3d7-4d96d3c07397: 'Super Title' # Super Title
     818276ab-339c-4835-80cf-0d925ad564cc: 'Hero Link Url' # Hero Link Url
@@ -208,7 +204,6 @@ meta:
     db62a3b5-a50d-4140-9a44-5fda6bbf4455: Heading # Heading
     decc83c4-cef5-4022-83d6-300cd31ed6aa: 'Content Panel' # Content Panel
     decd8b6d-bb52-417b-9572-0a9e873b774c: Content # Content
-    df5feffa-a83a-4b14-9c2f-f1529461780b: 'Content Home' # Content Home
     df30ab7d-bb49-4ad9-8b01-4d6d1c02d261: Heading # Heading
     dfb5fe6a-ff67-4c22-97b3-03cb427ed972: 'Project Slug' # Project Slug
     e3fecf8d-b1f3-4fb7-9de4-79e27606ee2c: 'Related Projects' # Related Projects

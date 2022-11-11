@@ -1,0 +1,14 @@
+columnSuffix: fibzrxfx
+contentColumnType: string(255)
+fieldGroup: 312438a4-60cf-4fd0-85e1-2146d8d36657 # Common
+handle: path
+instructions: null
+name: Path
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

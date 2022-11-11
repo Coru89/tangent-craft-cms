@@ -1,0 +1,49 @@
+fieldLayouts:
+  2f8889b4-6beb-49b0-9fe2-57ae5ccf39f0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 4ad734bb-5c4d-4794-af88-453df2735167
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 84e08e65-309b-4656-bf18-ffe1057f7379 # Path
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cd41ce2d-0cd1-4f8c-9653-af7fe756f599
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f217aa67-5a72-4bf0-aa60-989f26e1e154
+        userCondition: null
+handle: services
+name: Services
