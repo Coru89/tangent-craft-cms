@@ -79,18 +79,30 @@ $block: 'related-projects';
    }
 
    &__inner {
-      overflow: hidden;
-      background-position: center;  
-      background-repeat: no-repeat;  
-      background-size: cover;
-      height: 100%;  
-      padding-bottom: 60%;
       position: relative;
 
       &--no-image {
          padding-bottom: 60%;
       }
    }
+
+   &__picture {
+		background-color: $grey;
+		display: block;
+		height: 0;
+		overflow: hidden;
+		padding-bottom: 63.5%;
+		position: relative;
+	}
+
+	&__image {
+		display: block;
+		height: auto;
+		width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+	}
 
    &__overlay {
       width: 100%;

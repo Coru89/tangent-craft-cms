@@ -4,16 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b589660a48c23707f2dff37fa3c60d61",
+    "content-hash": "e84525b07d07884e702478fd19b484ea",
     "packages": [
         {
             "name": "albertofem/rsync-lib",
             "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/albertofem/rsync-lib.git",
-                "reference": "6f7e31a15d5a2fe712136c367a35d2599bb5dbe5"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/albertofem/rsync-lib/zipball/6f7e31a15d5a2fe712136c367a35d2599bb5dbe5",
@@ -22,9 +17,6 @@
             },
             "require": {
                 "php": ">=5.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": ">=4.0,<6"
             },
             "type": "library",
             "extra": {
@@ -37,7 +29,6 @@
                     "AFM": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -52,10 +43,6 @@
             "keywords": [
                 "rsync library"
             ],
-            "support": {
-                "issues": "https://github.com/albertofem/rsync-lib/issues",
-                "source": "https://github.com/albertofem/rsync-lib/tree/master"
-            },
             "time": "2018-01-13T20:13:12+00:00"
         },
         {
@@ -1222,24 +1209,16 @@
         },
         {
             "name": "fortrabbit/craft-auto-migrate",
-            "version": "2.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fortrabbit/craft-auto-migrate.git",
-                "reference": "f87d5e4836f0a472f85e0f5e0fa9cecccf17becd"
-            },
+            "version": "2.5.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fortrabbit/craft-auto-migrate/zipball/f87d5e4836f0a472f85e0f5e0fa9cecccf17becd",
-                "reference": "f87d5e4836f0a472f85e0f5e0fa9cecccf17becd",
+                "url": "https://api.github.com/repos/fortrabbit/craft-auto-migrate/zipball/4d0d1a846ffb4282e55c1ee8f79ae2a70a247b03",
+                "reference": "4d0d1a846ffb4282e55c1ee8f79ae2a70a247b03",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
                 "php": "^8.0"
-            },
-            "require-dev": {
-                "composer/composer": "^1.10.22 || ^2.1.9"
             },
             "type": "composer-plugin",
             "extra": {
@@ -1250,7 +1229,6 @@
                     "fortrabbit\\CraftAutoMigrate\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1266,41 +1244,28 @@
                 "craftcms",
                 "development"
             ],
-            "support": {
-                "issues": "https://github.com/fortrabbit/craft-auto-migrate/issues",
-                "source": "https://github.com/fortrabbit/craft-auto-migrate/tree/2.4.0"
-            },
-            "time": "2022-05-25T10:13:09+00:00"
+            "time": "2022-11-08T08:39:35+00:00"
         },
         {
             "name": "fortrabbit/craft-copy",
-            "version": "2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fortrabbit/craft-copy.git",
-                "reference": "920790b301a5739ce7426aad84b7f5e680a4c677"
-            },
+            "version": "2.2.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fortrabbit/craft-copy/zipball/920790b301a5739ce7426aad84b7f5e680a4c677",
-                "reference": "920790b301a5739ce7426aad84b7f5e680a4c677",
+                "url": "https://api.github.com/repos/fortrabbit/craft-copy/zipball/aaac5c7a994f27b5dc8b5bf192003d273d97909d",
+                "reference": "aaac5c7a994f27b5dc8b5bf192003d273d97909d",
                 "shasum": ""
             },
             "require": {
                 "albertofem/rsync-lib": "^1.0.0",
                 "craftcms/cms": "^4.0.0",
                 "craftcms/plugin-installer": "^1.5.6",
-                "fortrabbit/craft-auto-migrate": "^2.4.0",
+                "fortrabbit/craft-auto-migrate": "^2.5.0",
                 "ostark/yii2-artisan-bridge": "^1.3.1",
                 "php": "^8.0.2",
                 "symfony/process": "^5.0 | ^6.0",
                 "symfony/yaml": "^4.2 | ^5.0",
                 "symplify/git-wrapper": "^10.0",
                 "vlucas/phpdotenv": "^3.4.0 | ^5.4"
-            },
-            "require-dev": {
-                "craftcms/phpstan": "dev-main",
-                "craftcms/rector": "dev-main"
             },
             "bin": [
                 "bin/craft-copy-import-db.php",
@@ -1319,7 +1284,6 @@
                     "fortrabbit\\Copy\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1331,7 +1295,7 @@
             ],
             "description": "Tooling for Craft on fortrabbit",
             "keywords": [
-                "Craft",
+                "craft",
                 "craftcms",
                 "deployment",
                 "git",
@@ -1339,19 +1303,13 @@
             ],
             "support": {
                 "docs": "https://github.com/fortrabbit/craft-copy/blob/master/README.md",
-                "issues": "https://github.com/fortrabbit/craft-copy/issues",
-                "source": "https://github.com/fortrabbit/craft-copy/tree/2.1.1"
+                "issues": "https://github.com/fortrabbit/craft-copy/issues"
             },
-            "time": "2022-06-16T11:00:28+00:00"
+            "time": "2022-11-08T08:48:30+00:00"
         },
         {
             "name": "graham-campbell/result-type",
             "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/GrahamCampbell/Result-Type.git",
-                "reference": "a878d45c1914464426dc94da61c9e1d36ae262a8"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/a878d45c1914464426dc94da61c9e1d36ae262a8",
@@ -1362,16 +1320,12 @@
                 "php": "^7.2.5 || ^8.0",
                 "phpoption/phpoption": "^1.9"
             },
-            "require-dev": {
-                "phpunit/phpunit": "^8.5.28 || ^9.5.21"
-            },
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "GrahamCampbell\\ResultType\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1389,20 +1343,6 @@
                 "Result Type",
                 "Result-Type",
                 "result"
-            ],
-            "support": {
-                "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
-                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/graham-campbell/result-type",
-                    "type": "tidelift"
-                }
             ],
             "time": "2022-07-30T15:56:11+00:00"
         },
@@ -1652,11 +1592,11 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v9.38.0",
+            "version": "v9.39.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/9d98beda3f50251321565b77455687794e47dfcc",
-                "reference": "9d98beda3f50251321565b77455687794e47dfcc",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/1729899f8e37840738d1c37bb110da5b09509990",
+                "reference": "1729899f8e37840738d1c37bb110da5b09509990",
                 "shasum": ""
             },
             "require": {
@@ -1693,11 +1633,11 @@
             ],
             "description": "The Illuminate Collections package.",
             "homepage": "https://laravel.com",
-            "time": "2022-10-29T16:25:53+00:00"
+            "time": "2022-11-07T11:40:33+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v9.38.0",
+            "version": "v9.39.0",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/conditionable/zipball/5b40f51ccb07e0e7b1ec5559d8db9e0e2dc51883",
@@ -1733,7 +1673,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v9.38.0",
+            "version": "v9.39.0",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/contracts/zipball/c7cc6e6198cac6dfdead111f9758de25413188b7",
@@ -1771,7 +1711,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v9.38.0",
+            "version": "v9.39.0",
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/macroable/zipball/e3bfaf6401742a9c6abca61b9b10e998e5b6449a",
@@ -2072,11 +2012,6 @@
         {
             "name": "nette/utils",
             "version": "v3.2.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/utils.git",
-                "reference": "02a54c4c872b99e4ec05c4aec54b5a06eb0f6368"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/nette/utils/zipball/02a54c4c872b99e4ec05c4aec54b5a06eb0f6368",
@@ -2088,11 +2023,6 @@
             },
             "conflict": {
                 "nette/di": "<3.0.6"
-            },
-            "require-dev": {
-                "nette/tester": "~2.0",
-                "phpstan/phpstan": "^1.0",
-                "tracy/tracy": "^2.3"
             },
             "suggest": {
                 "ext-gd": "to use Image",
@@ -2114,7 +2044,6 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause",
                 "GPL-2.0-only",
@@ -2148,20 +2077,11 @@
                 "utility",
                 "validation"
             ],
-            "support": {
-                "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v3.2.8"
-            },
             "time": "2022-09-12T23:36:20+00:00"
         },
         {
             "name": "ostark/yii2-artisan-bridge",
             "version": "1.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ostark/yii2-artisan-bridge.git",
-                "reference": "da8e75e0da4a9249cc77e785042f19ffa9c3a667"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/ostark/yii2-artisan-bridge/zipball/da8e75e0da4a9249cc77e785042f19ffa9c3a667",
@@ -2179,7 +2099,6 @@
                     "ostark\\Yii2ArtisanBridge\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2198,12 +2117,6 @@
                 "symfony",
                 "yii2"
             ],
-            "support": {
-                "docs": "https://github.com/ostark/yii2-artisan-bridge",
-                "email": "os@fortrabbit.com",
-                "issues": "https://github.com/ostark/yii2-artisan-bridge/issues",
-                "source": "https://github.com/ostark/yii2-artisan-bridge"
-            },
             "time": "2020-08-17T13:49:34+00:00"
         },
         {
@@ -2366,11 +2279,6 @@
         {
             "name": "phpoption/phpoption",
             "version": "1.9.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
@@ -2379,10 +2287,6 @@
             },
             "require": {
                 "php": "^7.2.5 || ^8.0"
-            },
-            "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.8",
-                "phpunit/phpunit": "^8.5.28 || ^9.5.21"
             },
             "type": "library",
             "extra": {
@@ -2399,7 +2303,6 @@
                     "PhpOption\\": "src/PhpOption/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -2421,20 +2324,6 @@
                 "option",
                 "php",
                 "type"
-            ],
-            "support": {
-                "issues": "https://github.com/schmittjoh/php-option/issues",
-                "source": "https://github.com/schmittjoh/php-option/tree/1.9.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpoption/phpoption",
-                    "type": "tidelift"
-                }
             ],
             "time": "2022-07-30T15:51:26+00:00"
         },
@@ -4318,11 +4207,6 @@
         {
             "name": "symplify/git-wrapper",
             "version": "10.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symplify/git-wrapper.git",
-                "reference": "8a33a1212025220d72ebe302a828296f6695dc15"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/symplify/git-wrapper/zipball/8a33a1212025220d72ebe302a828296f6695dc15",
@@ -4363,12 +4247,6 @@
                 "symplify/template-phpstan-compiler": "<10.1.2",
                 "symplify/vendor-patches": "<10.1.2"
             },
-            "require-dev": {
-                "ondram/ci-detector": "^4.1",
-                "phpunit/phpunit": "^9.5",
-                "psr/log": "^1.1",
-                "symplify/smart-file-system": "^10.1.2"
-            },
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -4380,7 +4258,6 @@
                     "Symplify\\GitWrapper\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -4390,20 +4267,6 @@
                 "git",
                 "git wrapper"
             ],
-            "support": {
-                "source": "https://github.com/symplify/git-wrapper/tree/10.1.2"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/rectorphp",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/tomasvotruba",
-                    "type": "github"
-                }
-            ],
-            "abandoned": "gitonomy/gitlib",
             "time": "2022-03-06T19:09:17+00:00"
         },
         {
@@ -4577,11 +4440,6 @@
         {
             "name": "vlucas/phpdotenv",
             "version": "v5.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "1a7ea2afc49c3ee6d87061f5a233e3a035d0eae7"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/1a7ea2afc49c3ee6d87061f5a233e3a035d0eae7",
@@ -4596,11 +4454,6 @@
                 "symfony/polyfill-ctype": "^1.23",
                 "symfony/polyfill-mbstring": "^1.23.1",
                 "symfony/polyfill-php80": "^1.23.1"
-            },
-            "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.4.1",
-                "ext-filter": "*",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.30 || ^9.5.25"
             },
             "suggest": {
                 "ext-filter": "Required to use the boolean validator."
@@ -4620,7 +4473,6 @@
                     "Dotenv\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -4641,20 +4493,6 @@
                 "dotenv",
                 "env",
                 "environment"
-            ],
-            "support": {
-                "issues": "https://github.com/vlucas/phpdotenv/issues",
-                "source": "https://github.com/vlucas/phpdotenv/tree/v5.5.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/GrahamCampbell",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/vlucas/phpdotenv",
-                    "type": "tidelift"
-                }
             ],
             "time": "2022-10-16T01:01:54+00:00"
         },

@@ -1,0 +1,19 @@
+columnSuffix: xyatsrtm
+contentColumnType: text
+fieldGroup: 244f1707-ba7a-4f8d-b065-23e338584d19 # Team
+handle: teamJobTitle
+instructions: null
+name: 'Job Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

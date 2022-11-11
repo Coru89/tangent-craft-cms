@@ -1,0 +1,91 @@
+fieldLayouts:
+  918338b1-8be2-4593-a102-4f1e0a23ce11:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c1f47a81-2ca9-4a65-a60c-93f12e6aa689
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 697d92fa-8d41-4b8a-aa0e-2ef464d14a9a # Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31b58ffd-0bd0-47cb-8e55-6b466b90798a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 24fd1d61-f98f-4762-87d5-05ef6784ddac # Job Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ec2baff-e557-417b-8b12-87c7c3256531
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a0ab7fa0-15b2-45de-af75-c3a89ef94246 # Image Front
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7efdb9ce-8645-4756-9229-c796f60b0bb6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 511cc746-7196-4f29-a18f-7282e709e701 # Image Back
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b753e4b-ec06-43d2-8e20-2cde43280929
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f92a8cc9-7268-4f9b-aa5b-3b3bb8729563
+        userCondition: null
+handle: default
+hasTitleField: false
+name: Default
+section: 237871a3-dd0a-4e82-b181-ed59a7603c8e # Team
+sortOrder: 1
+titleFormat: '{teamName}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

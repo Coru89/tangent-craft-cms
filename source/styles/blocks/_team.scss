@@ -1,0 +1,100 @@
+@import '../reference/reference';
+
+$block: 'team';
+$stat: 'stat';
+
+.#{$block} {
+    padding: 3rem 0;
+
+    &__inner {
+        display: grid;
+        gap: 2rem;
+
+        @include media-min(md) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @include media-min(lg) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    &__item {
+        &:hover {
+            .#{$block}__picture-container {
+                transform: rotateY(180deg);
+            }
+        }
+    }
+
+    &__picture {
+        &-container {
+            position: relative;
+            transform-style: preserve-3d;
+            transition: all .8s cubic-bezier(.34,1.45,.7,1);
+        }
+
+        &--front {
+            backface-visibility: hidden;
+            border-radius: 0.1rem;
+            left: 0;
+            position: relative;
+            top: 0;
+            z-index: -1;
+        }
+
+        &--back {
+            backface-visibility: hidden;
+            border-radius: 0.1rem;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            text-align: center;
+            top: 0;
+            transform: rotateY(180deg);
+            width: 100%;
+            z-index: 1;
+        }
+    }
+
+    &__image {
+        width: 100%;
+    }
+
+    &__text {
+        padding: 1.5rem;
+    }
+
+    &__title {
+        color: $purple-dark;
+        font-weight: 300;
+    }
+}
+
+.#{$stat} {
+    &__item {
+        display: flex;
+        flex-direction: column;
+        height: calc(100% - 111.5px);
+        justify-content: center;
+
+        @include media-min(md) {
+            height: calc(100% - 137px);
+        }
+    }
+
+    &__digit {
+        font-family: "PT Mono",sans-serif;
+        font-size: 6.25rem;
+        letter-spacing: -5px;
+        line-height: 1.04;
+        text-align: center;
+    }
+
+    &__description {
+        font-family: "PT Mono",sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.33;
+        text-align: center;
+    }
+}

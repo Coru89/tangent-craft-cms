@@ -1,12 +1,12 @@
 defaultPlacement: end
 enableVersioning: true
-handle: test
-name: Test
+handle: company
+name: Company
 propagationMethod: all
 siteSettings:
   ada35ad0-4d42-4ca8-bed9-59ff6816f33f: # Tangent Services
     enabledByDefault: true
     hasUrls: true
-    template: _pages/interior_test.twig
-    uriFormat: 'services/{slug}'
+    template: _pages/interior_company.twig
+    uriFormat: company
 type: single

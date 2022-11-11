@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: team
+name: Team
+propagationMethod: all
+siteSettings:
+  ada35ad0-4d42-4ca8-bed9-59ff6816f33f: # Tangent Services
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 322ad593-7f7c-45e3-a541-e4dd284c50f8
+type: structure

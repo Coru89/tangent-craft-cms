@@ -1,0 +1,67 @@
+fieldLayouts:
+  896f2b04-4269-4360-a1ed-1ecf12c24345:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 38f1da6d-fb33-4470-8be0-78bd5d0cd40b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9b621c92-31f6-4a6d-a754-ce4987fae7a3 # Stat Digit
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9823fc75-75ba-4ec0-8c6d-96cd70a67e32
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3c39a42e-f679-45e3-9e08-2bf5c8db0852 # Stat Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73119737-1920-4274-81c6-a5803baaaf98
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 177f3323-39a8-4816-aae2-c3c05acedd2a
+        userCondition: null
+handle: stat
+hasTitleField: true
+name: Stat
+section: 237871a3-dd0a-4e82-b181-ed59a7603c8e # Team
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -3,7 +3,7 @@
     "craftcms/ckeditor": "2.0.0",
     "craftcms/cms": "4.3.1",
     "ether/tags": "2.0.0",
-    "fortrabbit/craft-copy": "^2.1",
+    "fortrabbit/craft-copy": "2.2.0",
     "verbb/field-manager": "3.0.4",
     "vlucas/phpdotenv": "^5.4.0"
   },

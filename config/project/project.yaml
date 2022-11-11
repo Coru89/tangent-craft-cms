@@ -1,4 +1,4 @@
-dateModified: 1667973003
+dateModified: 1668145203
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -18,6 +18,13 @@ fs:
       path: '@webroot/services'
     type: craft\fs\Local
     url: '@web/services'
+  team:
+    hasUrls: true
+    name: Team
+    settings:
+      path: '@webroot/team'
+    type: craft\fs\Local
+    url: '@web/team'
   uploads:
     hasUrls: true
     name: Uploads
@@ -27,7 +34,7 @@ fs:
     url: '@web/uploads'
 meta:
   __names__:
-    0c2a4468-23fd-410a-ac25-92a49d710291: Author
+    0c2a4468-23fd-410a-ac25-92a49d710291: Author # Author
     0eff976d-ffc1-473d-93ad-a835e1f0c01f: 'Super Title' # Super Title
     1a47a2a1-be15-45b5-b8b4-73078d135b00: Heading # Heading
     1b4cc869-d062-4e3e-889e-419528ae7deb: Hero # Hero
@@ -45,6 +52,7 @@ meta:
     3a66029f-ef5b-468f-933e-ed82347b358b: Subject # Subject
     3be11231-26fa-497b-8791-d2e78eb7493b: 'Image Position' # Image Position
     3c29a686-fff4-421f-a776-99099065609a: 'Super Title' # Super Title
+    3c39a42e-f679-45e3-9e08-2bf5c8db0852: 'Stat Description' # Stat Description
     3dc03b28-34bb-4082-a680-4fe41216a6d6: 'Image Behavior' # Image Behavior
     3dda2d94-4b93-4b4b-8a71-7d69640ddf22: 'Text Position' # Text Position
     3f64dd4b-f512-46bb-9f6a-4a4b9afb2810: 'Rollup Description' # Rollup Description
@@ -70,6 +78,7 @@ meta:
     8e2d0d22-60a3-43c4-9b2c-06542b3c09db: 'Subject Left' # Subject Left
     8ede4e2a-8caa-4df3-9feb-0181f0d54467: 'Text Columns' # Text Columns
     9af4d796-46ae-40c3-92dc-6e4cab4780db: Hero # Hero
+    9b621c92-31f6-4a6d-a754-ce4987fae7a3: 'Stat Digit' # Stat Digit
     9d4aca46-ff8f-4fda-a862-f4182bb01391: 'Content Left' # Content Left
     09ddce29-589a-4765-945a-81708dbd94ac: Title # Title
     10f93cc5-71d7-459c-87cc-c2d79bd2e6eb: 'Text Position' # Text Position
@@ -77,6 +86,7 @@ meta:
     15e254f0-a128-4ec1-88b9-b754fcb121ee: 'Super Title' # Super Title
     17fb87a7-ccf9-42fb-a8f7-1bf0f4f55811: 'Email Link Text' # Email Link Text
     24a60f70-706b-44bf-a172-32e4b8e5cec1: Heading # Heading
+    24fd1d61-f98f-4762-87d5-05ef6784ddac: 'Job Title' # Job Title
     28a1c353-7659-4d04-b2e2-a258326489e1: Image # Image
     28e3771c-eac9-4dab-be8f-b640e70b4e10: Title # Title
     39ce3f74-ea40-48bd-a6e1-3251031cee8b: Title # Title
@@ -104,13 +114,16 @@ meta:
     99f31099-70b9-4d16-9b42-ffd5ab7bba89: 'Sub Heading' # Sub Heading
     112efcad-1a5a-40bd-87f8-dc0ea2e5f742: Subtitle # Subtitle
     167db148-a36c-4eb2-8da4-85676831d3f1: 'Footer Link' # Footer Link
+    244f1707-ba7a-4f8d-b065-23e338584d19: Team # Team
     318fb216-96ea-4db1-8ea1-95540e98ee1f: 'Project Slug' # Project Slug
     392a5840-4224-4dc1-8d57-0296ac0dc4d9: 'Project Slug' # Project Slug
     475c7edd-ba22-46da-8dca-8dc985338cb2: 'Services Rollup Description' # Services Rollup Description
+    511cc746-7196-4f29-a18f-7282e709e701: 'Image Back' # Image Back
     560d95b7-aa2f-434d-a4c6-e4b4ae11c104: 'Link URL' # Link URL
-    580ead99-292c-46b6-8a9d-92d5a33da487: Test # Test
+    580ead99-292c-46b6-8a9d-92d5a33da487: Company # Company
     597cef0a-b5bd-4e4c-aec4-2fe935e3b539: Title # Title
     690cb815-b85f-467e-a047-43e23b08ee2b: Video # Video
+    697d92fa-8d41-4b8a-aa0e-2ef464d14a9a: Name # Name
     711fa1de-ef75-4399-bbfe-badcb165f8ec: 'Projects Limit' # Projects Limit
     782e1b6a-790a-43e7-ac90-96687597e319: Image # Image
     0802bee3-675f-4232-bd79-25b304c1a052: 'Projects Limit' # Projects Limit
@@ -126,13 +139,14 @@ meta:
     005220a4-ab87-4642-b55a-e04e0fb6e503: Default # Default
     5663a898-2246-4b0e-bd1f-a2d7e7c83d78: Title # Title
     6333f983-d637-4788-90b6-722a343922f6: 'Projects Rollup' # Projects Rollup
+    7985ea83-d7ac-42b3-9801-dc8348a43ad2: Default # Default
     8007fc25-3d33-4ee5-ade0-cadfb61b1591: 'Image Position' # Image Position
     8770da8e-c789-47dc-b7d1-fd7d92d1a97c: 'Call To Action Panel' # Call To Action Panel
     9126f58d-d92d-42a3-b976-80161de3a478: 'Rollup Image' # Rollup Image
     18995cfd-16c6-457d-8ead-6dadaf3f1d09: Video # Video
     20318baf-14d6-49f8-964e-a646e56d5446: Footer # Footer
     024419d5-0e91-499a-8b08-b35392a91d6e: 'Content Panel' # Content Panel
-    52756a4b-7e10-4fec-a57a-8599921de625: Test # Test
+    52756a4b-7e10-4fec-a57a-8599921de625: Company # Company
     64868fe3-409c-48a4-988b-b52ac547cd98: 'Contact Link URL' # Contact Link URL
     82543b94-e029-479e-87c5-9a486bd77e1f: Articles # Articles
     84950cbc-dc7b-4aa4-9c7e-884d62b0e417: 'Title Right' # Title Right
@@ -140,6 +154,7 @@ meta:
     91458f3d-5347-4b47-a507-b691e9a17943: 'Navigation Items' # Navigation Items
     98758e9a-baa8-4869-b1d4-3606bc8e2e37: Content # Content
     193943ff-1e5e-4506-a088-6188dbd693ce: Author # Author
+    237871a3-dd0a-4e82-b181-ed59a7603c8e: Team # Team
     277862de-1b83-406a-a0bf-a30726615b44: 'Services Rollup Image' # Services Rollup Image
     312438a4-60cf-4fd0-85e1-2146d8d36657: Common # Common
     348809a3-b71e-4ab4-ba64-0953b1159392: 'Service Links' # Service Links
@@ -154,10 +169,12 @@ meta:
     7166386d-a511-42df-a908-1e859dfba3e2: 'Text Position' # Text Position
     39564368-f8fd-4cc9-b130-190da7c1c62c: Quote # Quote
     87380890-913a-4519-9afb-69424757bfc7: Image # Image
+    a0ab7fa0-15b2-45de-af75-c3a89ef94246: 'Image Front' # Image Front
     a2e99dfb-65fc-4b17-a2c4-71341754c504: 'Footer Address' # Footer Address
     a5b8be6a-fa7e-4457-ba84-2dbf40eac704: 'Filter Tags' # Filter Tags
     a40dfa81-d145-4d0d-98c8-eac1172ccd51: Date # Date
     a97aa0e4-4327-4df6-b22b-e6b13d6e8bc7: 'Link Url' # Link Url
+    a41530fb-a2da-45be-b474-7ad62ace28b9: Team # Team
     aa5b171c-8732-4890-a829-6edd8b58835e: 'Articles Panel Heading' # Articles Panel Heading
     ab49e488-9485-4b3b-87f2-dd0ea10a4725: Caption # Caption
     ac66404b-5c2b-46e4-ae14-a597a755c168: 'Title Left' # Title Left
@@ -200,6 +217,7 @@ meta:
     e65a664f-ff76-4b91-ac28-5180626000e9: 'Content Right' # Content Right
     e91f8199-f095-4d9b-bfde-6a952581f45c: 'Title Left' # Title Left
     e1934e78-f05a-4dd4-814a-63a11c149db2: 'Link Text' # Link Text
+    e6169c68-dd86-4629-a37c-55aca990fd94: Stat # Stat
     ea4e97b8-5d2c-431c-ade8-54d0dba16497: 'Link URL' # Link URL
     eb38f97d-70d0-44c2-8c89-b868fc2322d3: Summary # Summary
     eb57a3e3-8dc3-4967-98b6-8e0571db613a: 'Articles Rollup' # Articles Rollup

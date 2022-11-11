@@ -182,50 +182,30 @@
 					{% set project = craft.entries.section('projects').slug(slug).one() %}
 
 					<div id="project-item" class="related-projects__item">
+						{% set image = project.projectsRollupImage.one() %}
 						<a class="related-projects__anchor" href={{ project.uri }}>
-							{% set image = project.projectsRollupImage.one() %}
-							{% set transform1x = {
-									format: 'webp',
-									mode: 'crop',
-									width: 650,
-									quality: 85
-								} %}
-							{% set transform2x = {
-									format: 'webp',
-									mode: 'crop',
-									width: 1300,
-									quality: 85
-								} %}
-							{% set transform3x = {
-									format: 'webp',
-									mode: 'crop',
-									width: 1950,
-									quality: 85
-								} %}
-							{% set transformFallback = {
-									format: 'jpeg',
-									mode: 'crop',
-									width: 650,
-									quality: 80
-								} %}
-
-							<div class="related-projects__inner" {% if image %} style="
-									background-image: url({{image.getUrl(transformFallback)}});
-									background-image: -webkit-image-set(
-										url({{image.getUrl(transform1x)}}) 1x,
-										url({{image.getUrl(transform2x)}}) 2x,
-										url({{image.getUrl(transform3x)}}) 3x
-									);
-									background-image: image-set(
-										url({{image.getUrl(transform1x)}}) 1x,
-										url({{image.getUrl(transform2x)}}) 2x,
-										url({{image.getUrl(transform3x)}}) 3x
-									)" {% endif %}
-								>
+							<picture class="related-projects__picture">
 								<div class="related-projects__overlay">
-									<p class="related-projects__description">{{ project.projectsRollupDescription }}</p>
+									<p class="related-projects__description">{{project.projectsRollupDescription}}</p>
 								</div>
-							</div>
+								<source {{ attr({
+									type: 'image/webp',
+									srcset: image.getSrcset(
+										[320, 360, 412, 434, 600, 768, 1024, 1280, 1440],
+										{ format: 'webp', }
+									),
+									sizes: '(max-width: 768px) 100vw, (max-width: 1052px) 50vw, 434px', 
+								}) }}>
+								<source {{ attr({
+									type: 'image/jpeg',
+									srcset: image.getSrcset(
+										[320, 360, 412, 434, 600, 768, 1024, 1280, 1440],
+										{ format: 'jpeg', }
+									),
+									sizes: '(max-width: 768px) 100vw, (max-width: 1052px) 50vw, 434px', 
+								}) }}>
+								<img class="related-projects__image" src={{image.url}} width={{image.width}} height={{image.height}} alt="{{ image.alt }}" loading="lazy"/>
+							</picture>
 						</a>
 					</div>
 				{% endfor %}
@@ -254,29 +234,28 @@
 						<div id="project-item" class="featured-projects__item {{cssFilterClassess | lower}}">
 							{% set image = project.projectsRollupImage.one() %}
 							<a class="featured-projects__anchor" href={{ project.uri }}>
-									<picture class="featured-projects__picture">
-										<div class="featured-projects__overlay">
-											<p class="featured-projects__description">{{project.projectsRollupDescription}}</p>
-										</div>
-										<source {{ attr({
-											type: 'image/webp',
-											srcset: image.getSrcset(
-												[320, 360, 412, 434, 600, 768, 1024, 1280, 1440],
-												{ format: 'webp', }
-											),
-											sizes: '(max-width: 768px) 100vw, (max-width: 1052px) 50vw, 434px', 
-										}) }}>
-										<source {{ attr({
-											type: 'image/jpeg',
-											srcset: image.getSrcset(
-												[320, 360, 412, 434, 600, 768, 1024, 1280, 1440],
-												{ format: 'jpeg', }
-											),
-											sizes: '(max-width: 768px) 100vw, (max-width: 1052px) 50vw, 434px', 
-										}) }}>
-										<img class="featured-projects__image" src={{image.url}} width={{image.width}} height={{image.height}} alt="{{ image.alt }}" loading="lazy"/>
-									</picture>
-
+								<picture class="featured-projects__picture">
+									<div class="featured-projects__overlay">
+										<p class="featured-projects__description">{{project.projectsRollupDescription}}</p>
+									</div>
+									<source {{ attr({
+										type: 'image/webp',
+										srcset: image.getSrcset(
+											[320, 360, 412, 434, 600, 768, 1024, 1280, 1440],
+											{ format: 'webp', }
+										),
+										sizes: '(max-width: 768px) 100vw, (max-width: 1052px) 50vw, 434px', 
+									}) }}>
+									<source {{ attr({
+										type: 'image/jpeg',
+										srcset: image.getSrcset(
+											[320, 360, 412, 434, 600, 768, 1024, 1280, 1440],
+											{ format: 'jpeg', }
+										),
+										sizes: '(max-width: 768px) 100vw, (max-width: 1052px) 50vw, 434px', 
+									}) }}>
+									<img class="featured-projects__image" src={{image.url}} width={{image.width}} height={{image.height}} alt="{{ image.alt }}" loading="lazy"/>
+								</picture>
 							</a>
 						</div>
 					{% endfor %}
