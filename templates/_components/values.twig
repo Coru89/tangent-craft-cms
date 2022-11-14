@@ -1,0 +1,24 @@
+<section class="values">
+	<div class="u-container">
+		<div class="values__inner">
+			<h2 class="values__heading">{{entry.valuesHeading}}</h2>
+			{% if entry.valuesMatrix|length %}
+				{% for block in entry.valuesMatrix.type('values') %}
+					<div class="values__row">
+						{% set image = block.image.one() %}
+						<picture class="values__picture">
+							<source {{ attr({ type: 'image/webp', srcset: image.getSrcset( [320, 360, 412, 600, 768, 1024, 1280, 1440], { format: 'webp', } ), sizes: '(max-width: 544px) 100vw, 25vw' , }) }}>
+							<source {{ attr({ type: 'image/jpeg', srcset: image.getSrcset( [320, 360, 412, 600, 768, 1024, 1280, 1440], { format: 'jpeg', } ), sizes: '(max-width: 544px) 100vw, 25vw' , }) }}>
+							<img class="values__image" src={{image.url}} alt={{image.alt}} width={{image.width}} height={{image.height}} loading="lazy">
+						</picture>
+						<div class="values__text">
+							<h5 class="values__title">{{block.valueTitle}}</h5>
+							<div class="values__summary">{{block.summary}}</div>
+						</div>
+					</div>
+				{% endfor %}
+			{% endif %}
+		</div>
+	</div>
+</section>
+

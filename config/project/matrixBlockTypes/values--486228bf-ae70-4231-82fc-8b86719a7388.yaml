@@ -1,0 +1,137 @@
+field: 19ea1aa2-c9e0-4d79-b0fb-44ee39962600 # Values
+fieldLayouts:
+  958c7bbb-6b1b-48c7-9357-9edfe7958165:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 36a33da4-6d74-4cb6-8775-ff859f01289c # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0614718c-e180-4f8b-a593-94e3415811ed
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 99af00ba-393a-4da3-8fc5-a1f4355fc6d1 # Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 01dc0539-792b-4d6d-9d8c-c4867a1560dd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f1e28fdf-0ee7-45a1-9adc-ade21fb42bac # image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0793c1ad-db53-41e2-87a7-63fed7bd88f1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: becd70b5-d0df-46ea-aeaa-d59e90eca872
+        userCondition: null
+fields:
+  36a33da4-6d74-4cb6-8775-ff859f01289c: # Title
+    columnSuffix: gwinqsub
+    contentColumnType: text
+    fieldGroup: null
+    handle: valueTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  99af00ba-393a-4da3-8fc5-a1f4355fc6d1: # Summary
+    columnSuffix: wqgsewtp
+    contentColumnType: text
+    fieldGroup: null
+    handle: summary
+    instructions: null
+    name: Summary
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f1e28fdf-0ee7-45a1-9adc-ade21fb42bac: # image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:f2ff0c12-9108-4b60-b65e-9effcc913281' # Projects
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:f2ff0c12-9108-4b60-b65e-9effcc913281' # Projects
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: values
+name: Value
+sortOrder: 1

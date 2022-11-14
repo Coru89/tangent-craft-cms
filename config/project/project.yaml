@@ -1,4 +1,4 @@
-dateModified: 1668154332
+dateModified: 1668422957
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -61,6 +61,7 @@ meta:
     5bdd3bf2-3db4-435f-aea7-89660ac769e3: Title # Title
     5de6fb93-f0d9-4e60-8aee-655fff872dbc: Content # Content
     5fec6bae-4077-489c-9b77-47e8c2b7ef80: 'Articles Limit' # Articles Limit
+    6c663cc6-3b87-4ae9-8c64-27167163a9a6: 'Image Box Shadow'
     6c354300-84a9-4804-9311-a0c193b46c01: 'Subject Left' # Subject Left
     6cb4a748-ab1e-45fb-93c9-0264d82a83b2: 'Link URL' # Link URL
     6e68a8b3-7a3c-40b8-b30b-4275fba41e4e: Subject # Subject
@@ -82,10 +83,12 @@ meta:
     12c4284f-ef55-4f05-b11c-ef3e46a06a5b: Client # Client
     15e254f0-a128-4ec1-88b9-b754fcb121ee: 'Super Title' # Super Title
     17fb87a7-ccf9-42fb-a8f7-1bf0f4f55811: 'Email Link Text' # Email Link Text
+    19ea1aa2-c9e0-4d79-b0fb-44ee39962600: Values # Values
     24a60f70-706b-44bf-a172-32e4b8e5cec1: Heading # Heading
     24fd1d61-f98f-4762-87d5-05ef6784ddac: 'Job Title' # Job Title
     28a1c353-7659-4d04-b2e2-a258326489e1: Image # Image
     28e3771c-eac9-4dab-be8f-b640e70b4e10: Title # Title
+    36a33da4-6d74-4cb6-8775-ff859f01289c: Title # Title
     39ce3f74-ea40-48bd-a6e1-3251031cee8b: Title # Title
     47dc5f60-5afa-437b-9370-a9b213c9ab47: 'Projects Filter' # Projects Filter
     48f6d6ac-c949-4690-9375-e750acbee372: 'Link Text' # Link Text
@@ -108,12 +111,14 @@ meta:
     87b91c84-b88d-413a-899d-51d555390e33: Subject # Subject
     95e17c5c-5cc4-4035-a138-fba1add5c711: Content # Content
     96f358ab-f9f7-4e0f-83ff-26c351c4ffaa: Video # Video
+    99af00ba-393a-4da3-8fc5-a1f4355fc6d1: Summary # Summary
     99f31099-70b9-4d16-9b42-ffd5ab7bba89: 'Sub Heading' # Sub Heading
     112efcad-1a5a-40bd-87f8-dc0ea2e5f742: Subtitle # Subtitle
     167db148-a36c-4eb2-8da4-85676831d3f1: 'Footer Link' # Footer Link
     244f1707-ba7a-4f8d-b065-23e338584d19: Team # Team
     318fb216-96ea-4db1-8ea1-95540e98ee1f: 'Project Slug' # Project Slug
     392a5840-4224-4dc1-8d57-0296ac0dc4d9: 'Project Slug' # Project Slug
+    399ae674-015d-4a9a-8d92-ca90c1795e9a: 'Values Heading' # Values Heading
     475c7edd-ba22-46da-8dca-8dc985338cb2: 'Services Rollup Description' # Services Rollup Description
     511cc746-7196-4f29-a18f-7282e709e701: 'Image Back' # Image Back
     560d95b7-aa2f-434d-a4c6-e4b4ae11c104: 'Link URL' # Link URL
@@ -156,6 +161,7 @@ meta:
     312438a4-60cf-4fd0-85e1-2146d8d36657: Common # Common
     348809a3-b71e-4ab4-ba64-0953b1159392: 'Service Links' # Service Links
     425293cb-cfab-442c-98cd-d824660ea3df: 'Footer Line' # Footer Line
+    486228bf-ae70-4231-82fc-8b86719a7388: Value # Value
     512736c9-b13f-45b8-b3d7-4d96d3c07397: 'Super Title' # Super Title
     818276ab-339c-4835-80cf-0d925ad564cc: 'Hero Link Url' # Hero Link Url
     975669f6-1e7a-4565-a122-632b27c87106: Content # Content
@@ -209,6 +215,7 @@ meta:
     e3fecf8d-b1f3-4fb7-9de4-79e27606ee2c: 'Related Projects' # Related Projects
     e6a86a4f-dcd0-4b30-a64c-61c5ad178338: 'Contact Link Text' # Contact Link Text
     e7f7c437-7a08-45bb-99c8-27ddc00ef227: 'Subject Left' # Subject Left
+    e25d9597-2d39-4fe5-b154-40399df3bbc2: Values # Values
     e65a664f-ff76-4b91-ac28-5180626000e9: 'Content Right' # Content Right
     e91f8199-f095-4d9b-bfde-6a952581f45c: 'Title Left' # Title Left
     e1934e78-f05a-4dd4-814a-63a11c149db2: 'Link Text' # Link Text
@@ -223,6 +230,7 @@ meta:
     ee855152-e938-4c52-a926-8b120aca878a: 'Link Text' # Link Text
     ef79a03f-0031-434d-94fc-2c3d4e39ea57: Services # Services
     f0d4de03-0fd4-43fd-ae9e-cb5745829d9b: 'Footer Link' # Footer Link
+    f1e28fdf-0ee7-45a1-9adc-ade21fb42bac: image # image
     f2ff0c12-9108-4b60-b65e-9effcc913281: Projects # Projects
     f6a4d113-b4a6-4ad9-988c-d6e06e7d3067: 'Subject Right' # Subject Right
     f73e980f-3442-4216-afe2-909f913e5f22: Default # Default

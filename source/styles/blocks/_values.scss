@@ -1,0 +1,57 @@
+@import '../reference/reference';
+
+$block: 'values';
+
+.#{$block} {
+    padding: 3rem 0;
+
+    &__heading {
+        margin-bottom: 4rem;
+    }
+
+    &__text {
+       border: 1px solid $grey;
+       padding: 1.5rem;
+       
+
+       @include media-min(sm) {
+            margin-left: 2rem;
+            width: 70%;
+            padding: 2rem;
+        }
+
+        @include media-min(lg) {
+            width: 87%;
+        }
+    }
+
+    &__title {
+        color: $black;
+    }
+
+    &__row {
+        padding: 0 2rem;
+
+        @include media-min(sm) {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            margin-bottom: 2rem;
+        }
+    }
+   
+    &__picture {
+        @include media-min(sm) {
+            width: 30%;
+        }
+
+        @include media-min(lg) {
+            width: 13%;
+        }
+    }
+
+    &__image {
+        height: auto;
+        width: 100%;
+    }
+}

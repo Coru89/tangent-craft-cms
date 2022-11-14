@@ -87,7 +87,7 @@
 									),
 									sizes: '620px',
 								}) }}>
-								<img class="image-text-panel__image panel__image" alt="{{ image.alt }}" src={{image.url}} loading="lazy"/>
+								<img class="image-text-panel__image{% if block.imageBoxShadow == 'yes' %} image-text-panel__image--shadow{% endif %}" alt="{{ image.alt }}" src={{image.url}} loading="lazy"/>
 							</picture>
 						</div>
 					{% endif %}
