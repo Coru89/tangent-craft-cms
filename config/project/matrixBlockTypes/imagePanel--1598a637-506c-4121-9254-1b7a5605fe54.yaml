@@ -1,0 +1,152 @@
+field: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+fieldLayouts:
+  282d4f5a-4397-4cd3-8023-c826a4247238:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b1059532-e19c-4e58-933f-33e128d0e2ed # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b367e4e5-2e17-4c3d-b0f3-b89e149a6d13
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c5659a99-43d2-4e46-85d8-80595afdda59 # Image Behavior
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ca04d13b-4106-4a47-8bd6-03812ba23abe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b646d0c6-2840-4af6-97d2-6a206cd2aaa4 # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4ca7b1d0-5105-467f-9dcd-e052c907354b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f1a5cce4-ac58-4a16-9452-3fb84490134b
+        userCondition: null
+fields:
+  b646d0c6-2840-4af6-97d2-6a206cd2aaa4: # Caption
+    columnSuffix: fjnxwsod
+    contentColumnType: text
+    fieldGroup: null
+    handle: imageCaption
+    instructions: null
+    name: Caption
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b1059532-e19c-4e58-933f-33e128d0e2ed: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:f2ff0c12-9108-4b60-b65e-9effcc913281' # Projects
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:f2ff0c12-9108-4b60-b65e-9effcc913281' # Projects
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c5659a99-43d2-4e46-85d8-80595afdda59: # Image Behavior
+    columnSuffix: jqnmzfgj
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageBehavior
+    instructions: null
+    name: 'Image Behavior'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Full Width'
+            -
+              - value
+              - full
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Contained
+            -
+              - value
+              - contain
+            -
+              - default
+              - '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+handle: imagePanel
+name: 'Image Panel'
+sortOrder: 4

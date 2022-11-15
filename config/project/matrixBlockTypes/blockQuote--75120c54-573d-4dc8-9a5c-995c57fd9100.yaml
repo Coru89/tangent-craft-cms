@@ -1,0 +1,78 @@
+field: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+fieldLayouts:
+  eafb44b4-057a-4da5-a9da-f03550e7f464:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5745f234-8fc6-45ba-a8e1-ea167f768afc # Author
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 90a8f04b-22e1-45c5-b9b2-6affd19d6219
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f431637c-13d0-4542-a18d-dfe4d187ea19 # Quote
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: df3f19f4-1ea9-4e67-954a-73aae74fae50
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d15cf549-c398-4ace-8927-cdbbc406aca7
+        userCondition: null
+fields:
+  5745f234-8fc6-45ba-a8e1-ea167f768afc: # Author
+    columnSuffix: dvvdodhm
+    contentColumnType: text
+    fieldGroup: null
+    handle: author
+    instructions: null
+    name: Author
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f431637c-13d0-4542-a18d-dfe4d187ea19: # Quote
+    columnSuffix: jeiremgf
+    contentColumnType: text
+    fieldGroup: null
+    handle: quote
+    instructions: null
+    name: Quote
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: blockQuote
+name: Quote
+sortOrder: 11

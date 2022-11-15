@@ -1,4 +1,4 @@
-{% for block in entry.contentPanels.all() %}
+{% for block in entry.contentPanels2.all() %}
 	{% if block.type == "imagePanel" %}
 		{% set image = block.image.one() %}
 		{% if block.imageBehavior == 'full' %}

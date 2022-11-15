@@ -1,0 +1,78 @@
+field: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+fieldLayouts:
+  123e6dd5-9a79-4b87-aa8d-6ad366dcc048:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7f59a9cf-68f0-46ba-84b1-c588bdced905 # Services Panel Subheading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3c1db5c7-3782-4484-868d-9d620e79e581
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0d2c8290-20dd-4b4f-bd4f-d266301ec6ab # Services Panel Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 41bf3eec-6d71-4d6a-a512-bd2caf533247
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d52ad979-d212-4625-a81d-4a37aec0e5bd
+        userCondition: null
+fields:
+  0d2c8290-20dd-4b4f-bd4f-d266301ec6ab: # Services Panel Heading
+    columnSuffix: ydppkyuc
+    contentColumnType: text
+    fieldGroup: null
+    handle: servicesPanelHeading
+    instructions: null
+    name: 'Services Panel Heading'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  7f59a9cf-68f0-46ba-84b1-c588bdced905: # Services Panel Subheading
+    columnSuffix: phzbchrv
+    contentColumnType: text
+    fieldGroup: null
+    handle: servicesPanelSubheading
+    instructions: null
+    name: 'Services Panel Subheading'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: servicesRollup
+name: 'Services Rollup'
+sortOrder: 8

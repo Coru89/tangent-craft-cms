@@ -1,0 +1,142 @@
+field: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+fieldLayouts:
+  25892ea7-3fc3-45d0-aeb4-bb6b3f9c600a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 320f9e87-0901-4837-8301-0fd94556bf45 # Link Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5f29c7f4-31fb-4a48-90be-276653009a18
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9e8ad13c-4628-4dbc-8877-94241b51700e # Link URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 520dcaf5-f6f0-40f7-8f55-74d3120ee34a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6d09bfa3-5593-44c5-b031-9098557492e5 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ef9a742b-b79a-4966-9fe3-a2cc5c423a2e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 08638f55-6d8d-487b-9d2f-715f8472d7e0 # Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bf46483a-3eff-46de-b532-e1f040479888
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 837bb473-c931-49c7-87ca-05c71b429fee
+        userCondition: null
+fields:
+  6d09bfa3-5593-44c5-b031-9098557492e5: # Heading
+    columnSuffix: qbpduboh
+    contentColumnType: text
+    fieldGroup: null
+    handle: ctaHeading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9e8ad13c-4628-4dbc-8877-94241b51700e: # Link URL
+    columnSuffix: svbscoha
+    contentColumnType: text
+    fieldGroup: null
+    handle: ctaLinkURL
+    instructions: null
+    name: 'Link URL'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  320f9e87-0901-4837-8301-0fd94556bf45: # Link Text
+    columnSuffix: uxvmbbpb
+    contentColumnType: text
+    fieldGroup: null
+    handle: ctaLinkText
+    instructions: null
+    name: 'Link Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  08638f55-6d8d-487b-9d2f-715f8472d7e0: # Summary
+    columnSuffix: clzxcuzp
+    contentColumnType: text
+    fieldGroup: null
+    handle: ctaSummary
+    instructions: null
+    name: Summary
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: cta
+name: 'Call To Action Panel'
+sortOrder: 10

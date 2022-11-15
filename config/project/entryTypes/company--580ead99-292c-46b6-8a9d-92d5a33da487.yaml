@@ -34,11 +34,23 @@ fieldLayouts:
             elementCondition: null
             fieldUid: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
             instructions: null
-            label: null
+            label: 'Content (above values)'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: c35f3579-b176-419c-bc69-f7f0896e6f49
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+            instructions: null
+            label: 'Content (below team)'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2b3f59b8-0ac4-44c3-8af7-ca3e9f30fd90
             userCondition: null
             warning: null
             width: 100

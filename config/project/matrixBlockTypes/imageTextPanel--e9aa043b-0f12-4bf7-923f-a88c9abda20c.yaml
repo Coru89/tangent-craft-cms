@@ -1,207 +1,112 @@
-field: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
+field: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
 fieldLayouts:
-  e9445aed-2501-4a92-b5d7-2a54ef3824c4:
+  503a84ef-837f-422c-b822-b9cfb7331e51:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 3a66029f-ef5b-468f-933e-ed82347b358b # Subject
+            fieldUid: d75ab3d3-0adc-4c01-95f4-1312f3438ad8 # Subject
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: eb8ccdc2-1889-44d1-bedd-5229020fba80
+            uid: e1ab0ca8-8931-432e-a50a-0e9bccfc6497
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: b5807a47-39e7-480a-ab04-0e0c4d998d82 # Title
+            fieldUid: 5e9112d5-e8e2-4bf3-b8bf-6aabf22dba02 # Content
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a8551a47-1d53-40fc-ab58-4c4d736f1f2b
+            uid: b7304988-1007-40f9-b4a3-cae38f27eb89
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 5e8877f3-dede-4da7-b2ff-b99da1322eb8 # Subtitle
+            fieldUid: 126d62dc-06ff-4092-b459-9d70201fb6a6 # Title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6efc707a-c949-49a3-bdbf-ea6751681d1b
+            uid: ee61ac27-81c1-4c0e-b4d1-31684b47cd23
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 5de6fb93-f0d9-4e60-8aee-655fff872dbc # Content
+            fieldUid: 5da24cee-ec7b-4943-95db-6445a180b092 # Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2ffc8649-23c0-4e03-8fcc-bcf2c069508e
+            uid: 1258de73-9458-4f97-983b-14f1d274fed4
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 87380890-913a-4519-9afb-69424757bfc7 # Image
+            fieldUid: 240d961f-7e8c-4b8c-b31d-a929b8a857de # Image Position
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b3f7bc8e-8363-46d9-a476-ed597a398545
+            uid: 54719e91-8dfe-4569-a653-bb8d3f02c203
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 3be11231-26fa-497b-8791-d2e78eb7493b # Image Position
+            fieldUid: 3d5ea587-cd6a-4d7d-b8f5-e278cccf3bf4 # Image Box Shadow
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d75759f0-6f9f-4413-8a44-d8c2b517330d
+            uid: 1d8441da-435a-4b48-b90a-c099177ec7c1
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 6c663cc6-3b87-4ae9-8c64-27167163a9a6 # Image Box Shadow
+            fieldUid: 3dc810b9-5e90-47f0-be2d-18ff5d560d5e # Picture Column Width
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1a3be6f0-9c00-42d1-8a91-d6f63aa12577
+            uid: 7fc8bb85-aef7-40e3-98d9-6c5b5f027d48
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 30ce25e1-5493-463f-8fe4-999eb6849126 # Picture Column Width
+            fieldUid: e717b878-e2de-4ed7-94a1-7eef2c75c2f4 # Subtitle
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 0bd5e573-7485-4585-bca6-154f404d769e
+            uid: 3d247dc1-51d3-4e1e-8119-fb718ac3edaa
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 783d9775-a9da-416f-ba1b-4cd043918a18
+        uid: b517d43e-66c3-4a1a-aeff-1d9f7a14e079
         userCondition: null
 fields:
-  3a66029f-ef5b-468f-933e-ed82347b358b: # Subject
-    columnSuffix: argbmcdd
-    contentColumnType: text
-    fieldGroup: null
-    handle: subject
-    instructions: null
-    name: Subject
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  3be11231-26fa-497b-8791-d2e78eb7493b: # Image Position
-    columnSuffix: idgcjvks
-    contentColumnType: string
-    fieldGroup: null
-    handle: imagePosition
-    instructions: null
-    name: 'Image Position'
-    searchable: false
-    settings:
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - Left
-            -
-              - value
-              - left
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - Right
-            -
-              - value
-              - right
-            -
-              - default
-              - '1'
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\RadioButtons
-  5de6fb93-f0d9-4e60-8aee-655fff872dbc: # Content
-    columnSuffix: moqzzvci
-    contentColumnType: text
-    fieldGroup: null
-    handle: panelContent
-    instructions: null
-    name: Content
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: true
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  5e8877f3-dede-4da7-b2ff-b99da1322eb8: # Subtitle
-    columnSuffix: tuahsjic
-    contentColumnType: text
-    fieldGroup: null
-    handle: panelSubtitle
-    instructions: null
-    name: Subtitle
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  6c663cc6-3b87-4ae9-8c64-27167163a9a6: # Image Box Shadow
-    columnSuffix: haisovgp
+  3d5ea587-cd6a-4d7d-b8f5-e278cccf3bf4: # Image Box Shadow
+    columnSuffix: ilvgmqpl
     contentColumnType: string
     fieldGroup: null
     handle: imageBoxShadow
@@ -235,8 +140,8 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\RadioButtons
-  30ce25e1-5493-463f-8fe4-999eb6849126: # Picture Column Width
-    columnSuffix: zpebfklc
+  3dc810b9-5e90-47f0-be2d-18ff5d560d5e: # Picture Column Width
+    columnSuffix: qofwiizo
     contentColumnType: string
     fieldGroup: null
     handle: layout
@@ -270,7 +175,7 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\RadioButtons
-  87380890-913a-4519-9afb-69424757bfc7: # Image
+  5da24cee-ec7b-4943-95db-6445a180b092: # Image
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -317,13 +222,108 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  b5807a47-39e7-480a-ab04-0e0c4d998d82: # Title
-    columnSuffix: crabwwyc
+  5e9112d5-e8e2-4bf3-b8bf-6aabf22dba02: # Content
+    columnSuffix: odfgjfgn
+    contentColumnType: text
+    fieldGroup: null
+    handle: panelContent
+    instructions: null
+    name: Content
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  126d62dc-06ff-4092-b459-9d70201fb6a6: # Title
+    columnSuffix: cgthqdvf
     contentColumnType: text
     fieldGroup: null
     handle: panelTitle
     instructions: null
     name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  240d961f-7e8c-4b8c-b31d-a929b8a857de: # Image Position
+    columnSuffix: catblxou
+    contentColumnType: string
+    fieldGroup: null
+    handle: imagePosition
+    instructions: null
+    name: 'Image Position'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Left
+            -
+              - value
+              - left
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Right
+            -
+              - value
+              - right
+            -
+              - default
+              - '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  d75ab3d3-0adc-4c01-95f4-1312f3438ad8: # Subject
+    columnSuffix: cobvtthh
+    contentColumnType: text
+    fieldGroup: null
+    handle: subject
+    instructions: null
+    name: Subject
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e717b878-e2de-4ed7-94a1-7eef2c75c2f4: # Subtitle
+    columnSuffix: yidunvqg
+    contentColumnType: text
+    fieldGroup: null
+    handle: panelSubtitle
+    instructions: null
+    name: Subtitle
     searchable: false
     settings:
       byteLimit: null
