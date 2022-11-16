@@ -60,6 +60,22 @@ $block: 'contact-form';
 		}
 	}
 
+	&__alert {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+		padding: 1rem 1.5rem;
+
+		&--success {
+			color: #155724;
+			background-color: #d4edda;
+		}
+
+		&--error {
+			color: #D8000C;
+			background-color: #FFBABA;
+		}
+	}
+
 	input[type='text'],
 	input[type='email'] {
 		box-sizing: border-box;

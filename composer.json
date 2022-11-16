@@ -5,6 +5,7 @@
     "craftcms/contact-form": "3.0.0",
     "ether/tags": "2.0.0",
     "fortrabbit/craft-copy": "2.2.0",
+    "hybridinteractive/craft-contact-form-extensions": "4.2.2",
     "verbb/field-manager": "3.0.4",
     "vlucas/phpdotenv": "^5.4.0"
   },

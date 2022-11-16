@@ -1,8 +1,18 @@
-dateModified: 1668577320
+dateModified: 1668612022
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
-  transportType: craft\mail\transportadapters\Sendmail
+  replyToEmail: null
+  template: null
+  transportSettings:
+    encryptionMethod: none
+    host: smtp.gmail.com
+    password: tzbjfzvmwcavfmzp
+    port: '587'
+    timeout: '10'
+    useAuthentication: '1'
+    username: corey.james.keller@gmail.com
+  transportType: craft\mail\transportadapters\Smtp
 fs:
   projects:
     hasUrls: true
@@ -142,6 +152,7 @@ meta:
     167db148-a36c-4eb2-8da4-85676831d3f1: 'Footer Link' # Footer Link
     240d961f-7e8c-4b8c-b31d-a929b8a857de: 'Image Position' # Image Position
     244f1707-ba7a-4f8d-b065-23e338584d19: Team # Team
+    312a1ef9-dccd-4c4c-a3d0-46925368bfaf: 'Contact Success' # Contact Success
     318fb216-96ea-4db1-8ea1-95540e98ee1f: 'Project Slug' # Project Slug
     320f9e87-0901-4837-8301-0fd94556bf45: 'Link Text' # Link Text
     392a5840-4224-4dc1-8d57-0296ac0dc4d9: 'Project Slug' # Project Slug
@@ -242,6 +253,7 @@ meta:
     bd89cd7e-66e0-4794-bad5-d1cb9ed9a92f: Caption # Caption
     bf6214ea-1eff-41d8-ad8a-28c854c848c3: Services # Services
     c3e4befb-f1d5-4947-99b1-2967dbb1f64d: 'Content Left' # Content Left
+    c7fe09ec-d40d-4211-a1e0-13ec0b1b70ab: 'Contact Success' # Contact Success
     c24be957-da53-420a-b6f3-2ab4b4f54180: Uploads # Uploads
     c57e1836-85b0-48db-a4f6-a8b24a5febe0: Title # Title
     c63b068c-b6b9-4a42-bc54-c56a7140a51c: 'Articles Rollup' # Articles Rollup
@@ -308,7 +320,7 @@ plugins:
       allowedMessageFields: null
       prependSender: 'On behalf of'
       prependSubject: 'New message from Tangent Services'
-      successFlashMessage: 'Your message has been sent.'
+      successFlashMessage: 'Contact form successfully submitted. We will be in touch soon!'
       toEmail: corey.james.keller@gmail.com
   copy:
     edition: standard
