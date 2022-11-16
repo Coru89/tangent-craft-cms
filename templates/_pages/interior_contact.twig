@@ -1,0 +1,87 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+    {% include '_components/hero' %}
+
+	<section class="contact-form">
+		<div class="u-container">
+			<div class="contact-form__row">
+				<div class="contact-form__column">
+					{# <h1>Send us a note</h1> #}
+					<h3>Want to work together?</h3>
+					<p>Let’s talk about your project.</p>
+					{% macro errorList(errors) %}
+						{% if errors %}
+							{{ ul(errors, {class: 'errors'}) }}
+						{% endif %}
+					{% endmacro %}
+
+					{% set message = message ?? null %}
+					<form method="post" action="" accept-charset="UTF-8">
+					    {{ csrfInput() }}
+						{{ actionInput('contact-form/send') }}
+						{# {{ redirectInput('/contact-success') }} #}
+
+						{% if craft.app.session.hasFlash('notice') %}
+							<p class="message notice">{{ craft.app.session.getFlash('notice') }}</p>
+						{% elseif craft.app.session.hasFlash('error') %}
+							<p class="message error">{{ craft.app.session.getFlash('error') }}</p>
+						{% endif %}
+
+
+						{% if craft.app.session.hasFlash('success') %}
+							<div>Thank you for your message.</div>
+							{% else  %}
+							<div class="contact-form__group">
+								{{ input('text', 'fromName', message.fromName ?? '', {
+									id: 'from-name',
+									autocomplete: 'name',
+									placeholder: 'Name *',
+								}) }}
+								{{ message ? _self.errorList(message.getErrors('fromName')) }}
+								
+								{{ input('email', 'fromEmail', message.fromEmail ?? '', {
+									id: 'from-email',
+									autocomplete: 'email',
+									placeholder: 'Email *',
+								}) }}
+								{{ message ? _self.errorList(message.getErrors('fromEmail')) }}
+							</div>
+							<div class="contact-form__group">
+								{{ tag('textarea', {
+									text: message.message ?? '',
+									id: 'message',
+									name: 'message',
+									placeholder: 'Please tell us a bit about your project. Things like scope, budget, timeline and the issues you would like to solve are helpful.',
+									rows: 10,
+									cols: 40,
+								}) }}
+								{{ message ? _self.errorList(message.getErrors('message')) }}
+							</div>
+							<div class="contact-form__group">
+								<button type="submit" class="button">Submit</button>
+							</div>
+						{% endif %}
+					</form>
+					{% if craft.app.session.hasFlash('notice') %}
+						<p class="message notice">{{ craft.app.session.getFlash('notice') }}</p>
+					{% elseif craft.app.session.hasFlash('error') %}
+						<p class="message error">{{ craft.app.session.getFlash('error') }}</p>
+					{% endif %}
+				</div>
+				<div class="contact-form__column">
+                    <div id="map" style="overflow: hidden; height: 470px;">
+                        <iframe 
+                            src="https://maps.google.com/maps?q=tangent%20services%20calgary&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                            width="100%"
+                            height="700"
+                            frameborder="0"
+                            scrolling="no">
+                        </iframe>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock %}

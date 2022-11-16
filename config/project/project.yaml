@@ -1,4 +1,4 @@
-dateModified: 1668435900
+dateModified: 1668577320
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -215,6 +215,7 @@ meta:
     a40dfa81-d145-4d0d-98c8-eac1172ccd51: Date # Date
     a67e2336-878a-41a6-90e9-1566f3295e6a: Content # Content
     a97aa0e4-4327-4df6-b22b-e6b13d6e8bc7: 'Link Url' # Link Url
+    a737e3ae-d320-4311-ba51-17e02ac0b75d: Contact # Contact
     a41530fb-a2da-45be-b474-7ad62ace28b9: Team # Team
     aa5b171c-8732-4890-a829-6edd8b58835e: 'Articles Panel Heading' # Articles Panel Heading
     ab49e488-9485-4b3b-87f2-dd0ea10a4725: Caption # Caption
@@ -262,6 +263,7 @@ meta:
     decc83c4-cef5-4022-83d6-300cd31ed6aa: 'Content Panel' # Content Panel
     decd8b6d-bb52-417b-9572-0a9e873b774c: Content # Content
     df30ab7d-bb49-4ad9-8b01-4d6d1c02d261: Heading # Heading
+    dfb093fd-8fb2-4785-b71c-6cac631336ad: Contact # Contact
     dfb5fe6a-ff67-4c22-97b3-03cb427ed972: 'Project Slug' # Project Slug
     e3fecf8d-b1f3-4fb7-9de4-79e27606ee2c: 'Related Projects' # Related Projects
     e6a86a4f-dcd0-4b30-a64c-61c5ad178338: 'Contact Link Text' # Contact Link Text
@@ -297,6 +299,17 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Tangent Services'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: corey.james.keller@gmail.com
   copy:
     edition: standard
     enabled: true

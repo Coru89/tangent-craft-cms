@@ -1,11 +1,14 @@
 @mixin button {
+	-webkit-appearance: none;
 	border-radius: .1rem;
+	border: none;
 	display: inline-block;
 	font-size: 1rem;
 	line-height: 1.5;
 	padding: .5rem 1rem;
 	text-decoration: none;
 	transition: background-color .15s ease-out;
+    -moz-appearance: none;
     background-color:$blue;
     border-color: $blue;
     box-shadow: 0 0.125rem 0.25rem rgb(23 31 56 / 8%);
