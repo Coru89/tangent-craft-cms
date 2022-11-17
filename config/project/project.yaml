@@ -1,4 +1,4 @@
-dateModified: 1668612022
+dateModified: 1668681869
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -44,6 +44,7 @@ fs:
     url: '@web/uploads'
 meta:
   __names__:
+    0a4b90a2-3d20-4ada-b63b-13d70c710333: 'Related Projects Slug' # Related Projects Slug
     0c2a4468-23fd-410a-ac25-92a49d710291: Author # Author
     0d2c8290-20dd-4b4f-bd4f-d266301ec6ab: 'Services Panel Heading' # Services Panel Heading
     0eff976d-ffc1-473d-93ad-a835e1f0c01f: 'Super Title' # Super Title
@@ -68,6 +69,7 @@ meta:
     3f5b0139-ae36-4c36-af29-22838716ea9a: 'Link Text' # Link Text
     3f64dd4b-f512-46bb-9f6a-4a4b9afb2810: 'Rollup Description' # Rollup Description
     4aac6b9c-38e0-4868-b088-91fa9254f0dc: Content # Content
+    4cb46986-1520-4dea-b94b-64b8b7d942d1: 'Related Projects Heading' # Related Projects Heading
     4cf96222-ec19-41f0-9d90-1a47030a540e: 'Link Url' # Link Url
     4e5884b3-b026-4738-8814-53759a352cc1: 'Telephone Link Text' # Telephone Link Text
     4ec3aa85-b7b8-4e4c-92b4-9cd5e4cd6c69: 'Super Title' # Super Title
@@ -142,7 +144,6 @@ meta:
     86bc8e7a-cd28-4c53-b542-4c88a24dc76c: 'Sub Title' # Sub Title
     87b91c84-b88d-413a-899d-51d555390e33: Subject # Subject
     88f8b9f3-c3a4-4aba-8c85-9b1acce0cbe4: 'Sub Title' # Sub Title
-    95a917d6-507b-490a-a8c4-45ecc551743d: 'Related Projects' # Related Projects
     95e17c5c-5cc4-4035-a138-fba1add5c711: Content # Content
     96f358ab-f9f7-4e0f-83ff-26c351c4ffaa: Video # Video
     99af00ba-393a-4da3-8fc5-a1f4355fc6d1: Summary # Summary
@@ -150,9 +151,9 @@ meta:
     112efcad-1a5a-40bd-87f8-dc0ea2e5f742: Subtitle # Subtitle
     126d62dc-06ff-4092-b459-9d70201fb6a6: Title # Title
     167db148-a36c-4eb2-8da4-85676831d3f1: 'Footer Link' # Footer Link
+    211f8030-0715-4db5-85d0-7c70298eb02d: 'Content Sections Panel Width' # Content Sections Panel Width
     240d961f-7e8c-4b8c-b31d-a929b8a857de: 'Image Position' # Image Position
     244f1707-ba7a-4f8d-b065-23e338584d19: Team # Team
-    312a1ef9-dccd-4c4c-a3d0-46925368bfaf: 'Contact Success' # Contact Success
     318fb216-96ea-4db1-8ea1-95540e98ee1f: 'Project Slug' # Project Slug
     320f9e87-0901-4837-8301-0fd94556bf45: 'Link Text' # Link Text
     392a5840-4224-4dc1-8d57-0296ac0dc4d9: 'Project Slug' # Project Slug
@@ -253,7 +254,7 @@ meta:
     bd89cd7e-66e0-4794-bad5-d1cb9ed9a92f: Caption # Caption
     bf6214ea-1eff-41d8-ad8a-28c854c848c3: Services # Services
     c3e4befb-f1d5-4947-99b1-2967dbb1f64d: 'Content Left' # Content Left
-    c7fe09ec-d40d-4211-a1e0-13ec0b1b70ab: 'Contact Success' # Contact Success
+    c7f1bfcd-901c-48e8-a97a-447dee253e8f: 'Background Color' # Background Color
     c24be957-da53-420a-b6f3-2ab4b4f54180: Uploads # Uploads
     c57e1836-85b0-48db-a4f6-a8b24a5febe0: Title # Title
     c63b068c-b6b9-4a42-bc54-c56a7140a51c: 'Articles Rollup' # Articles Rollup
@@ -276,8 +277,7 @@ meta:
     decd8b6d-bb52-417b-9572-0a9e873b774c: Content # Content
     df30ab7d-bb49-4ad9-8b01-4d6d1c02d261: Heading # Heading
     dfb093fd-8fb2-4785-b71c-6cac631336ad: Contact # Contact
-    dfb5fe6a-ff67-4c22-97b3-03cb427ed972: 'Project Slug' # Project Slug
-    e3fecf8d-b1f3-4fb7-9de4-79e27606ee2c: 'Related Projects' # Related Projects
+    dfb5fe6a-ff67-4c22-97b3-03cb427ed972: 'Related Project Slug' # Related Project Slug
     e6a86a4f-dcd0-4b30-a64c-61c5ad178338: 'Contact Link Text' # Contact Link Text
     e7f7c437-7a08-45bb-99c8-27ddc00ef227: 'Subject Left' # Subject Left
     e8b3a513-9dc0-464f-92d3-2abee1841ca3: Title # Title
@@ -327,6 +327,14 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
   field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  redactor-custom-styles:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0

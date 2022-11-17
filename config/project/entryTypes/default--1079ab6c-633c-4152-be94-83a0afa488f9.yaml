@@ -32,6 +32,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 211f8030-0715-4db5-85d0-7c70298eb02d # Content Sections Panel Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e0b946e-d27e-459f-95ef-47826358e29f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
             instructions: null
             label: null

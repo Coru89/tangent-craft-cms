@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8f6e8f8117da848f430743a0d641593",
+    "content-hash": "ac794a12b62cf6ef046be7798fd7ea8f",
     "packages": [
         {
             "name": "albertcht/invisible-recaptcha",
@@ -107,6 +107,52 @@
                 "rsync library"
             ],
             "time": "2018-01-13T20:13:12+00:00"
+        },
+        {
+            "name": "carlcs/craft-redactorcustomstyles",
+            "version": "4.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carlcs/craft-redactorcustomstyles/zipball/eaeaeb2be81a827b0df985889c31dcc9391ec71a",
+                "reference": "eaeaeb2be81a827b0df985889c31dcc9391ec71a",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "craftcms/redactor": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Redactor Custom Styles",
+                "handle": "redactor-custom-styles"
+            },
+            "autoload": {
+                "psr-4": {
+                    "carlcs\\redactorcustomstyles\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "carlcs",
+                    "homepage": "https://github.com/carlcs"
+                }
+            ],
+            "description": "Redactor Custom Styles plugin for Craft CMS",
+            "keywords": [
+                "buttons",
+                "craftcms",
+                "redactor",
+                "styles"
+            ],
+            "support": {
+                "issues": "https://github.com/carlcs/craft-redactorcustomstyles/issues?state=open",
+                "source": "https://github.com/carlcs/craft-redactorcustomstyles",
+                "docs": "https://github.com/carlcs/craft-redactorcustomstyles"
+            },
+            "time": "2022-06-29T11:05:20+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -604,11 +650,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.3.1",
+            "version": "4.3.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/1149dd385d9d38fbd1e0a6edf057ce8fe5347487",
-                "reference": "1149dd385d9d38fbd1e0a6edf057ce8fe5347487",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/2fd6859fd964ff20c7ff89098f056f466e97c629",
+                "reference": "2fd6859fd964ff20c7ff89098f056f466e97c629",
                 "shasum": ""
             },
             "require": {
@@ -699,7 +745,7 @@
                 "docs": "https://docs.craftcms.com/v3/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2022-10-27T19:59:08+00:00"
+            "time": "2022-11-17T01:56:02+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -756,26 +802,16 @@
         },
         {
             "name": "craftcms/html-field",
-            "version": "2.0.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/craftcms/html-field.git",
-                "reference": "a969a86e9b6d156b40f558ec57a1ff4543389ae8"
-            },
+            "version": "2.0.6",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/html-field/zipball/a969a86e9b6d156b40f558ec57a1ff4543389ae8",
-                "reference": "a969a86e9b6d156b40f558ec57a1ff4543389ae8",
+                "url": "https://api.github.com/repos/craftcms/html-field/zipball/3030f7878335b8c7163b1db354fdc22c083d131c",
+                "reference": "3030f7878335b8c7163b1db354fdc22c083d131c",
                 "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^4.0.0-alpha.1",
                 "php": "^8.0.2"
-            },
-            "require-dev": {
-                "craftcms/ecs": "dev-main",
-                "craftcms/phpstan": "dev-main",
-                "craftcms/rector": "dev-main"
             },
             "type": "library",
             "autoload": {
@@ -783,7 +819,6 @@
                     "craft\\htmlfield\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -795,13 +830,13 @@
             ],
             "description": "Base class for Craft CMS field types with HTML values.",
             "support": {
-                "docs": "https://github.com/craftcms/html-field/blob/main/README.md",
                 "email": "support@craftcms.com",
                 "issues": "https://github.com/craftcms/html-field/issues?state=open",
-                "rss": "https://github.com/craftcms/html-field/commits/main.atom",
-                "source": "https://github.com/craftcms/html-field"
+                "source": "https://github.com/craftcms/html-field",
+                "docs": "https://github.com/craftcms/html-field/blob/main/README.md",
+                "rss": "https://github.com/craftcms/html-field/commits/main.atom"
             },
-            "time": "2022-06-29T11:33:11+00:00"
+            "time": "2022-11-16T11:13:37+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -878,6 +913,57 @@
                 "plugin"
             ],
             "time": "2021-02-18T02:01:38+00:00"
+        },
+        {
+            "name": "craftcms/redactor",
+            "version": "3.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/redactor/zipball/c9c152be7a75813ba193f30cb3effed3f005d03e",
+                "reference": "c9c152be7a75813ba193f30cb3effed3f005d03e",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0-alpha.1",
+                "craftcms/html-field": "^2.0.0",
+                "php": "^8.0.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Redactor",
+                "handle": "redactor",
+                "documentationUrl": "https://github.com/craftcms/redactor/blob/v2/README.md"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craft\\redactor\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https://pixelandtonic.com/"
+                }
+            ],
+            "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
+            "keywords": [
+                "cms",
+                "craftcms",
+                "html",
+                "redactor",
+                "yii2"
+            ],
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https://github.com/craftcms/redactor/issues?state=open",
+                "source": "https://github.com/craftcms/redactor",
+                "docs": "https://github.com/craftcms/redactor/blob/v2/README.md",
+                "rss": "https://github.com/craftcms/redactor/commits/v2.atom"
+            },
+            "time": "2022-06-30T22:14:03+00:00"
         },
         {
             "name": "craftcms/server-check",
@@ -1876,11 +1962,6 @@
         {
             "name": "illuminate/collections",
             "version": "v9.40.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/illuminate/collections.git",
-                "reference": "1729899f8e37840738d1c37bb110da5b09509990"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/collections/zipball/1729899f8e37840738d1c37bb110da5b09509990",
@@ -1910,7 +1991,6 @@
                     "Illuminate\\Support\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1922,10 +2002,6 @@
             ],
             "description": "The Illuminate Collections package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
             "time": "2022-11-07T11:40:33+00:00"
         },
         {

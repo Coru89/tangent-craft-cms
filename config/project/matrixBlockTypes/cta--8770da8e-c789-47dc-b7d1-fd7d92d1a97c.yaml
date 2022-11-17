@@ -139,4 +139,4 @@ fields:
     type: craft\fields\PlainText
 handle: cta
 name: 'Call To Action Panel'
-sortOrder: 10
+sortOrder: 9

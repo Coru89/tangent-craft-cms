@@ -1,0 +1,34 @@
+columnSuffix: okktkdtu
+contentColumnType: string
+fieldGroup: 312438a4-60cf-4fd0-85e1-2146d8d36657 # Common
+handle: contentPanelWidth
+instructions: null
+name: 'Content Sections Panel Width'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - '1080'
+        -
+          - value
+          - '1080'
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - '1280'
+        -
+          - value
+          - '1280'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

@@ -32,6 +32,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 211f8030-0715-4db5-85d0-7c70298eb02d # Content Sections Panel Width
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c9c0b605-5873-4752-8140-24b22011d0ae
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
             instructions: null
             label: null
@@ -224,6 +236,36 @@ fieldLayouts:
             width: 100
         name: Hero
         uid: ee73bd39-cac1-45af-a7c0-40fcbf8cc6d9
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4cb46986-1520-4dea-b94b-64b8b7d942d1 # Related Projects Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c0f5a41f-b912-4da1-bc43-bb955d7f9d4f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0a4b90a2-3d20-4ada-b63b-13d70c710333 # Related Projects Slug
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c51ce630-2855-41da-923b-0d9ba975abfa
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Related Projects'
+        uid: 9cf307ee-a6c9-4468-94f7-e0b0708a68e3
         userCondition: null
 handle: default
 hasTitleField: true

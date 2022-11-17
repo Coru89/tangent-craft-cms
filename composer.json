@@ -1,8 +1,10 @@
 {
   "require": {
+    "carlcs/craft-redactorcustomstyles": "4.0.2",
     "craftcms/ckeditor": "2.0.0",
-    "craftcms/cms": "4.3.1",
+    "craftcms/cms": "4.3.2.1",
     "craftcms/contact-form": "3.0.0",
+    "craftcms/redactor": "3.0.2",
     "ether/tags": "2.0.0",
     "fortrabbit/craft-copy": "2.2.0",
     "hybridinteractive/craft-contact-form-extensions": "4.2.2",

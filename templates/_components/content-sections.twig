@@ -1,3 +1,12 @@
+
+{% if entry.contentPanelWidth == '1080' %}
+	{% set container = 'u-container-small' %}
+{% elseif entry.contentPanelWidth == '1280' %}
+	{% set container = 'u-container' %}
+{% else %}
+	{% set container = 'u-container' %}
+{% endif %}
+
 {% for block in entry.contentPanels.all() %}
 	{% if block.type == "imagePanel" %}
 		{% set image = block.image.one() %}
@@ -26,7 +35,7 @@
 			</section>
 		{% else %}
 			<section class="image-panel">
-				<div class="u-container-small">
+				<div class={{ container }}>
 					<figure class="image-panel__figure">
 						<picture class="image-panel__picture" role="presentation">
 							<source {{ attr({
@@ -58,7 +67,7 @@
 		{% endif %}
 	{% elseif block.type == "imageTextPanel" %}
 		<section class="image-text-panel">
-			<div class="u-container-small">
+			<div class={{ container }}>
 				<div class="image-text-panel__container">
 					<div class="image-text-panel__content image-text-panel__content--{{ block.layout }}{% if block.imagePosition == 'left' %} image-text-panel__content--reverse{% endif %}">
 						{% if block.subject %}
@@ -100,7 +109,7 @@
 
 	{% elseif block.type == "doubleTextColumns" %}
 		<section class="text-columns-panel">
-			<div class="u-container-small">
+			<div class={{ container }}>
 				<div class="text-columns-panel__container">
 					<div class="text-columns-panel__content">
 						{% if block.subjectLeft %}
@@ -122,7 +131,7 @@
 
 	{# {% elseif block.type == "doubleCardPanel" %}
 		<section class="double-card-panel">
-			<div class="u-container">
+			<div class={{ container }}>
 				<div class="double-card-panel__container">
 					<div class="double-card-panel__inner">
 						<div class="double-card-panel__heading">
@@ -143,18 +152,27 @@
 		</section> #}
 
 	{% elseif block.type == "contentPanel" %}
-		<section class="content-panel">
-			<div class="u-container-small">
+
+		{% if block.panelBackgroundColor == 'grey' %}
+			{% set color = '#e6e7e8' %}
+		{% elseif block.panelBackgroundColor == 'transparent' %}
+			{% set color = 'transparent' %}
+		{% else %}
+			{% set color = 'transparent' %}
+		{% endif %}
+
+		<section class="content-panel" style="background-color: {{ color }}">
+			<div class={{ container }}>
 				<div class="content-panel__container">
 					<h1 class="panel__heading">{{ block.panelTitle }}</h1>
 					<h5 class="panel__heading">{{ block.panelSubheading }}</h5>
-					<p class="panel__content">{{ block.panelContent | nl2br}}</p>
+					<p class="panel__content">{{ block.panelContent}}</p>
 				</div>
 			</div>
 		</section>
 
 	{% elseif block.type == 'blockQuote' %}
-		<div class="u-container-small">
+		<div class={{ container }}>
 			<blockquote>
 				<p>
 					{{ block.quote }}
@@ -164,7 +182,7 @@
 		</div>
 	{% elseif block.type == "cta" %}
 		<sectiion class="cta">
-			<div class="u-container">
+			<div class={{ container }}>
 				<div  class="cta__inner">
 					<div class="cta__heading">
 						{{block.ctaHeading}}
@@ -177,7 +195,7 @@
 
 	{% elseif block.type == "relatedProjects" %}
 		<section class="related-projects">
-			<div class="u-container">
+			<div class={{ container }}>
 				<h2 class="related-projects__heading">{{ block.projectsPanelHeading }}</h2>
 			</div>
 			<div id="grid" class="related-projects__grid">
@@ -218,7 +236,7 @@
 
 	{% elseif block.type == "projectsRollup" %}
 		<section class="featured-projects">
-			<div class="u-container">
+			<div class={{ container }}>
 				<h2 class="featured-projects__heading">{{ block.projectsPanelHeading }}</h2>
 				<div class="featured-projects__filters" data-filter-group="category">
 					{% set myTagQuery = craft.tags().group('projectsFilter') %}
@@ -285,7 +303,7 @@
 
 	{% elseif block.type == "servicesRollup" %}
 		<section class="services-rollup">
-			<div class="u-container">
+			<div class={{ container }}>
 				<div class="services-rollup__inner">
 					<h2 class="services-rollup__heading">{{block.servicesPanelHeading}}</h2>
 					<h5>{{block.servicesPanelSubheading}}</h5>
@@ -336,7 +354,7 @@
 
 	{% elseif block.type == "articlesRollup" %}
 		<section class="articles-rollup">
-			<div class="u-container">
+			<div class={{ container }}>
 				<div class="articles-rollup__inner">
 					<h2 class="articles-rollup__heading">{{block.articlesPanelHeading}}</h2>
 						<div class="articles-rollup__items">

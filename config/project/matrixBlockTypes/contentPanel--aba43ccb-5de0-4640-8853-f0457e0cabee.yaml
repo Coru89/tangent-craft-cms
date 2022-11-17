@@ -74,17 +74,25 @@ fields:
     name: Content
     searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: true
-      placeholder: null
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: false
+      redactorConfig: null
+      removeEmptyTags: true
+      removeInlineStyles: true
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
       uiMode: enlarged
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
+    type: craft\redactor\Field
   e8b3a513-9dc0-464f-92d3-2abee1841ca3: # Title
     columnSuffix: avfgzsen
     contentColumnType: text

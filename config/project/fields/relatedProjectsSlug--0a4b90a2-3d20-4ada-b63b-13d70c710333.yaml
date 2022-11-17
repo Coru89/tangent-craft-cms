@@ -1,0 +1,39 @@
+columnSuffix: tvpxsinq
+contentColumnType: text
+fieldGroup: cd8f97bb-1019-4201-947a-62825eab84e5 # Projects
+handle: relatedProjectsSlug
+instructions: null
+name: 'Related Projects Slug'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - Slug
+            -
+              - handle
+              - slug
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+  maxRows: 3
+  minRows: 2
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table
