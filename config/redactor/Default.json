@@ -7,6 +7,7 @@
     "unorderedlist",
     "orderedlist",
     "link",
+    "image",
     "line"
   ],
   "plugins": [

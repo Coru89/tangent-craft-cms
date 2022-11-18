@@ -86,11 +86,12 @@ fields:
     name: Content
     searchable: false
     settings:
-      availableTransforms: ''
+      availableTransforms:
+        - 1854f0e0-3cd0-4253-a9b0-16473eb338b5 # Deafult
       availableVolumes: '*'
       columnType: text
       configSelectionMode: choose
-      defaultTransform: ''
+      defaultTransform: 1854f0e0-3cd0-4253-a9b0-16473eb338b5 # Deafult
       manualConfig: ''
       purifierConfig: null
       purifyHtml: false

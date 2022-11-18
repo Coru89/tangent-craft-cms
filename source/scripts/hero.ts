@@ -13,7 +13,7 @@ window.onload = function() {
 			return;
 		}
 
-		const margin = heroTextEl.offsetHeight / 2;
+		const margin = (heroTextEl.offsetHeight / 2) + 32;
 		heroBackgroundEl.style.marginBottom = `${margin}px`;
 	}
 	

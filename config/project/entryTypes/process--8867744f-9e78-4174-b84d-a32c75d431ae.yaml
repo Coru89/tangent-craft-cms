@@ -1,0 +1,169 @@
+fieldLayouts:
+  c69f00f2-613a-45b4-b3f0-23f603bd346e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 76cc632c-2e85-4505-bd28-aca09219903b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 96f4227f-08bf-413b-a0a6-9dbf849849b2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1d984859-b1b8-48b4-936b-7a7b40d676d5
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 39ce3f74-ea40-48bd-a6e1-3251031cee8b # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0df4af4c-ed82-40fc-b1c5-af7936238d8c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 86832c8f-0e26-4321-892d-3f2b670e5d40 # Hero Title (line 2)
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 475cec26-056d-41a7-9c71-96a79c7ce186
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 112efcad-1a5a-40bd-87f8-dc0ea2e5f742 # Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cbb6c78a-0f06-444e-87cb-b7932a846e76
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3c29a686-fff4-421f-a776-99099065609a # Super Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7eeaa59a-30c7-4e70-acaa-d5a6eda1a73c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b391a624-f2b4-474c-b0ef-a640f03c071b # Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d6ea1ac5-ee77-4938-b65c-71fe77c4d590
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 18995cfd-16c6-457d-8ead-6dadaf3f1d09 # Video
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2d9e69a0-d706-485f-9f64-e7b658f23d9c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 55aeb36a-1a23-40a5-b308-cd2b88181da7 # Link Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6e551b4c-8ce1-4558-b060-4c9eb2e5ef6f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 818276ab-339c-4835-80cf-0d925ad564cc # Hero Link Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0f6108db-a818-4794-83e3-984e0d7bef20
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7166386d-a511-42df-a908-1e859dfba3e2 # Text Position
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a25373dd-7640-4eb4-96b0-08ac0aeb0060
+            userCondition: null
+            warning: null
+            width: 100
+        name: Hero
+        uid: 90756921-f1f7-48d8-b999-9d2e47d5d425
+        userCondition: null
+handle: process
+hasTitleField: false
+name: Process
+section: a83428c5-a872-4d1f-8316-bea2f98e46b2 # Process
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

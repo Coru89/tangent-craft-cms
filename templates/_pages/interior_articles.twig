@@ -2,7 +2,9 @@
 
 
 {% block content %}
-    {# {% include '_components/hero' %} #}
-    {% include '_components/article-meta' %}
-    {% include '_components/content-sections' %}
+    <main class="main main--large" id="main-content" tabindex="0">
+        {% include '_components/hero' %}
+        {% include '_components/article-meta' %}
+        {% include '_components/content-sections' %}
+    </main>
 {% endblock %}

@@ -1,0 +1,9 @@
+$block: 'cta';
+
+.#{$block} {
+	padding: 5rem 0;
+
+	&__summary {
+		font-weight: 300;
+	}
+  }

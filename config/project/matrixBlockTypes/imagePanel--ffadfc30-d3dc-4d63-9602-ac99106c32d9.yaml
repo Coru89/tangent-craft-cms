@@ -41,6 +41,30 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: ae857f6a-20ef-4267-ba7e-2569f68bfb1a # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7929541-8129-4c0c-9bb3-4d0ffdd1af92
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e1d461f0-3a18-4e35-bed5-a494f95b6bcd # Box Shadow
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 653aca52-b340-40b0-b975-b826a1d3b63e
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 65d09ba0-c32c-4de9-9519-c1fac8d17b2d
         userCondition: null
@@ -147,6 +171,61 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  ae857f6a-20ef-4267-ba7e-2569f68bfb1a: # Heading
+    columnSuffix: nyzhzsge
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e1d461f0-3a18-4e35-bed5-a494f95b6bcd: # Box Shadow
+    columnSuffix: fbcoekax
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageBoxShadow
+    instructions: null
+    name: 'Box Shadow'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Yes'
+            -
+              - value
+              - 'yes'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'No'
+            -
+              - value
+              - 'no'
+            -
+              - default
+              - '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
 handle: imagePanel
 name: 'Image Panel'
 sortOrder: 4

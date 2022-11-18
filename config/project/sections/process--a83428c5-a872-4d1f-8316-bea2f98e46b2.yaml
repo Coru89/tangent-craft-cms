@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: process
+name: Process
+propagationMethod: all
+siteSettings:
+  ada35ad0-4d42-4ca8-bed9-59ff6816f33f: # Tangent Services
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/interior_page_small.twig
+    uriFormat: process
+type: single

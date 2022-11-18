@@ -1,9 +1,11 @@
 {% extends 'base.twig' %}
 
 {% block content %}
-    {% include '_components/hero' %}
-    {% include '_components/content-sections' %}
-    {% include '_components/values' %}
-    {% include '_components/team' %}
-    {% include '_components/content-sections-2' %}
+    <main class="main" id="main-content" tabindex="0">
+        {% include '_components/hero' %}
+        {% include '_components/content-sections' %}
+        {% include '_components/values' %}
+        {% include '_components/team' %}
+        {% include '_components/content-sections-2' %}
+    </main>
 {% endblock %}

@@ -1,4 +1,4 @@
-dateModified: 1668681869
+dateModified: 1668755966
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -178,6 +178,7 @@ meta:
     1464aa75-afee-4de6-8db0-67994226a779: 'Company Links' # Company Links
     1598a637-506c-4121-9254-1b7a5605fe54: 'Image Panel' # Image Panel
     1664b5ae-26d9-489d-806f-92bf711be8c7: Heading # Heading
+    1854f0e0-3cd0-4253-a9b0-16473eb338b5: Deafult # Deafult
     2070cdb0-2bf5-4ec9-bcc2-7086f75c8f29: 'Text Position' # Text Position
     4286b563-2204-41e7-b3ef-832fb11cd7e1: 'Related Services' # Related Services
     4554b864-9bc7-4e0d-9a92-41307f4cef13: Projects # Projects
@@ -218,6 +219,7 @@ meta:
     5174132d-9dbb-4c75-afc9-bd2feca3684e: Services # Services
     05986233-da3a-4937-85f9-b2b7784bc596: 'Link Url' # Link Url
     7166386d-a511-42df-a908-1e859dfba3e2: 'Text Position' # Text Position
+    8867744f-9e78-4174-b84d-a32c75d431ae: Process # Process
     39564368-f8fd-4cc9-b130-190da7c1c62c: Quote # Quote
     87380890-913a-4519-9afb-69424757bfc7: Image # Image
     a0ab7fa0-15b2-45de-af75-c3a89ef94246: 'Image Front' # Image Front
@@ -229,6 +231,7 @@ meta:
     a97aa0e4-4327-4df6-b22b-e6b13d6e8bc7: 'Link Url' # Link Url
     a737e3ae-d320-4311-ba51-17e02ac0b75d: Contact # Contact
     a41530fb-a2da-45be-b474-7ad62ace28b9: Team # Team
+    a83428c5-a872-4d1f-8316-bea2f98e46b2: Process # Process
     aa5b171c-8732-4890-a829-6edd8b58835e: 'Articles Panel Heading' # Articles Panel Heading
     ab49e488-9485-4b3b-87f2-dd0ea10a4725: Caption # Caption
     aba43ccb-5de0-4640-8853-f0457e0cabee: 'Content Panel' # Content Panel
@@ -237,6 +240,7 @@ meta:
     acf40d2d-7210-41a6-b9be-13946da9867d: Footer # Footer
     ad87a9d5-a093-49e4-9a43-91fe8e162ce1: 'Content Right' # Content Right
     ada35ad0-4d42-4ca8-bed9-59ff6816f33f: 'Tangent Services' # Tangent Services
+    ae857f6a-20ef-4267-ba7e-2569f68bfb1a: Heading # Heading
     aebc4fab-59b8-4d1c-a3e4-4857b13a6be1: 'Services Panel Heading' # Services Panel Heading
     af634fe2-c5c4-4c82-89ed-b8208b175bf2: 'Sub Heading' # Sub Heading
     afd0ea6f-4716-40cf-9cab-998b877589f6: 'Link Text' # Link Text
@@ -278,6 +282,7 @@ meta:
     df30ab7d-bb49-4ad9-8b01-4d6d1c02d261: Heading # Heading
     dfb093fd-8fb2-4785-b71c-6cac631336ad: Contact # Contact
     dfb5fe6a-ff67-4c22-97b3-03cb427ed972: 'Related Project Slug' # Related Project Slug
+    e1d461f0-3a18-4e35-bed5-a494f95b6bcd: 'Box Shadow' # Box Shadow
     e6a86a4f-dcd0-4b30-a64c-61c5ad178338: 'Contact Link Text' # Contact Link Text
     e7f7c437-7a08-45bb-99c8-27ddc00ef227: 'Subject Left' # Subject Left
     e8b3a513-9dc0-464f-92d3-2abee1841ca3: Title # Title

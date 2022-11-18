@@ -13,6 +13,9 @@
 		{% if block.imageBehavior == 'full' %}
 			<section class="image-panel-full-width">
 				<picture class="image-panel-full-width__picture" role="presentation">
+					{% if block.heading | length %}
+						<h2 class="image-panel__heading">{{block.heading}}</h2>
+					{% endif %}
 					<source {{ attr({
 						type: 'image/webp',
 						srcset: image.getSrcset(
@@ -30,7 +33,7 @@
 						sizes: '100vw',
 					}) }}>
 
-					<img class="image-panel-full-width__image" alt="{{ image.alt }}" src={{image.url}} loading="lazy" />
+					<img class="image-panel-full-width__image{% if block.imageBoxShadow == 'yes' %} image-panel__image--shadow{% endif %}" alt="{{ image.alt }}" src={{image.url}} loading="lazy" />
 				</picture>
 			</section>
 		{% else %}
@@ -38,6 +41,9 @@
 				<div class={{ container }}>
 					<figure class="image-panel__figure">
 						<picture class="image-panel__picture" role="presentation">
+							{% if block.heading | length %}
+								<h2 class="image-panel__heading">{{block.heading}}</h2>
+							{% endif %}
 							<source {{ attr({
 								type: 'image/webp',
 								srcset: image.getSrcset(
@@ -54,8 +60,7 @@
 								),
 								sizes: '1036px',
 							}) }}>
-
-							<img class="image-panel__image" alt="{{ image.alt }}" src={{image.url}} loading="lazy">
+							<img class="image-panel__image{% if block.imageBoxShadow == 'yes' %} image-panel__image--shadow{% endif %}" alt="{{ image.alt }}" src={{image.url}} loading="lazy">
 						</picture>
 						{% if (block.imageCaption | length) %}
 							<figcaption>{{block.imageCaption}}</figcaption>

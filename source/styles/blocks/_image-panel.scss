@@ -23,7 +23,7 @@ $block-full-width: 'image-panel-full-width';
 
 	&__image {
 		display: block;
-		box-shadow: $box-shadow;
+		//box-shadow: $box-shadow;
 		height: auto;
 		margin: 0 auto;
 		max-width: 100%;
@@ -32,7 +32,11 @@ $block-full-width: 'image-panel-full-width';
 		@include media-min (md) {
 			max-height: 500px;
 		 	width: auto;
-		 }
+		}
+
+		&--shadow {
+			box-shadow: $box-shadow;
+		}
 	}
 }
 

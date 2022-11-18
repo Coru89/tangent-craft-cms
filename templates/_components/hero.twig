@@ -17,26 +17,24 @@
 
 			{% endif %}
 			<div class="hero__row">
-				<div class="hero__text">
-					{% if entry.heroSupertitle %}
-						<div class="hero__supertitle">{{entry.heroSupertitle }}</div>
-					{% endif %}
-					<h1 class="hero__title">{{ entry.heroTitle }}</h1>
-					{% if entry.heroTitle2 %}
-						<h1 class="hero__title">&nbsp;{{ entry.heroTitle2 }}</h1>
-					{% endif %}
-					{% if entry.heroSubtitle %}
-						<h3 class="hero__subtitle">{{ entry.heroSubtitle }}</h3>
-					{% endif %}
-					{% if entry.heroLinkText and entry.heroLinkUrl %}
-						<a href={{ entry.heroLinkUrl }} class="button button--secondary button--arrow">{{ entry.heroLinkText }}</a>
-					{% endif %}
-				</div>
+				{% if entry.heroTitle or entry.heroTitle2 or entry.heroSubtitle or entry.heroSupertitle %}
+					<div class="hero__text">
+						{% if entry.heroSupertitle %}
+							<div class="hero__supertitle">{{entry.heroSupertitle }}</div>
+						{% endif %}
+						<h2 class="hero__title">{{ entry.heroTitle }}</h2>
+						{% if entry.heroTitle2 %}
+							<h2 class="hero__title">&nbsp;{{ entry.heroTitle2 }}</h2>
+						{% endif %}
+						{% if entry.heroSubtitle %}
+							<h4 class="hero__subtitle">{{ entry.heroSubtitle }}</h4>
+						{% endif %}
+						{% if entry.heroLinkText and entry.heroLinkUrl %}
+							<a href={{ entry.heroLinkUrl }} class="button button--secondary button--arrow">{{ entry.heroLinkText }}</a>
+						{% endif %}
+					</div>
+				{% endif %}
 			</div>
-
 		</div>
-
-
 	</div>
-
 </section>
