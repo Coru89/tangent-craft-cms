@@ -157,10 +157,10 @@ fields:
               - transparent
             -
               - default
-              - ''
+              - '1'
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\RadioButtons
 handle: contentPanel
-name: 'Content Panel'
+name: 'Single Text Column'
 sortOrder: 1

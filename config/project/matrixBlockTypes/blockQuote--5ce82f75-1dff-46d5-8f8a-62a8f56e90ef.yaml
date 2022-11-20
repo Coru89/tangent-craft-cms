@@ -1,66 +1,65 @@
-field: 07f7e5cb-0101-478c-9bc6-2e533fdd83be
+field: 36cde833-6bde-43bd-b40d-d47db1bc4577 # Content
 fieldLayouts:
-  866a41f1-82df-4680-b5d7-681f503fe7dd:
+  d2b38440-d009-4246-8a48-f202593f183e:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 8c5adc8c-5eec-42ca-a6e3-016f94507311
+            fieldUid: 18d9b59f-c657-43cc-9f56-86e39d26f05d # Author
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 16e454de-1fea-4084-a4c2-b02a1e2d5276
+            uid: 74a00bf8-1066-4bf7-b0e8-9443a758150a
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: ebe6ba6b-899c-45dd-bd63-b5a548930597
+            fieldUid: 3bdb14bb-198f-4215-b8de-a6e127793112 # Quote
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3dfb8cd7-197d-4e77-b6c3-cc9eaccfeb14
+            uid: c41ae770-9132-484e-af85-01291e7e4541
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: efa945fb-f7e9-4e78-969d-4ba4994e05d0
+        uid: 25904031-218a-4e64-8f90-f7a1f52e0735
         userCondition: null
 fields:
-  8c5adc8c-5eec-42ca-a6e3-016f94507311:
-    columnSuffix: zregwrma
-    contentColumnType: smallint(1)
-    fieldGroup: null
-    handle: articlesLimit
-    instructions: null
-    name: 'Articles Limit'
-    searchable: false
-    settings:
-      decimals: 0
-      defaultValue: null
-      max: 6
-      min: 0
-      prefix: null
-      previewCurrency: null
-      previewFormat: decimal
-      size: null
-      suffix: null
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Number
-  ebe6ba6b-899c-45dd-bd63-b5a548930597:
-    columnSuffix: nowwmsiu
+  3bdb14bb-198f-4215-b8de-a6e127793112: # Quote
+    columnSuffix: ahvssrgs
     contentColumnType: text
     fieldGroup: null
-    handle: articlesPanelHeading
+    handle: quote
     instructions: null
-    name: 'Articles Panel Heading'
+    name: Quote
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  18d9b59f-c657-43cc-9f56-86e39d26f05d: # Author
+    columnSuffix: kczxsjfe
+    contentColumnType: text
+    fieldGroup: null
+    handle: author
+    instructions: null
+    name: Author
     searchable: false
     settings:
       byteLimit: null
@@ -74,6 +73,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-handle: articlesRollup
-name: 'Articles Rollup'
+handle: blockQuote
+name: Quote
 sortOrder: 7

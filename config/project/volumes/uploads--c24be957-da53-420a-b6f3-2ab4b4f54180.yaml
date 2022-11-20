@@ -59,7 +59,7 @@ fieldLayouts:
 fs: uploads
 handle: uploads
 name: Uploads
-sortOrder: 2
+sortOrder: 1
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: ''

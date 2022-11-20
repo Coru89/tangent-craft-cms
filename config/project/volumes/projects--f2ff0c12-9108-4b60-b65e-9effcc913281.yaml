@@ -59,7 +59,7 @@ fieldLayouts:
 fs: projects
 handle: projects
 name: Projects
-sortOrder: 1
+sortOrder: 2
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
 transformFs: ''

@@ -4,10 +4,18 @@ $block: 'image-panel';
 $block-full-width: 'image-panel-full-width';
 
 .#{$block} {
-	padding: 1rem 0;
+	margin: 1rem 0;
 
 	@include media-min(md) {
-		padding: 1.5rem 0;
+		margin: 1.5rem 0;
+	}
+
+	&--no-margin {
+		margin: 0;
+
+		@include media-min(md) {
+			margin: 0;
+		}
 	}
 
 	&__figure {
@@ -18,7 +26,8 @@ $block-full-width: 'image-panel-full-width';
 	}
 
 	&__picture {
-		height: 100%;
+		width: 100%;
+		//height: 100%;
 	}
 
 	&__image {
@@ -36,6 +45,14 @@ $block-full-width: 'image-panel-full-width';
 
 		&--shadow {
 			box-shadow: $box-shadow;
+		}
+		
+		&--100 {
+			width: 100%;
+
+			@include media-min (md) {
+				max-height: initial;
+			}
 		}
 	}
 }

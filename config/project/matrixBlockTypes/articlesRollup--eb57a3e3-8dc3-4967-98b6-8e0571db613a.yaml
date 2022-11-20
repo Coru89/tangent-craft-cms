@@ -76,4 +76,4 @@ fields:
     type: craft\fields\PlainText
 handle: articlesRollup
 name: 'Articles Rollup'
-sortOrder: 7
+sortOrder: 8

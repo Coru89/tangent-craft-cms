@@ -8,6 +8,7 @@ $block: 'content-panel';
 
 	@include media-min(md) {
 		padding: 3rem 0;
+		//margin: 1.5rem 0;
 	}
 
 	a {
@@ -35,5 +36,9 @@ $block: 'content-panel';
 
 	figure {
 		margin: 1em 0;
+	}
+	
+	+ hr {
+		margin-top: 0;
 	}
 }

@@ -76,4 +76,4 @@ fields:
     type: craft\fields\PlainText
 handle: projectsRollup
 name: 'Projects Rollup'
-sortOrder: 9
+sortOrder: 10

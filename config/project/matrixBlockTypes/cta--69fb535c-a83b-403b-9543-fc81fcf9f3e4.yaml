@@ -1,104 +1,69 @@
-field: 07f7e5cb-0101-478c-9bc6-2e533fdd83be
+field: 36cde833-6bde-43bd-b40d-d47db1bc4577 # Content
 fieldLayouts:
-  b4fb7d8b-7ea0-4e42-a9b3-a0c4c67bb82d:
+  3f0ebdcd-c7c0-4943-bd61-f7601fb75640:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 1b4683b2-6086-476d-9ec8-029278f1d3cd
+            fieldUid: 2b51a4a7-8dc4-4344-a499-4c57992a3c4f # Link Text
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8fdc373b-d739-4b30-bba3-3ebd6abb2483
+            uid: 7558bb69-a02d-4493-8ee9-88d7d7e7348b
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: b147087a-beb7-4822-9a72-e618dfd1852e
+            fieldUid: 696fb652-ec4c-4eb0-8301-6561412eec27 # Link URL
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 067a5991-0302-4871-bc4b-4f0f785905f5
+            uid: 6caf92b2-7876-467b-abd2-2b3a4a13d8e2
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: edb9a50f-79f9-48b4-ab66-b8350fd7f21c
+            fieldUid: cdb8df6b-5d05-42d0-a8b3-a5945e7f8e54 # Heading
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 633864f7-9784-4b45-ab05-1cc02f32dbd5
+            uid: 645e0c94-cc26-4e7c-b959-ff2e719028be
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 0c3a7e78-1d62-4367-8209-f71a5c308a01
+            fieldUid: fabdf510-f296-45c1-8fe8-3e05c9a4918a # Summary
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1bdb347b-c467-4dfd-a6c3-e1df047f87c0
+            uid: 6fa19c4b-6f13-41bd-b2a0-8d96951dd33e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 3337bc82-c093-49e0-a82c-521fe046c166
+        uid: 673fd9e1-4575-400c-957a-c033f11e16de
         userCondition: null
 fields:
-  0c3a7e78-1d62-4367-8209-f71a5c308a01:
-    columnSuffix: jzpkbddt
-    contentColumnType: string
-    fieldGroup: null
-    handle: panelBackgroundColor
-    instructions: null
-    name: 'Background Color'
-    searchable: false
-    settings:
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - grey
-            -
-              - value
-              - grey
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - transparent
-            -
-              - value
-              - transparent
-            -
-              - default
-              - ''
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\RadioButtons
-  1b4683b2-6086-476d-9ec8-029278f1d3cd:
-    columnSuffix: mwbmxwba
+  2b51a4a7-8dc4-4344-a499-4c57992a3c4f: # Link Text
+    columnSuffix: afjazdwi
     contentColumnType: text
     fieldGroup: null
-    handle: panelSubheading
+    handle: ctaLinkText
     instructions: null
-    name: 'Sub Heading'
+    name: 'Link Text'
     searchable: false
     settings:
       byteLimit: null
@@ -112,13 +77,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  b147087a-beb7-4822-9a72-e618dfd1852e:
-    columnSuffix: dczezwir
+  696fb652-ec4c-4eb0-8301-6561412eec27: # Link URL
+    columnSuffix: xtvjajxt
     contentColumnType: text
     fieldGroup: null
-    handle: panelTitle
+    handle: ctaLinkURL
     instructions: null
-    name: Title
+    name: 'Link URL'
     searchable: false
     settings:
       byteLimit: null
@@ -132,35 +97,46 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  edb9a50f-79f9-48b4-ab66-b8350fd7f21c:
-    columnSuffix: phmxqywv
+  cdb8df6b-5d05-42d0-a8b3-a5945e7f8e54: # Heading
+    columnSuffix: mkarafjb
     contentColumnType: text
     fieldGroup: null
-    handle: panelContent
+    handle: ctaHeading
     instructions: null
-    name: Content
+    name: Heading
     searchable: false
     settings:
-      availableTransforms:
-        - 1854f0e0-3cd0-4253-a9b0-16473eb338b5 # Deafult
-      availableVolumes: '*'
-      columnType: text
-      configSelectionMode: choose
-      defaultTransform: 1854f0e0-3cd0-4253-a9b0-16473eb338b5 # Deafult
-      manualConfig: ''
-      purifierConfig: null
-      purifyHtml: false
-      redactorConfig: null
-      removeEmptyTags: true
-      removeInlineStyles: true
-      removeNbsp: false
-      showHtmlButtonForNonAdmins: false
-      showUnpermittedFiles: false
-      showUnpermittedVolumes: false
-      uiMode: enlarged
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
     translationKeyFormat: null
     translationMethod: none
-    type: craft\redactor\Field
-handle: contentPanel
-name: 'Content Panel'
-sortOrder: 1
+    type: craft\fields\PlainText
+  fabdf510-f296-45c1-8fe8-3e05c9a4918a: # Summary
+    columnSuffix: eqgpvtzb
+    contentColumnType: text
+    fieldGroup: null
+    handle: ctaSummary
+    instructions: null
+    name: Summary
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: cta
+name: 'Call To Action Panel'
+sortOrder: 6

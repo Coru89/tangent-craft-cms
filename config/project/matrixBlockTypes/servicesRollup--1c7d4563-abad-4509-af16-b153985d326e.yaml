@@ -75,4 +75,4 @@ fields:
     type: craft\fields\PlainText
 handle: servicesRollup
 name: 'Services Rollup'
-sortOrder: 8
+sortOrder: 9

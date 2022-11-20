@@ -1,109 +1,98 @@
-field: 07f7e5cb-0101-478c-9bc6-2e533fdd83be
+field: 36cde833-6bde-43bd-b40d-d47db1bc4577 # Content
 fieldLayouts:
-  f4690e33-d6f8-45a6-9e3f-007830bc4339:
+  a24aecfd-f957-40b3-aa3c-f13a5231a3ee:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: f61e60f7-7433-4654-a663-ad727ec7beca
+            fieldUid: 33356ed5-ee39-4b15-8762-22970231ddf4 # Sub Heading
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 98c03950-1099-4ba4-9e2f-a4b620f3dbc5
+            uid: e4d4c5de-5566-486c-a1c1-aac3417c6671
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 07dd4b3d-d382-4187-81cd-7843856e053c
+            fieldUid: 750a6a46-5608-44ac-963d-8472c1d3cd40 # Title
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e8979df4-3e01-436e-9d1d-6113d1dac32e
+            uid: 37dcea11-5717-4443-917f-177325a04603
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 873a36d1-d09a-4fc3-88f9-3de2e81bfdee
+            fieldUid: 145aee74-93e9-46ed-9aff-61c7d2294c45 # Content
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f0f0b8eb-b05c-4437-b972-db5fac0f5e6b
+            uid: a46c6f4d-22ac-4f4f-9802-0a1d6de60332
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 7d6c73b8-9e64-4551-ad68-5c0cac301214
+            fieldUid: 753acc38-d212-4067-8c54-326b6007ffac # Background Color
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3b9f4542-1374-4f59-8259-cb53fae19414
+            uid: e2075291-e1fc-42a9-87d6-16c88202aa81
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 9d0bfd59-abb8-43b9-af86-4d03cd7c92e1
+        uid: c29dc667-31ef-405a-aeee-bc2a055b8010
         userCondition: null
 fields:
-  7d6c73b8-9e64-4551-ad68-5c0cac301214:
-    columnSuffix: xhpdqzfi
+  145aee74-93e9-46ed-9aff-61c7d2294c45: # Content
+    columnSuffix: jygcjbtq
     contentColumnType: text
     fieldGroup: null
-    handle: ctaSummary
+    handle: panelContent
     instructions: null
-    name: Summary
+    name: Content
     searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: true
-      placeholder: null
-      uiMode: normal
+      availableTransforms:
+        - 1854f0e0-3cd0-4253-a9b0-16473eb338b5 # Deafult
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: 1854f0e0-3cd0-4253-a9b0-16473eb338b5 # Deafult
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: false
+      redactorConfig: null
+      removeEmptyTags: true
+      removeInlineStyles: true
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
-  07dd4b3d-d382-4187-81cd-7843856e053c:
-    columnSuffix: jdsiioae
+    type: craft\redactor\Field
+  750a6a46-5608-44ac-963d-8472c1d3cd40: # Title
+    columnSuffix: vtptjspb
     contentColumnType: text
     fieldGroup: null
-    handle: ctaLinkURL
+    handle: panelTitle
     instructions: null
-    name: 'Link URL'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  873a36d1-d09a-4fc3-88f9-3de2e81bfdee:
-    columnSuffix: ifcxswug
-    contentColumnType: text
-    fieldGroup: null
-    handle: ctaHeading
-    instructions: null
-    name: Heading
+    name: Title
     searchable: false
     settings:
       byteLimit: null
@@ -117,13 +106,48 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  f61e60f7-7433-4654-a663-ad727ec7beca:
-    columnSuffix: difhcgnb
+  753acc38-d212-4067-8c54-326b6007ffac: # Background Color
+    columnSuffix: ygrlqwwr
+    contentColumnType: string
+    fieldGroup: null
+    handle: panelBackgroundColor
+    instructions: null
+    name: 'Background Color'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - grey
+            -
+              - value
+              - grey
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - transparent
+            -
+              - value
+              - transparent
+            -
+              - default
+              - '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  33356ed5-ee39-4b15-8762-22970231ddf4: # Sub Heading
+    columnSuffix: moylrgtu
     contentColumnType: text
     fieldGroup: null
-    handle: ctaLinkText
+    handle: panelSubheading
     instructions: null
-    name: 'Link Text'
+    name: 'Sub Heading'
     searchable: false
     settings:
       byteLimit: null
@@ -137,6 +161,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-handle: cta
-name: 'Call To Action Panel'
-sortOrder: 5
+handle: contentPanel
+name: 'Single Text Column'
+sortOrder: 1

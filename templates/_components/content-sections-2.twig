@@ -1,4 +1,3 @@
-
 {% if entry.contentPanelWidth == '1080' %}
 	{% set container = 'u-container-small' %}
 {% elseif entry.contentPanelWidth == '1280' %}
@@ -11,7 +10,7 @@
 	{% if block.type == "imagePanel" %}
 		{% set image = block.image.one() %}
 		{% if block.imageBehavior == 'full' %}
-			<section class="image-panel-full-width">
+			<section class="image-panel-full-width{% if block.imageMargin == 'no' %} image-panel--no-margin{% endif %}">
 				<picture class="image-panel-full-width__picture" role="presentation">
 					{% if block.heading | length %}
 						<h2 class="image-panel__heading">{{block.heading}}</h2>
@@ -33,11 +32,11 @@
 						sizes: '100vw',
 					}) }}>
 
-					<img class="image-panel-full-width__image{% if block.imageBoxShadow == 'yes' %} image-panel__image--shadow{% endif %}" alt="{{ image.alt }}" src={{image.url}} loading="lazy" />
+					<img class="image-panel-full-width__image{% if block.imageBoxShadow == 'yes' %} image-panel__image--shadow{% endif %}" alt="{{ image.alt }}" src={{image.url}} width={{image.width}} height={{image.height}} loading="lazy" />
 				</picture>
 			</section>
 		{% else %}
-			<section class="image-panel">
+			<section class="image-panel{% if block.imageMargin == 'no' %} image-panel--no-margin{% endif %}">
 				<div class={{ container }}>
 					<figure class="image-panel__figure">
 						<picture class="image-panel__picture" role="presentation">
@@ -60,7 +59,7 @@
 								),
 								sizes: '1036px',
 							}) }}>
-							<img class="image-panel__image{% if block.imageBoxShadow == 'yes' %} image-panel__image--shadow{% endif %}" alt="{{ image.alt }}" src={{image.url}} loading="lazy">
+							<img class="image-panel__image{% if block.imageMargin == 'yes' %} image-panel__image--no-margin{% endif %}{% if block.imageBehavior == 'contained' %} image-panel__image--100{% endif %}" alt="{{ image.alt }}" src={{image.url}} width={{image.width}} height={{image.height}} loading="lazy">
 						</picture>
 						{% if (block.imageCaption | length) %}
 							<figcaption>{{block.imageCaption}}</figcaption>
@@ -133,6 +132,8 @@
 				</div>
 			</div>
 		</section>
+	{% elseif block.type == "hr" %}
+		<hr>
 
 	{# {% elseif block.type == "doubleCardPanel" %}
 		<section class="double-card-panel">

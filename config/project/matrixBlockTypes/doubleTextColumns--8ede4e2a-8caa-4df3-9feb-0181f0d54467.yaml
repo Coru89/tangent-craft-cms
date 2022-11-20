@@ -203,4 +203,4 @@ fields:
     type: craft\fields\PlainText
 handle: doubleTextColumns
 name: 'Text Columns'
-sortOrder: 4
+sortOrder: 5
