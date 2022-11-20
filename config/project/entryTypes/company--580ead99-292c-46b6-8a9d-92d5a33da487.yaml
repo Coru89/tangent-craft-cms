@@ -56,13 +56,13 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: c789f365-f8f1-4dce-8ea9-f22d79885c3a
+            fieldUid: 36cde833-6bde-43bd-b40d-d47db1bc4577 # Content 2
             instructions: null
-            label: 'Content (below team)'
+            label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2b3f59b8-0ac4-44c3-8af7-ca3e9f30fd90
+            uid: 873805a4-02c4-468d-a31d-b533fa9ed42b
             userCondition: null
             warning: null
             width: 100
