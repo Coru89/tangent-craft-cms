@@ -61,10 +61,6 @@ html {
 }
 
 .body {
-	// color: #171f38;
-	// font-family: $font-family-roboto;
-	// font-size: $font-size-medium;
-	// line-height: 1.5;
 	overflow-x: hidden;
 	overflow-y: scroll;
 	position: relative;
@@ -173,6 +169,7 @@ h2 {
 }
 
 h3 {
+	color: $blue;
 	font-size: 1.5rem;
 	font-weight: 400;
 	line-height: 1.75;

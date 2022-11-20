@@ -56,7 +56,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+            fieldUid: c789f365-f8f1-4dce-8ea9-f22d79885c3a
             instructions: null
             label: 'Content (below team)'
             required: false

@@ -339,4 +339,4 @@ fields:
     type: craft\fields\PlainText
 handle: imageTextPanel
 name: 'Image and Text Panel'
-sortOrder: 1
+sortOrder: 2

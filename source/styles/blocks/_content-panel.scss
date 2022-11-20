@@ -27,5 +27,13 @@ $block: 'content-panel';
 
 	p {
 		margin-bottom: 2rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	figure {
+		margin: 1em 0;
 	}
 }

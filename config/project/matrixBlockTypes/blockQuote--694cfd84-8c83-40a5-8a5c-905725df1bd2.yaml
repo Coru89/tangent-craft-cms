@@ -1,45 +1,65 @@
-field: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+field: 07f7e5cb-0101-478c-9bc6-2e533fdd83be
 fieldLayouts:
-  d9d50f83-cf2a-4bee-bcc4-d70929c4460d:
+  439a9243-6292-44ae-9f31-dd51225a4882:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: b317f030-c8e7-4f72-8330-6068ecff69c3 # Heading
+            fieldUid: 932dee3c-286f-4861-b6ff-beac523b1af2
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 517fa07b-a333-47f2-b156-9250e82359c7
+            uid: de0176fd-e541-437e-a484-984bf7f8ab3b
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f10af101-e96a-45b7-8277-fc1df423bcb3 # Projects Limit
+            fieldUid: 51a35042-bbb4-402e-b4fe-74e6059ddd19
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2b314e13-11dd-42b3-97a1-39754529022f
+            uid: 63df1854-594e-428f-9d37-553e38dbbe2b
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 1c321bd4-0f82-42d8-9fe7-146de1f53cac
+        uid: 2049cdf8-97b7-4493-9362-34162d74bbcc
         userCondition: null
 fields:
-  b317f030-c8e7-4f72-8330-6068ecff69c3: # Heading
-    columnSuffix: ihjhthhd
+  51a35042-bbb4-402e-b4fe-74e6059ddd19:
+    columnSuffix: soahywbf
     contentColumnType: text
     fieldGroup: null
-    handle: projectsPanelHeading
+    handle: quote
     instructions: null
-    name: Heading
+    name: Quote
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  932dee3c-286f-4861-b6ff-beac523b1af2:
+    columnSuffix: agaxteua
+    contentColumnType: text
+    fieldGroup: null
+    handle: author
+    instructions: null
+    name: Author
     searchable: false
     settings:
       byteLimit: null
@@ -53,27 +73,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  f10af101-e96a-45b7-8277-fc1df423bcb3: # Projects Limit
-    columnSuffix: plklmflq
-    contentColumnType: integer(10)
-    fieldGroup: null
-    handle: projectsLimit
-    instructions: null
-    name: 'Projects Limit'
-    searchable: false
-    settings:
-      decimals: 0
-      defaultValue: 9
-      max: null
-      min: 0
-      prefix: null
-      previewCurrency: null
-      previewFormat: none
-      size: null
-      suffix: null
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Number
-handle: projectsRollup
-name: 'Projects Rollup'
-sortOrder: 2
+handle: blockQuote
+name: Quote
+sortOrder: 6

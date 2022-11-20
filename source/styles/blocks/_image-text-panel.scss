@@ -16,13 +16,13 @@ $block: 'image-text-panel';
 		box-sizing: border-box;
 
 		@include media-min(md) {
+			align-items: center;
 			display: flex;
 		}
 	}
 
 	&__content {
 		box-sizing: border-box;
-		//font-size: 1.27rem;
 		font-weight: 300;
 		line-height: 1.6;
 		margin-top: 0;
@@ -71,6 +71,10 @@ $block: 'image-text-panel';
 				direction: rtl;
 			}
 		}
+	}
+
+	&__title {
+		margin-bottom: 2rem;
 	}
 
 	 &__picture-container {

@@ -1,45 +1,45 @@
-field: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+field: 07f7e5cb-0101-478c-9bc6-2e533fdd83be
 fieldLayouts:
-  eafb44b4-057a-4da5-a9da-f03550e7f464:
+  0f6eb772-8d54-4193-8201-092bf57bd63f:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 5745f234-8fc6-45ba-a8e1-ea167f768afc # Author
+            fieldUid: 43642b25-873b-4bff-9c7f-1701db58684a
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 90a8f04b-22e1-45c5-b9b2-6affd19d6219
+            uid: 14a5f7a9-a60d-4e07-8bb5-1070e1267919
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f431637c-13d0-4542-a18d-dfe4d187ea19 # Quote
+            fieldUid: a6c5af49-fc1f-4848-8230-8531dc2d2d88
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: df3f19f4-1ea9-4e67-954a-73aae74fae50
+            uid: c18ac23f-24cd-47dd-87a4-13d1da2392b6
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: d15cf549-c398-4ace-8927-cdbbc406aca7
+        uid: 66375d9e-cd0f-4897-8fb1-f7cf2801a490
         userCondition: null
 fields:
-  5745f234-8fc6-45ba-a8e1-ea167f768afc: # Author
-    columnSuffix: dvvdodhm
+  43642b25-873b-4bff-9c7f-1701db58684a:
+    columnSuffix: ukuzywju
     contentColumnType: text
     fieldGroup: null
-    handle: author
+    handle: servicesPanelSubheading
     instructions: null
-    name: Author
+    name: 'Services Panel Subheading'
     searchable: false
     settings:
       byteLimit: null
@@ -53,13 +53,13 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  f431637c-13d0-4542-a18d-dfe4d187ea19: # Quote
-    columnSuffix: jeiremgf
+  a6c5af49-fc1f-4848-8230-8531dc2d2d88:
+    columnSuffix: dlqgtunc
     contentColumnType: text
     fieldGroup: null
-    handle: quote
+    handle: servicesPanelHeading
     instructions: null
-    name: Quote
+    name: 'Services Panel Heading'
     searchable: false
     settings:
       byteLimit: null
@@ -67,12 +67,12 @@ fields:
       code: false
       columnType: null
       initialRows: 4
-      multiline: true
+      multiline: false
       placeholder: null
       uiMode: normal
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-handle: blockQuote
-name: Quote
-sortOrder: 10
+handle: servicesRollup
+name: 'Services Rollup'
+sortOrder: 8

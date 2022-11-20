@@ -1,52 +1,76 @@
-field: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+field: 07f7e5cb-0101-478c-9bc6-2e533fdd83be
 fieldLayouts:
-  282d4f5a-4397-4cd3-8023-c826a4247238:
+  29bb1cbd-78ef-4284-ace8-43bc79180dba:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: b1059532-e19c-4e58-933f-33e128d0e2ed # Image
+            fieldUid: b4b55ce3-b751-45e8-bbfd-00f7a2db916d
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b367e4e5-2e17-4c3d-b0f3-b89e149a6d13
+            uid: e7bd5a42-5139-443a-90f4-bcd951278a0f
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: c5659a99-43d2-4e46-85d8-80595afdda59 # Image Behavior
+            fieldUid: e4446b2a-3b34-4d3f-aed5-e60b6e72d197
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: ca04d13b-4106-4a47-8bd6-03812ba23abe
+            uid: f856cdfb-1182-44a6-b21a-6b618923594e
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: b646d0c6-2840-4af6-97d2-6a206cd2aaa4 # Caption
+            fieldUid: 924dc6c0-9486-4338-a91b-99c8682adb04
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4ca7b1d0-5105-467f-9dcd-e052c907354b
+            uid: 21e81e93-227f-4fcf-8d9a-7d2914d155eb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: eabf767a-914f-4579-abd9-843f59023231
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dafb1fff-243a-442c-8e5e-2d7409120c11
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a4430797-fe88-4718-a38d-32f0f11be070
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c77afa66-8879-4a25-9f2f-ce26c4043f4a
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: f1a5cce4-ac58-4a16-9452-3fb84490134b
+        uid: 6169608b-8f9c-46f0-a896-4e172eaa040e
         userCondition: null
 fields:
-  b646d0c6-2840-4af6-97d2-6a206cd2aaa4: # Caption
-    columnSuffix: fjnxwsod
+  924dc6c0-9486-4338-a91b-99c8682adb04:
+    columnSuffix: iudbnuzf
     contentColumnType: text
     fieldGroup: null
     handle: imageCaption
@@ -65,7 +89,42 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  b1059532-e19c-4e58-933f-33e128d0e2ed: # Image
+  a4430797-fe88-4718-a38d-32f0f11be070:
+    columnSuffix: xgwcxmxr
+    contentColumnType: string
+    fieldGroup: null
+    handle: imageBoxShadow
+    instructions: null
+    name: 'Box Shadow'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Yes'
+            -
+              - value
+              - 'yes'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 'No'
+            -
+              - value
+              - 'no'
+            -
+              - default
+              - '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  b4b55ce3-b751-45e8-bbfd-00f7a2db916d:
     columnSuffix: null
     contentColumnType: string
     fieldGroup: null
@@ -112,8 +171,8 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
-  c5659a99-43d2-4e46-85d8-80595afdda59: # Image Behavior
-    columnSuffix: jqnmzfgj
+  e4446b2a-3b34-4d3f-aed5-e60b6e72d197:
+    columnSuffix: ociywokd
     contentColumnType: string
     fieldGroup: null
     handle: imageBehavior
@@ -147,6 +206,26 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\RadioButtons
+  eabf767a-914f-4579-abd9-843f59023231:
+    columnSuffix: pdyqorjn
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
 handle: imagePanel
 name: 'Image Panel'
-sortOrder: 4
+sortOrder: 3

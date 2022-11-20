@@ -18,5 +18,5 @@
   "toolbarFixed": true,
   "linebreaks": false,
   "enterKey": true,
-  "paragraphize": false
+  "paragraphize": true
 }

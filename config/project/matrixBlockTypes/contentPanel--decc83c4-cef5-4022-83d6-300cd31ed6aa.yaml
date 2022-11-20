@@ -163,4 +163,4 @@ fields:
     type: craft\fields\RadioButtons
 handle: contentPanel
 name: 'Content Panel'
-sortOrder: 3
+sortOrder: 1

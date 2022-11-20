@@ -78,7 +78,7 @@
 						{% if block.subject %}
 							<h4 class="image-text-panel__subject">{{ block.subject }}</h4>
 						{% endif %}
-						<h1 class="image-text-panel__title panel__heading">{{block.panelTitle}}</h1>
+						<h2 class="image-text-panel__title panel__heading">{{block.panelTitle}}</h2>
 						{% if block.panelSubtitle %}
 							<h5 class="image-text-panel__title panel__heading">{{block.panelSubtitle}}</h5>
 						{% endif %}
@@ -120,14 +120,14 @@
 						{% if block.subjectLeft %}
 							<h4 class="text-columns-panel__subject">{{ block.subjectLeft }}</h4>
 						{% endif %}
-						<h1 class="text-columns-panel__title panel__heading">{{block.panelTitleLeft}}</h1>
+						<h2 class="text-columns-panel__title panel__heading">{{block.panelTitleLeft}}</h2>
 						<p class="text-columns-panel__description panel__content">{{block.panelContentLeft | nl2br}}</p>
 					</div>
 					<div class="text-columns-panel__content">
 						{% if block.subjectRight %}
 							<h4 class="text-columns-panel__subject">{{ block.subjectRight }}</h4>
 						{% endif %}
-						<h1 class="text-columns-panel__title">{{block.panelTitleRight}}</h1>
+						<h2 class="text-columns-panel__title">{{block.panelTitleRight}}</h2>
 						<p class="text-columns-panel__description">{{block.panelContentRight | nl2br}}</p>
 					</div>
 				</div>
@@ -169,9 +169,9 @@
 		<section class="content-panel" style="background-color: {{ color }}">
 			<div class={{ container }}>
 				<div class="content-panel__container">
-					<h1 class="panel__heading">{{ block.panelTitle }}</h1>
+					<h2 class="panel__heading">{{ block.panelTitle }}</h2>
 					<h5 class="panel__heading">{{ block.panelSubheading }}</h5>
-					<p class="panel__content">{{ block.panelContent}}</p>
+					<div class="panel__content">{{ block.panelContent}}</div>
 				</div>
 			</div>
 		</section>

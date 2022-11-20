@@ -1,108 +1,88 @@
-field: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+field: 07f7e5cb-0101-478c-9bc6-2e533fdd83be
 fieldLayouts:
-  99dcd4eb-8843-4447-b48b-b4b1a70f5f7a:
+  537bf3e4-7e15-47c6-9231-7a45ab008445:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 506fd666-5033-4801-b825-089dbd53a28e # Subject Left
+            fieldUid: 215f0e91-2ea4-4c2f-bc55-e9d8c4045f47
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 7b4a9b14-29a3-471d-8871-ed60b587af5f
+            uid: e8c4ad43-eeeb-4d66-a997-ab53c6ab595c
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 9cd7bf50-46a8-45dd-9dc2-056af2dceb63 # Title Right
+            fieldUid: a9ba174a-caa5-4514-a171-edb324e54882
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: edbb2522-3f55-4f60-a215-5cd8f9c88271
+            uid: 231d69bb-249d-45b4-bed1-7fded51d1fda
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 5ede247a-0b41-45de-81fa-527906aef857 # Title Left
+            fieldUid: bf83c836-a6b8-4cdd-8e9c-daec8c107044
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a048ecda-a9ca-405a-90aa-4b28db2a3167
+            uid: e9d352ae-1508-4192-bc79-32b9d7530f80
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 413d02f2-453a-498b-8cd1-87e49b905a95 # Content Right
+            fieldUid: cfb03e6a-d493-408a-956f-be8ece4f6642
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: a9eaa087-886c-4fd9-94d3-60424246f9d3
+            uid: 04711fa9-9bb6-4879-962b-6a311b3d7cbb
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 9ba931e0-10b1-43f0-8f9f-dac8fcf3d800 # Content Left
+            fieldUid: 047ff52b-632c-479d-8c84-c14330a62df8
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5b6406ea-0eaf-4bb2-8355-eafbc9010e5b
+            uid: b6fefa8b-03a6-4079-a233-0e44e8d35909
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 74461e4b-8289-4afd-ad7c-2768066aad62 # Subject Right
+            fieldUid: baf0a779-4e63-44a6-89de-05fb119b24ff
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 675d9159-b5c0-476b-ac06-fe661159a925
+            uid: 5f953b97-50b3-4f7d-bc8f-b2cc8a1bf05a
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 8761662e-6018-4c7a-b0af-a2794b1cb5b5
+        uid: 2adcedc3-e641-4652-9fa8-c1cc197edc2f
         userCondition: null
 fields:
-  5ede247a-0b41-45de-81fa-527906aef857: # Title Left
-    columnSuffix: dcjhlmjy
-    contentColumnType: text
-    fieldGroup: null
-    handle: panelTitleLeft
-    instructions: null
-    name: 'Title Left'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  9ba931e0-10b1-43f0-8f9f-dac8fcf3d800: # Content Left
-    columnSuffix: yorqaeij
+  047ff52b-632c-479d-8c84-c14330a62df8:
+    columnSuffix: suxiwxxs
     contentColumnType: text
     fieldGroup: null
     handle: panelContentLeft
@@ -121,48 +101,8 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  9cd7bf50-46a8-45dd-9dc2-056af2dceb63: # Title Right
-    columnSuffix: qefdvvll
-    contentColumnType: text
-    fieldGroup: null
-    handle: panelTitleRight
-    instructions: null
-    name: 'Title Right'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  413d02f2-453a-498b-8cd1-87e49b905a95: # Content Right
-    columnSuffix: knmeijne
-    contentColumnType: text
-    fieldGroup: null
-    handle: panelContentRight
-    instructions: null
-    name: 'Content Right'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: true
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  506fd666-5033-4801-b825-089dbd53a28e: # Subject Left
-    columnSuffix: ddvyccfc
+  215f0e91-2ea4-4c2f-bc55-e9d8c4045f47:
+    columnSuffix: oplwshxa
     contentColumnType: text
     fieldGroup: null
     handle: subjectLeft
@@ -181,8 +121,28 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  74461e4b-8289-4afd-ad7c-2768066aad62: # Subject Right
-    columnSuffix: ebcqwrhs
+  a9ba174a-caa5-4514-a171-edb324e54882:
+    columnSuffix: dvplsmdi
+    contentColumnType: text
+    fieldGroup: null
+    handle: panelTitleRight
+    instructions: null
+    name: 'Title Right'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  baf0a779-4e63-44a6-89de-05fb119b24ff:
+    columnSuffix: knnjilgs
     contentColumnType: text
     fieldGroup: null
     handle: subjectRight
@@ -201,6 +161,46 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
+  bf83c836-a6b8-4cdd-8e9c-daec8c107044:
+    columnSuffix: isjizrhv
+    contentColumnType: text
+    fieldGroup: null
+    handle: panelTitleLeft
+    instructions: null
+    name: 'Title Left'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  cfb03e6a-d493-408a-956f-be8ece4f6642:
+    columnSuffix: ebuhfndn
+    contentColumnType: text
+    fieldGroup: null
+    handle: panelContentRight
+    instructions: null
+    name: 'Content Right'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
 handle: doubleTextColumns
 name: 'Text Columns'
-sortOrder: 5
+sortOrder: 4

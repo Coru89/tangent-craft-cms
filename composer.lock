@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac794a12b62cf6ef046be7798fd7ea8f",
+    "content-hash": "325627a35451faf24e5ffd1228d98195",
     "packages": [
         {
             "name": "albertcht/invisible-recaptcha",
@@ -650,11 +650,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.3.2.1",
+            "version": "4.3.3",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/2fd6859fd964ff20c7ff89098f056f466e97c629",
-                "reference": "2fd6859fd964ff20c7ff89098f056f466e97c629",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/d3f925be7a48da1ad7f6d54409cb4066038bd405",
+                "reference": "d3f925be7a48da1ad7f6d54409cb4066038bd405",
                 "shasum": ""
             },
             "require": {
@@ -745,7 +745,7 @@
                 "docs": "https://docs.craftcms.com/v3/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2022-11-17T01:56:02+00:00"
+            "time": "2022-11-17T17:49:32+00:00"
         },
         {
             "name": "craftcms/contact-form",
@@ -6053,16 +6053,16 @@
         },
         {
             "name": "yiisoft/yii2-queue",
-            "version": "2.3.4",
+            "version": "2.3.5",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-queue/zipball/ed30b5f46ddadd62587a4963dec35f9b756c408b",
-                "reference": "ed30b5f46ddadd62587a4963dec35f9b756c408b",
+                "url": "https://api.github.com/repos/yiisoft/yii2-queue/zipball/c1bf0ef5dbe107dc1cf692c1349b9ddd2485a399",
+                "reference": "c1bf0ef5dbe107dc1cf692c1349b9ddd2485a399",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0",
-                "symfony/process": "^3.3||^4.0||^5.0",
+                "symfony/process": "^3.3||^4.0||^5.0||^6.0",
                 "yiisoft/yii2": "~2.0.14"
             },
             "suggest": {
@@ -6118,7 +6118,7 @@
                 "sqs",
                 "yii"
             ],
-            "time": "2022-03-31T07:41:51+00:00"
+            "time": "2022-11-18T17:16:47+00:00"
         },
         {
             "name": "yiisoft/yii2-symfonymailer",

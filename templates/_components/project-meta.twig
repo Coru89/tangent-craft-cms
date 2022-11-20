@@ -19,7 +19,7 @@
 					{% set tags = entry.projectsTags.all() %}
 					
 					{% for item in tags %}
-						<li class="meta-item">
+						<li class="meta__item">
 							{{item.title}}{% if loop.last == false %},{% endif %}
 						</li>
 					{% endfor %}

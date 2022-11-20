@@ -1,60 +1,40 @@
-field: c789f365-f8f1-4dce-8ea9-f22d79885c3a # Content 2
+field: 07f7e5cb-0101-478c-9bc6-2e533fdd83be
 fieldLayouts:
-  41f5f316-0002-44ab-9467-8949489059b2:
+  866a41f1-82df-4680-b5d7-681f503fe7dd:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: dd527bbc-9bc5-4fd3-96cc-99f1f11478cb # Articles Limit
+            fieldUid: 8c5adc8c-5eec-42ca-a6e3-016f94507311
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: cc2f77ec-475a-4512-a0e2-b656f6c5c223
+            uid: 16e454de-1fea-4084-a4c2-b02a1e2d5276
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 9c2cba99-73ff-4f1f-8382-7c60d6f8b921 # Articles Panel Heading
+            fieldUid: ebe6ba6b-899c-45dd-bd63-b5a548930597
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1a123c91-f83c-43e7-9894-e1595389d40d
+            uid: 3dfb8cd7-197d-4e77-b6c3-cc9eaccfeb14
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: b6519b28-777b-45da-a480-6793046611c6
+        uid: efa945fb-f7e9-4e78-969d-4ba4994e05d0
         userCondition: null
 fields:
-  9c2cba99-73ff-4f1f-8382-7c60d6f8b921: # Articles Panel Heading
-    columnSuffix: jbjcaghl
-    contentColumnType: text
-    fieldGroup: null
-    handle: articlesPanelHeading
-    instructions: null
-    name: 'Articles Panel Heading'
-    searchable: false
-    settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
-  dd527bbc-9bc5-4fd3-96cc-99f1f11478cb: # Articles Limit
-    columnSuffix: kfngxcou
+  8c5adc8c-5eec-42ca-a6e3-016f94507311:
+    columnSuffix: zregwrma
     contentColumnType: smallint(1)
     fieldGroup: null
     handle: articlesLimit
@@ -74,6 +54,26 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\Number
+  ebe6ba6b-899c-45dd-bd63-b5a548930597:
+    columnSuffix: nowwmsiu
+    contentColumnType: text
+    fieldGroup: null
+    handle: articlesPanelHeading
+    instructions: null
+    name: 'Articles Panel Heading'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
 handle: articlesRollup
 name: 'Articles Rollup'
-sortOrder: 8
+sortOrder: 7
