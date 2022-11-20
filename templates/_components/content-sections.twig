@@ -11,7 +11,7 @@
 	{% if block.type == "imagePanel" %}
 		{% set image = block.image.one() %}
 		{% if block.imageBehavior == 'full' %}
-			<section class="image-panel-full-width{% if block.imageMargin == 'no' %} image-panel--no-margin{% endif %}">
+			<section class="image-panel-full-width">
 				<picture class="image-panel-full-width__picture" role="presentation">
 					{% if block.heading | length %}
 						<h2 class="image-panel__heading">{{block.heading}}</h2>
@@ -37,7 +37,7 @@
 				</picture>
 			</section>
 		{% else %}
-			<section class="image-panel{% if block.imageMargin == 'no' %} image-panel--no-margin{% endif %}">
+			<section class="image-panel">
 				<div class={{ container }}>
 					<figure class="image-panel__figure">
 						<picture class="image-panel__picture" role="presentation">
@@ -60,7 +60,7 @@
 								),
 								sizes: '1036px',
 							}) }}>
-							<img class="image-panel__image{% if block.imageMargin == 'yes' %} image-panel__image--no-margin{% endif %}{% if block.imageBehavior == 'contained' %} image-panel__image--100{% endif %}" alt="{{ image.alt }}" src={{image.url}} width={{image.width}} height={{image.height}} loading="lazy">
+							<img class="image-panel__image{% if block.imageBehavior == 'contained' %} image-panel__image--100{% endif %}" alt="{{ image.alt }}" src={{image.url}} width={{image.width}} height={{image.height}} loading="lazy">
 						</picture>
 						{% if (block.imageCaption | length) %}
 							<figcaption>{{block.imageCaption}}</figcaption>
@@ -135,7 +135,6 @@
 		</section>
 	{% elseif block.type == "hr" %}
 		<hr>
-
 	{# {% elseif block.type == "doubleCardPanel" %}
 		<section class="double-card-panel">
 			<div class={{ container }}>
@@ -168,7 +167,7 @@
 			{% set color = 'transparent' %}
 		{% endif %}
 
-		<section class="content-panel" style="background-color: {{ color }}">
+		<section class="content-panel{% if block.panelBackgroundColor != 'transparent' %} content-panel--padded{% endif %}" style="background-color: {{ color }}">
 			<div class={{ container }}>
 				<div class="content-panel__container">
 					<h2 class="panel__heading">{{ block.panelTitle }}</h2>

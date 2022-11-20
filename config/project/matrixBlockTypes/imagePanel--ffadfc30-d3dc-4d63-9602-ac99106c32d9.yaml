@@ -43,18 +43,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 7c15066a-bdcc-4afb-874a-7fc7652f594f # Include Image Margin
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3143cbaf-265b-48a7-a0e8-357e8ce775c2
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: ae857f6a-20ef-4267-ba7e-2569f68bfb1a # Heading
             instructions: null
             label: null
@@ -124,41 +112,6 @@ fields:
             -
               - default
               - '1'
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\RadioButtons
-  7c15066a-bdcc-4afb-874a-7fc7652f594f: # Include Image Margin
-    columnSuffix: sermtytq
-    contentColumnType: string
-    fieldGroup: null
-    handle: imageMargin
-    instructions: null
-    name: 'Include Image Margin'
-    searchable: false
-    settings:
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - 'Yes'
-            -
-              - value
-              - 'yes'
-            -
-              - default
-              - '1'
-        -
-          __assoc__:
-            -
-              - label
-              - 'No'
-            -
-              - value
-              - 'no'
-            -
-              - default
-              - ''
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\RadioButtons

@@ -3,12 +3,19 @@
 $block: 'content-panel';
 
 .#{$block} {
-	padding: 1.5rem 0;
+	margin: 1.5rem 0;
 	text-align: left;
 
 	@include media-min(md) {
-		padding: 3rem 0;
-		//margin: 1.5rem 0;
+		margin: 3rem 0;
+	}
+
+	&--padded {
+		padding: 1.5rem 0;
+	
+		@include media-min(md) {
+			padding: 3rem 0;
+		}
 	}
 
 	a {
