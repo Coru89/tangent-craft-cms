@@ -216,10 +216,15 @@ ul, li {
 
 blockquote {
     border-left: 0.4rem solid $blue;
-    //font-size: 1.25rem;
     font-style: italic;
-    margin-left: 0;
+    //margin-left: 0;
     padding-left: 1.25rem;
+
+	margin: 1.5rem 40px;
+
+	@include media-min(md) {
+		margin: 3rem 40px;
+	}
 
     p {
 		font-weight: 400;

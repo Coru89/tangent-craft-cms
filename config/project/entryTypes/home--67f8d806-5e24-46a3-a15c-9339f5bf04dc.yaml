@@ -171,6 +171,132 @@ fieldLayouts:
         name: Hero
         uid: cbac14f3-1784-49df-9c27-0e11437401b0
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 09e51889-5c1b-4472-bdda-e495b8d2712f # Card Heading Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cec13fe7-cbe4-4342-b81a-3f519f29cb8b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4d9fd9f9-49cb-4c71-aec0-c2907bd1886e # Sub Heading Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 81117066-2d03-49ad-b7ec-6b13190b492f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3e4e1f8b-b4a5-4c61-a795-c399cf229104 # Card Summary Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: af6c3dcc-f81f-4a4b-92cb-49308238b6e3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fcd08c3e-474c-46ac-b0a3-96b749d96ff2 # Link Text Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6678c1b1-ee5a-43a9-80c8-ee29f7a06803
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9b18925c-a6af-476b-918e-196b1323c4c9 # Link URL Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c97db5c-a474-4cec-966c-9b9f5e559be0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 52401f4b-7fb8-42e1-98d5-420030c54889 # Card Heading Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 62643be3-dbf2-49b8-985a-178d259a2675
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8b8518e1-54b6-4973-97bc-366ecf10191c # Sub Heading Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8329d93a-f91b-4c93-9cf0-2af23aa97554
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3ca063e7-abb4-44e2-b815-749d6a5498c0 # Card Summary Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 040229cb-4f60-4e20-b189-6d8753447ff4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b5596da7-7785-4432-8d8c-5ce2a7fcce94 # Link Text Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 54dde3c9-3f39-406e-bd98-7a45a578a2d4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 08388c84-a061-4a11-8031-eb3a17b8c932 # Link URL Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f07d8ce8-7282-423f-b480-22f4ffdaf4d9
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Service Cards'
+        uid: 9e17abcd-dec1-41c8-9e5b-ed03ec08a381
+        userCondition: null
 handle: home
 hasTitleField: true
 name: Home

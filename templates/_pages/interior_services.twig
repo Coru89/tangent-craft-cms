@@ -4,5 +4,9 @@
     <main class="main main--large" id="main-content" tabindex="0">
         {% include '_components/hero' %}
         {% include '_components/content-sections' %}
+        {% if entry.servicesShowDisciplines == 'yes' %}
+            {% include '_components/disciplines-nav' %}
+        {% endif %}
+        {% include '_components/related-projects' %}
     </main>
 {% endblock %}

@@ -1,0 +1,19 @@
+columnSuffix: zetbrrvv
+contentColumnType: text
+fieldGroup: 5174132d-9dbb-4c75-afc9-bd2feca3684e # Services
+handle: serviceCardHeadingRight
+instructions: null
+name: 'Card Heading Right'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

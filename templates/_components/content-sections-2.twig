@@ -1,3 +1,4 @@
+
 {% if entry.contentPanelWidth == '1080' %}
 	{% set container = 'u-container-small' %}
 {% elseif entry.contentPanelWidth == '1280' %}
@@ -11,10 +12,10 @@
 		{% set image = block.image.one() %}
 		{% if block.imageBehavior == 'full' %}
 			<section class="image-panel-full-width">
+				{% if block.heading | length %}
+					<h2 class="image-panel__heading">{{block.heading}}</h2>
+				{% endif %}
 				<picture class="image-panel-full-width__picture" role="presentation">
-					{% if block.heading | length %}
-						<h2 class="image-panel__heading">{{block.heading}}</h2>
-					{% endif %}
 					<source {{ attr({
 						type: 'image/webp',
 						srcset: image.getSrcset(
@@ -39,10 +40,10 @@
 			<section class="image-panel">
 				<div class={{ container }}>
 					<figure class="image-panel__figure">
+						{% if block.heading | length %}
+							<h2 class="image-panel__heading">{{block.heading}}</h2>
+						{% endif %}
 						<picture class="image-panel__picture" role="presentation">
-							{% if block.heading | length %}
-								<h2 class="image-panel__heading">{{block.heading}}</h2>
-							{% endif %}
 							<source {{ attr({
 								type: 'image/webp',
 								srcset: image.getSrcset(
@@ -134,6 +135,20 @@
 		</section>
 	{% elseif block.type == "hr" %}
 		<hr>
+	{% elseif block.type == "bullets" %}
+		<section class="bullets">
+			<div class={{ container }}>
+				{% if block.heading | length %}
+					<h2 class="bullets__heading">{{block.heading}}</h2>
+				{% endif %}
+				<ul>
+					{% set items = block.items %}
+					{% for item in items %}
+						<li>{{item.item}}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</section>
 	{# {% elseif block.type == "doubleCardPanel" %}
 		<section class="double-card-panel">
 			<div class={{ container }}>
@@ -157,7 +172,6 @@
 		</section> #}
 
 	{% elseif block.type == "contentPanel" %}
-
 		{% if block.panelBackgroundColor == 'grey' %}
 			{% set color = '#e6e7e8' %}
 		{% elseif block.panelBackgroundColor == 'transparent' %}
@@ -186,17 +200,17 @@
 			</blockquote>
 		</div>
 	{% elseif block.type == "cta" %}
-		<sectiion class="cta">
+		<section class="cta">
 			<div class={{ container }}>
 				<div  class="cta__inner">
-					<div class="cta__heading">
+					<h2 class="cta__heading">
 						{{block.ctaHeading}}
-					</div>
-					<div class="cta__summary">{{block.ctaSummary}}</div>
-					<a href={{block.ctaLinkURL}} class="cta__link button button--arrow">{{block.ctaLinkText}}</a>
+					</h2>
+					<p class="cta__summary">{{block.ctaSummary}}</p>
+					<a href={{block.ctaLinkURL}} class="cta__link button button--secondary button--arrow">{{block.ctaLinkText}}</a>
 				</div>
 			</div>
-		</sectiion>					
+		</section>					
 
 	{% elseif block.type == "relatedProjects" %}
 		<section class="related-projects">

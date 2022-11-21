@@ -1,0 +1,98 @@
+field: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
+fieldLayouts:
+  553ae889-29b8-47da-ba6a-cb6ce2ac8353:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3b528b40-e6e8-4a80-ae6e-252e1f0a6068 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 12b3b826-65a7-450d-9b87-72b799c6804c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b70b86da-d0c4-4374-af28-cfa953994451 # Item
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 96ad732f-cfd2-4bde-b3f0-ff4d0dfec8f4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a6139fca-04c4-40c1-8fc8-8ad50eb634be
+        userCondition: null
+fields:
+  3b528b40-e6e8-4a80-ae6e-252e1f0a6068: # Heading
+    columnSuffix: vbalkrfh
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b70b86da-d0c4-4374-af28-cfa953994451: # Item
+    columnSuffix: bxmfgmga
+    contentColumnType: text
+    fieldGroup: null
+    handle: items
+    instructions: null
+    name: Item
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - item
+                -
+                  - handle
+                  - item
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+handle: bullets
+name: Bullets
+sortOrder: 11

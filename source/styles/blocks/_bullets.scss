@@ -1,0 +1,19 @@
+$block: 'bullets';
+
+.#{$block} {
+	margin: 1.5rem 0;
+
+	@include media-min(md) {
+		margin: 3rem 0;
+	}
+
+	ul {
+		column-count: 3;
+		column-gap: 2rem;
+	}
+
+	li {
+		font-family: "PT Mono",sans-serif;
+		font-size: 1rem;
+	}
+}

@@ -1,0 +1,12 @@
+<section class="disciplines-nav">
+	<div class="u-container">
+		<h3 class="disciplines-nav__heading">Our Disciplines</h3>
+		<ul class="disciplines-nav__list">
+			{% for service in craft.entries.section('services') %}
+				<li class="disciplines-nav__link-item">
+					<a href="{{ service.url }}" class="disciplines-nav__link">{{ service.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

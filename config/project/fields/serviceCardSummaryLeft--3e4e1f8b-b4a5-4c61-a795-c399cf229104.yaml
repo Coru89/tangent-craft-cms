@@ -1,0 +1,19 @@
+columnSuffix: tehkaeft
+contentColumnType: text
+fieldGroup: 5174132d-9dbb-4c75-afc9-bd2feca3684e # Services
+handle: serviceCardSummaryLeft
+instructions: null
+name: 'Card Summary Left'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

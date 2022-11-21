@@ -17,14 +17,15 @@
 
 			{% endif %}
 			<div class="hero__row">
-				{% if entry.heroTitle or entry.heroTitle2 or entry.heroSubtitle or entry.heroSupertitle %}
+				{% if entry.heroTitle or entry.title or entry.heroSubtitle or entry.heroSupertitle %}
 					<div class="hero__text">
 						{% if entry.heroSupertitle %}
 							<div class="hero__supertitle">{{entry.heroSupertitle }}</div>
 						{% endif %}
-						<h1 class="hero__title">{{ entry.heroTitle }}</h1>
-						{% if entry.heroTitle2 %}
-							<h1 class="hero__title">&nbsp;{{ entry.heroTitle2 }}</h1>
+						{% if entry.heroTitle %}
+							<h1 class="hero__title">{{ entry.heroTitle }}</h1>
+						{% else %}
+							<h1 class="hero__title">{{ entry.title }}</h1>
 						{% endif %}
 						{% if entry.heroSubtitle %}
 							<h4 class="hero__subtitle">{{ entry.heroSubtitle }}</h4>

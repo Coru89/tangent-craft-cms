@@ -87,6 +87,54 @@ fieldLayouts:
         name: Meta
         uid: c2fa21d2-b957-43c6-ae9d-c5a94a1f4926
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4cb46986-1520-4dea-b94b-64b8b7d942d1 # Related Projects Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 39641bd4-bd17-475b-b518-303e31e09798
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0a4b90a2-3d20-4ada-b63b-13d70c710333 # Related Projects Slug
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f96579ec-9f09-43ee-94e5-5631cdc62351
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Related Projects'
+        uid: 381d6f73-5e6b-4ae4-91fd-865c87d48313
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 39ce3f74-ea40-48bd-a6e1-3251031cee8b # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0ddfb967-4c7d-45a8-8bd2-1cab0a78fa75
+            userCondition: null
+            warning: null
+            width: 100
+        name: Hero
+        uid: 40bbb3ca-a68d-4c49-9d26-e5c0e405c7c5
+        userCondition: null
 handle: default
 hasTitleField: true
 name: Default

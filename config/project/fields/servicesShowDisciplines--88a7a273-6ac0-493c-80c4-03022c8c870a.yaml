@@ -1,0 +1,34 @@
+columnSuffix: buuwshpw
+contentColumnType: string
+fieldGroup: 5174132d-9dbb-4c75-afc9-bd2feca3684e # Services
+handle: servicesShowDisciplines
+instructions: null
+name: 'Show Disciplines Section'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Yes'
+        -
+          - value
+          - 'yes'
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - 'No'
+        -
+          - value
+          - 'no'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

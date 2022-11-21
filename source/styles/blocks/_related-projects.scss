@@ -3,13 +3,7 @@
 $block: 'related-projects';
 
 .#{$block} {
-   padding: 4rem 0 0;
-
-   &__heading {
-      color: $blue;
-      font-weight: 500;
-      margin-bottom: 2rem;
-   }
+   margin: 4rem 0 0;
 
 	&__grid {
 		border: none;
@@ -17,7 +11,7 @@ $block: 'related-projects';
 		padding: 0;
 		margin: 0 auto;
       box-sizing: border-box;
-	  }
+	}
 
    &__item {
 		margin-bottom: 4px;
@@ -29,14 +23,14 @@ $block: 'related-projects';
 			width: calc(33.33% - 4px);
          padding-right: 4px;
       }
-	  }
+	}
 
-     &__background {
-         width: 100%;
-         overflow: hidden;
-         position: relative;
-         padding-bottom: 60%;
-         object-fit: contain;
+   &__background {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      padding-bottom: 60%;
+      object-fit: contain;
 
       &-container {
          height: 100%;
@@ -45,7 +39,7 @@ $block: 'related-projects';
       }
    }   
 
-	  &__content {
+	&__content {
 		position: absolute;
 		top: 2rem;
 		left: 2rem;

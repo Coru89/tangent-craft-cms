@@ -1,0 +1,14 @@
+columnSuffix: hgwdqouz
+contentColumnType: string(255)
+fieldGroup: 5174132d-9dbb-4c75-afc9-bd2feca3684e # Services
+handle: serviceCardLinkUrlLeft
+instructions: null
+name: 'Link URL Left'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

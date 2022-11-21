@@ -11,10 +11,10 @@ $block: 'content-panel';
 	}
 
 	&--padded {
-		padding: 1.5rem 0;
+		padding: 4rem 0;
 	
 		@include media-min(md) {
-			padding: 3rem 0;
+			padding: 6rem 0;
 		}
 	}
 
