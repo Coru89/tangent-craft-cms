@@ -21,5 +21,6 @@
   "imageFigure": false,
   "imageCaption": false,
   "imageResizable": true,
-  "imageLink": false
+  "imageLink": false,
+  "formatting": ["p", "pre", "h2", "h3", "h4"]
 }

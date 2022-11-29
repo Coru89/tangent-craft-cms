@@ -26,13 +26,13 @@ $block: 'values';
     }
 
     &__summary {
-        //font-size: 1.27rem;
         font-weight: 300;
         line-height: 1.6;
     }
 
     &__title {
         color: $black;
+        font-size: 1.27rem;
     }
 
     &__row {

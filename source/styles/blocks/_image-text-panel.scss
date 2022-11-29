@@ -73,10 +73,6 @@ $block: 'image-text-panel';
 		}
 	}
 
-	&__title {
-		margin-bottom: 2rem;
-	}
-
 	 &__picture-container {
 		&--25 {
 			@include media-min(md) {

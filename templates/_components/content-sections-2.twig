@@ -78,11 +78,11 @@
 						{% if block.subject %}
 							<h4 class="image-text-panel__subject">{{ block.subject }}</h4>
 						{% endif %}
-						<h2 class="image-text-panel__title panel__heading">{{block.panelTitle}}</h2>
+						<h2 class="image-text-panel__title">{{block.panelTitle}}</h2>
 						{% if block.panelSubtitle %}
-							<h5 class="image-text-panel__title panel__heading">{{block.panelSubtitle}}</h5>
+							<h3 class="image-text-panel__subtitle">{{block.panelSubtitle}}</h3>
 						{% endif %}
-						<div class="image-text-panel__description panel__content">{{block.panelContent | nl2br}}</div>
+						<div class="image-text-panel__description">{{block.panelContent | nl2br}}</div>
 					</div>
 					{% if (block.image | length) %}
 						{% set image = block.image.one() %}
@@ -161,8 +161,12 @@
 		<section class="content-panel{% if block.panelBackgroundColor != 'transparent' %} content-panel--padded{% endif %}" style="background-color: {{ color }}">
 			<div class={{ container }}>
 				<div class="content-panel__container">
+				{% if block.panelTitle %}
 					<h2 class="panel__heading">{{ block.panelTitle }}</h2>
-					<h5 class="panel__heading">{{ block.panelSubheading }}</h5>
+				{% endif %}
+				{% if block.panelSubheading %}
+					<h3 class="panel__subheading">{{ block.panelSubheading }}</h3>
+				{% endif %}
 					<div class="panel__content">{{ block.panelContent}}</div>
 				</div>
 			</div>

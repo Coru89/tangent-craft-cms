@@ -158,7 +158,7 @@ h1 {
 h2 {
 	color: $blue;
 	font-size: 1.375rem;
-	font-weight: $font-weight-semibold;
+	font-weight: 600;
 	line-height: 1.25;
 	margin-bottom: 1rem;
 	margin-top: 0;
@@ -170,23 +170,25 @@ h2 {
 
 h3 {
 	color: $blue;
-	font-size: 1.5rem;
-	font-weight: 400;
+	font-size: 1.375rem;
+	font-weight: 500;
 	line-height: 1.75;
 	margin-bottom: 1rem;
 	margin-top: 0;
 
 	@include media-min(md) {
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 		margin-bottom: 1.25rem;
 	}
 }
 
 h4 {
+	color: $blue;
 	font-size: 1.27rem;
+	font-weight: 500;
 
 	@include media-min(md) {
-		font-size: 1.5rem;
+		font-size: 1.125rem;
 	}
 }
 
