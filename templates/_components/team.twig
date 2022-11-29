@@ -23,7 +23,7 @@
 									),
 									sizes: '(max-width: 768px) 100vw, 304px',
 								}) }}>
-								<img class="team__image team__image--front" src={{item.image}} alt={{item.teamName}} width={{image.width}} height={{image.height}} loading="lazy">
+								<img alt="{{item.teamName}}" class="team__image team__image--front" src={{image.url}} width={{image.width}} height={{image.height}} loading="lazy">
 							</picture>
 
 							{% set image = item.teamImageBack.one() %}
@@ -44,7 +44,7 @@
 									),
 									sizes: '(max-width: 768px) 100vw, 304px',
 								}) }}>
-								<img class="team__image team__image--front" src={{item.image}} alt={{item.teamName}} width={{image.width}} height={{image.height}} loading="lazy">
+								<img alt="{{item.teamName}}" class="team__image team__image--back" src={{image.url}} width={{image.width}} height={{image.height}} loading="lazy">
 							</picture>
 						</div>
 						<div class="team__text">
