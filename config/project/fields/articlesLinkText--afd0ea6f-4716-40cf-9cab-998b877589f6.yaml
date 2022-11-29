@@ -12,7 +12,7 @@ settings:
   columnType: null
   initialRows: 4
   multiline: false
-  placeholder: 'Learn More'
+  placeholder: 'Read Article'
   uiMode: normal
 translationKeyFormat: null
 translationMethod: none

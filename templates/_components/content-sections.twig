@@ -263,7 +263,7 @@
 			<div class={{ container }}>
 				<div class="services-rollup__inner">
 					<h2 class="services-rollup__heading">{{block.servicesPanelHeading}}</h2>
-					<h5>{{block.servicesPanelSubheading}}</h5>
+					<div class="services-rollup__sub-heading">{{block.servicesPanelSubheading}}</div>
 						<div class="services-rollup__items">
 							{% for item in craft.entries.section('services').all() %}
 								<div class="services-rollup__item">
@@ -344,7 +344,7 @@
 											<span class="articles-rollup__date">{{ item.articlesDate | date('medium') }}</span>
 										</div>
 
-										<h5 class="articles-rollup__title">{{item.title}}</h5>
+										<div class="articles-rollup__title">{{item.title}}</div>
 										<div class="articles-rollup__summary">{{item.articlesRollupDescription}}</div>
 										<a href={{item.uri}} class="articles-rollup__link button button--arrow">{{item.articlesLinkText}}</a>
 									</div>

@@ -182,6 +182,14 @@ h3 {
 	}
 }
 
+h4 {
+	font-size: 1.27rem;
+
+	@include media-min(md) {
+		font-size: 1.5rem;
+	}
+}
+
 h5 {
 	font-size: 1.27rem;
 	font-weight: 400;
@@ -201,15 +209,12 @@ h6 {
 }
 
 p {
-	//font-size: 1.27rem;
 	font-weight: 300;
     line-height: 1.6;
 	margin-top: 0;
 }
 
 ul, li {
-    // font-family: Roboto,sans-serif;
-    //font-size: 1.27rem;
     font-weight: 300;
     line-height: 1.6;
 }
@@ -217,7 +222,6 @@ ul, li {
 blockquote {
     border-left: 0.4rem solid $blue;
     font-style: italic;
-    //margin-left: 0;
     padding-left: 1.25rem;
 
 	margin: 1.5rem 40px;
@@ -236,7 +240,6 @@ blockquote {
 	color: #171f38;
 	font-family: $font-family-roboto;
 	font-size: 1.125rem;
-	//font-weight: 300;
 	line-height: 1.5;
 	outline: none;
 

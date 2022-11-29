@@ -1,4 +1,4 @@
-dateModified: 1669030277
+dateModified: 1669702174
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -58,7 +58,7 @@ meta:
     1b4683b2-6086-476d-9ec8-029278f1d3cd: 'Sub Heading' # Sub Heading
     1c7d4563-abad-4509-af16-b153985d326e: 'Services Rollup' # Services Rollup
     1c775643-0aac-4173-9282-6c3dafa2e85f: 'Image Behavior' # Image Behavior
-    1db92dd4-db41-4f28-827e-d5fbbc19a4eb: 'Telephone Link URL' # Telephone Link URL
+    1db92dd4-db41-4f28-827e-d5fbbc19a4eb: 'Telephone Link' # Telephone Link
     1e3b5809-5a23-4d9c-ae0b-afe84f958383: 'Image and Text Panel' # Image and Text Panel
     1e7343e7-5a3c-4976-ab37-e07c94b7c944: 'Services Panel Heading' # Services Panel Heading
     2b51a4a7-8dc4-4344-a499-4c57992a3c4f: 'Link Text' # Link Text
@@ -415,7 +415,7 @@ plugins:
       prependSender: 'On behalf of'
       prependSubject: 'New message from Tangent Services'
       successFlashMessage: 'Contact form successfully submitted. We will be in touch soon!'
-      toEmail: corey.james.keller@gmail.com
+      toEmail: 'bmillen@tangentservices.com, corey.james.keller@gmail.com'
   copy:
     edition: standard
     enabled: true

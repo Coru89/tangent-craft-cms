@@ -62,7 +62,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 86832c8f-0e26-4321-892d-3f2b670e5d40 # Hero Title (line 2)
+            fieldUid: 86832c8f-0e26-4321-892d-3f2b670e5d40
             instructions: null
             label: null
             required: false
