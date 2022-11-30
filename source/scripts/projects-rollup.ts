@@ -5,7 +5,8 @@ const grid: HTMLElement = document.querySelector('#grid');
 if (grid) {
 	var iso = new Isotope(grid, {
 		itemSelector: '#project-item',
-		layoutMode: 'masonry'
+		layoutMode: 'masonry',
+		percentPosition: true
 	});
 }
 

@@ -1,0 +1,14 @@
+columnSuffix: rujclrzn
+contentColumnType: string(255)
+fieldGroup: cd8f97bb-1019-4201-947a-62825eab84e5 # Projects
+handle: relatedProjectsContentCardLinkUrl
+instructions: null
+name: 'Card Link URL'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

@@ -1,119 +1,164 @@
-@import '../reference/reference';
+@import "../reference/reference";
 
-$block: 'related-projects';
+$block: "related-projects";
 
-.#{$block} {
-   margin: 4rem 0 0;
-
-	&__grid {
-		border: none;
-		width: 100%;
-		padding: 0;
-		margin: 0 auto;
-      box-sizing: border-box;
-	}
-
-   &__item {
-		margin-bottom: 4px;
-		position: relative;
-		width: 100%;
-      grid-auto-rows: 1fr;
-   
-		@include media-min(lg) {
-			width: calc(33.33% - 4px);
-         padding-right: 4px;
-      }
-	}
-
-   &__background {
-      width: 100%;
-      overflow: hidden;
-      position: relative;
-      padding-bottom: 60%;
-      object-fit: contain;
-
-      &-container {
-         height: 100%;
-         width: 100%;
-         overflow: hidden;
-      }
-   }   
-
-	&__content {
-		position: absolute;
-		top: 2rem;
-		left: 2rem;
-	}
-
-	&__title {
-		margin-top: 0;
-	}
-
-   &__description {
-      border-right: 3px solid $white;
-      color: $white;
-      font-size: 13px;
-      font-weight: 300;
-      left: 2rem;
-      line-height: 1.6;
-      margin: 0;
-      opacity: 0;
-      padding: 0 1rem;
-      position: absolute;
-      text-align: right;
-      text-transform: uppercase;
-      top: 2rem;
-      transform: translateX(-1.5rem);
-      transition: all 0.3s;
-      z-index: 99;
-
-      @include media-min(md) {
-         width: 50%;
-      }
-   }
-
-   &__inner {
-      position: relative;
-
-      &--no-image {
-         padding-bottom: 60%;
-      }
-   }
-
-   &__picture {
-		background-color: $grey;
-		display: block;
-		height: 0;
-		overflow: hidden;
-		padding-bottom: 63.5%;
-		position: relative;
-	}
-
-	&__image {
-		display: block;
-		height: auto;
-		width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-	}
-
-   &__overlay {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 90;
-      transition: all 0.4s;
-
-      &:hover {
-         background: rgba(0, 0, 0, 0.8);
-         .#{$block}__description {
-            opacity: 1;
-            transform: none;
-         }
-      }
-   }
+.grid-sizer {
+  width: 33.333%;
 }
 
+.#{$block} {
+  margin: 4rem 0 0;
+
+  &__grid {
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: grid;
+  }
+
+  &__item {
+    margin-bottom: 4px;
+    position: relative;
+    width: 100%;
+    grid-auto-rows: 1fr;
+    box-sizing: border-box;
+
+    @include media-min(lg) {
+      outline: 4px solid $white;
+      width: 33.33%;
+    }
+  }
+
+  &__background {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%;
+    object-fit: contain;
+
+    &-container {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+
+    * {
+      color: $white;
+    }
+
+    @include media-min(lg) {
+      transform: none;
+      top: 0.5rem;
+      left: 1rem;
+      right: 1rem;
+    }
+
+    @include media-min(xl) {
+      top: 2rem;
+      left: 2rem;
+      right: 2rem;
+    }
+  }
+
+  &__title {
+    margin-top: 0;
+  }
+
+  &__summary {
+    display: inline-block;
+    font-size: 1.27rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+
+    @include media-min(lg) {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    @include media-min(xxl) {
+      font-size: 1.27rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__description {
+    border-right: 3px solid $white;
+    color: $white;
+    font-size: 13px;
+    font-weight: 300;
+    left: 2rem;
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0;
+    padding: 0 1rem;
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    top: 2rem;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s;
+    z-index: 99;
+
+    @include media-min(md) {
+      width: 50%;
+    }
+  }
+
+  &__inner {
+    position: relative;
+
+    &--no-image {
+      background-color: $blue-darker;
+      padding-bottom: 63.5%;
+    }
+  }
+
+  &__picture {
+    background-color: $grey;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 63.5%;
+    position: relative;
+  }
+
+  &__image {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__overlay {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.4s;
+    width: 100%;
+    z-index: 90;
+
+    @include media-min(lg) {
+      right: 4px;
+    }
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.8);
+      .#{$block}__description {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  }
+}

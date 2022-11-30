@@ -264,6 +264,54 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: b2236215-c720-4eb3-925a-05cb3e4d42ca # Content Card Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3c0197c3-7e19-4d54-9af9-4858e11f7583
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6590dc4b-f1f2-4771-aedc-ac9da2e0dfe4 # Card Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 46976b54-b934-49f5-a037-24b906c6d630
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: af54f917-7fe8-486c-b610-5d5d135e73d9 # Card Link Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 52225bac-e158-4576-b4ac-6f9f6e069ff7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 706a7c05-d62a-469a-9d9f-0c307db9c4f7 # Card Link URL
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f0de7275-5f50-4098-80ba-6b54175905d1
+            userCondition: null
+            warning: null
+            width: 100
         name: 'Related Projects'
         uid: 9cf307ee-a6c9-4468-94f7-e0b0708a68e3
         userCondition: null

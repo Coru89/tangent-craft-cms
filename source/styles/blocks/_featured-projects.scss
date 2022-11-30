@@ -1,151 +1,217 @@
-@import '../reference/reference';
+@import "../reference/reference";
 
-$block: 'featured-projects';
+$block: "featured-projects";
 
 .#{$block} {
-   padding: 3rem 0;
+  padding: 3rem 0;
 
-   &__heading {
-      color: $blue;
-      font-weight: 500;
-      margin-bottom: 2rem;
-   }
+  &__heading {
+    color: $blue;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
 
-   &__filters {
-      border-bottom: 0.0625rem solid $grey;
-      margin-bottom: 24px;
+  &__filters {
+    border-bottom: 0.0625rem solid $grey;
+    margin-bottom: 24px;
 
-      &-link {
-         background-color: transparent;
-         border-radius: 0.1rem;
-         border: 0;
-         font-weight: 300;
-         margin-bottom: 0;
-         padding: .75rem 1rem;
-
-         &--active {
-            color: #0a2152;
-            background-color: $grey;
-            border-color: $grey;
-         }
-      }
-   }
-
-	&__grid {
-		border: none;
-		width: 100%;
-		padding: 0;
-		margin: 0 auto;
-      box-sizing: border-box;
-	  }
-
-   &__item {
-		margin-bottom: 4px;
-		position: relative;
-		width: 100%;
-      grid-auto-rows: 1fr;
-   
-		@include media-min(md) {
-			width: calc(50% - 4px);
-         padding-right: 4px;
-		}
-
-		@include media-min(lg) {
-			width: calc(33.33% - 4px);
-         padding-right: 4px;
-		}
-	  }
-
-     &__background {
-         width: 100%;
-         overflow: hidden;
-         position: relative;
-         padding-bottom: 60%;
-         object-fit: contain;
-
-      &-container {
-         height: 100%;
-         width: 100%;
-         overflow: hidden;
-      }
-   }   
-
-	  &__content {
-		position: absolute;
-		top: 2rem;
-		left: 2rem;
-	}
-
-	&__title {
-		margin-top: 0;
-	}
-
-   &__description {
-      border-right: 3px solid $white;
-      color: $white;
-      font-size: 13px;
+    &-link {
+      background-color: transparent;
+      border-radius: 0.1rem;
+      border: 0;
       font-weight: 300;
-      left: 2rem;
-      line-height: 1.6;
-      margin: 0;
-      opacity: 0;
-      padding: 0 1rem;
-      position: absolute;
-      text-align: right;
-      text-transform: uppercase;
-      top: 2rem;
-      transform: translateX(-1.5rem);
-      transition: all 0.3s;
-      z-index: 99;
+      margin-bottom: 0;
+      padding: 0.75rem 1rem;
 
-      @include media-min(md) {
-         width: 50%;
+      &--active {
+        color: #0a2152;
+        background-color: $grey;
+        border-color: $grey;
       }
-   }
+    }
+  }
 
-   &__inner {
-      position: relative;
+  &__grid {
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
 
-      &--no-image {
-         padding-bottom: 60%;
+  &__item {
+    margin-bottom: 4px;
+    position: relative;
+    width: 100%;
+    grid-auto-rows: 1fr;
+    box-sizing: border-box;
+
+    @include media-min(md) {
+      outline: 4px solid $white;
+      width: 50%;
+
+      &:nth-of-type(2n) {
+        .featured-projects__overlay {
+          right: 0;
+        }
       }
-   }
+    }
 
-   &__picture {
-		background-color: $grey;
-		display: block;
-		height: 0;
-		overflow: hidden;
-		padding-bottom: 63.5%;
-		position: relative;
-	}
+    @include media-min(lg) {
+      outline: 4px solid $white;
+      width: 33.33%;
 
-	&__image {
-		display: block;
-		height: auto;
-		width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-	}
+      &:nth-of-type(2n) {
+        .featured-projects__overlay {
+          right: 4px;
+        }
+      }
 
-   &__overlay {
+      &:nth-of-type(3n) {
+        .featured-projects__overlay {
+          right: 0;
+        }
+      }
+    }
+  }
+
+  &__background {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%;
+    object-fit: contain;
+
+    &-container {
       height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      transition: all 0.4s;
       width: 100%;
-      z-index: 90;
+      overflow: hidden;
+    }
+  }
 
-      &:hover {
-         background: rgba(0, 0, 0, 0.8);
-   
-         .#{$block}__description {
-            opacity: 1;
-            transform: none;
-         }
+  &__content {
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @include media-min(md) {
+      transform: none;
+      top: 0.5rem;
+      left: 1rem;
+      right: 1rem;
+    }
+
+    @include media-min(xl) {
+      top: 2rem;
+      left: 2rem;
+      right: 2rem;
+    }
+  }
+
+  &__title {
+    margin-top: 0;
+    line-height: 1.25;
+
+    @include media-min(lg) {
+      margin-bottom: 1rem;
+    }
+
+    @include media-min(xl) {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  &__summary {
+    display: inline-block;
+    font-size: 1.27rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+
+    @include media-min(md) {
+      font-size: 1rem;
+    }
+
+    @include media-min(lg) {
+      margin-bottom: 1rem;
+    }
+
+    @include media-min(xl) {
+      font-size: 1.27rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__description {
+    border-right: 3px solid $white;
+    color: $white;
+    font-size: 13px;
+    font-weight: 300;
+    left: 2rem;
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0;
+    padding: 0 1rem;
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    top: 2rem;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s;
+    z-index: 99;
+
+    @include media-min(md) {
+      width: 50%;
+    }
+  }
+
+  &__inner {
+    position: relative;
+
+    &--no-image {
+      padding-bottom: 63.5%;
+    }
+  }
+
+  &__picture {
+    background-color: $grey;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 63.5%;
+    position: relative;
+  }
+
+  &__image {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__overlay {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.4s;
+    width: 100%;
+    z-index: 90;
+
+    @include media-min(md) {
+      outline: 4px solid $white;
+      right: 4px;
+    }
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.8);
+
+      .#{$block}__description {
+        opacity: 1;
+        transform: none;
       }
-   }
+    }
+  }
 }
-

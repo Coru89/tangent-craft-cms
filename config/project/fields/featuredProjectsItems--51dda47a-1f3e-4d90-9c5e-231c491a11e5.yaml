@@ -1,0 +1,16 @@
+columnSuffix: wypsizdf
+contentColumnType: string
+fieldGroup: cd8f97bb-1019-4201-947a-62825eab84e5 # Projects
+handle: featuredProjectsItems
+instructions: null
+name: 'Featured Projects Items'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_featuredprojectsitems}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

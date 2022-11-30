@@ -1,0 +1,137 @@
+field: 51dda47a-1f3e-4d90-9c5e-231c491a11e5 # Featured Projects Items
+fieldLayouts:
+  56015191-fbb5-43c6-9077-fc7ea2218f84:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: dbedc28e-17a7-4351-acba-e9f288716991 # Card Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9eea5397-03bc-485a-a336-3702d879179e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7ced76bb-8113-4a7f-a606-8de81c205095 # Card Summary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fae18e4f-2a79-4e4d-8d2d-b5d31211c429
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b28bb66f-d2ab-44bf-b209-dddf0278abc3 # Card Link Url
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: acb97e3f-c7fb-45e1-8daa-0a31ac6e7498
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 37f377a2-7318-4452-99c6-406c7b6ac356 # Card Link Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 52577811-e232-437f-9bac-52cc5dfa638d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 15699f6e-0c51-4c13-94cf-94f722e7e987
+        userCondition: null
+fields:
+  7ced76bb-8113-4a7f-a606-8de81c205095: # Card Summary
+    columnSuffix: wyvzancs
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardSummary
+    instructions: null
+    name: 'Card Summary'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  37f377a2-7318-4452-99c6-406c7b6ac356: # Card Link Text
+    columnSuffix: ulejixrr
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardLinkText
+    instructions: null
+    name: 'Card Link Text'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b28bb66f-d2ab-44bf-b209-dddf0278abc3: # Card Link Url
+    columnSuffix: zupsmbqs
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: cardLinkUrl
+    instructions: null
+    name: 'Card Link Url'
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  dbedc28e-17a7-4351-acba-e9f288716991: # Card Title
+    columnSuffix: wifxjljj
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardTitle
+    instructions: null
+    name: 'Card Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: nonProjectCard
+name: 'Non-Project Card'
+sortOrder: 2

@@ -1,4 +1,4 @@
-dateModified: 1669702174
+dateModified: 1669797261
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -65,6 +65,7 @@ meta:
     2b2271de-7d81-4a96-8a7d-a22ee9982c33: Description # Description
     2c098049-a68a-47fd-a4e2-21c2b59e38ae: Tagline # Tagline
     2ce30b21-fd7e-48cb-9035-15fdf918f29e: Video # Video
+    2e0867dd-afe5-4f7c-ae62-4f027839a0ca: 'Featured Projects' # Featured Projects
     3a25d975-5d0c-431a-94d6-a3a578faebf1: 'Primary Navigation' # Primary Navigation
     3a66029f-ef5b-468f-933e-ed82347b358b: Subject # Subject
     3b528b40-e6e8-4a80-ae6e-252e1f0a6068: Heading # Heading
@@ -110,6 +111,7 @@ meta:
     7b9f31e0-a9e2-4b32-9da7-f3e032fefc67: Articles # Articles
     7b67e8e0-cc60-4cfe-b394-77b03d4f0fff: 'Content Right' # Content Right
     7c15066a-bdcc-4afb-874a-7fc7652f594f: 'Include Image Margin' # Include Image Margin
+    7ced76bb-8113-4a7f-a606-8de81c205095: 'Card Summary' # Card Summary
     7d6c73b8-9e64-4551-ad68-5c0cac301214: Summary # Summary
     07dd4b3d-d382-4187-81cd-7843856e053c: 'Link URL' # Link URL
     7ef51be8-44ac-4817-be0a-c6516005904e: Title # Title
@@ -149,15 +151,18 @@ meta:
     28a1c353-7659-4d04-b2e2-a258326489e1: Image # Image
     28e3771c-eac9-4dab-be8f-b640e70b4e10: Title # Title
     30ce25e1-5493-463f-8fe4-999eb6849126: 'Picture Column Width' # Picture Column Width
+    33c8db87-ec18-4e54-bc4a-495da94bc995: Default # Default
     36a33da4-6d74-4cb6-8775-ff859f01289c: Title # Title
     36cde833-6bde-43bd-b40d-d47db1bc4577: 'Content 2' # Content 2
     36f9f18e-e389-4ced-b786-e83ee704d921: 'Image Box Shadow' # Image Box Shadow
+    37f377a2-7318-4452-99c6-406c7b6ac356: 'Card Link Text' # Card Link Text
     39ce3f74-ea40-48bd-a6e1-3251031cee8b: Title # Title
     43ce31d5-37ed-4b92-9010-996d2d6a5694: 'Projects Limit' # Projects Limit
     47dc5f60-5afa-437b-9370-a9b213c9ab47: 'Projects Filter' # Projects Filter
     047ff52b-632c-479d-8c84-c14330a62df8: 'Content Left' # Content Left
     48f6d6ac-c949-4690-9375-e750acbee372: 'Link Text' # Link Text
     51a35042-bbb4-402e-b4fe-74e6059ddd19: Quote # Quote
+    51dda47a-1f3e-4d90-9c5e-231c491a11e5: 'Featured Projects Items' # Featured Projects Items
     55aeb36a-1a23-40a5-b308-cd2b88181da7: 'Link Text' # Link Text
     55ebc89a-bfff-4044-8701-7d25fedfcffe: 'Text Position' # Text Position
     56ded7a3-d2bc-49c4-aadb-68d8716801e5: 'Picture Column Width' # Picture Column Width
@@ -215,6 +220,7 @@ meta:
     696fb652-ec4c-4eb0-8301-6561412eec27: 'Link URL' # Link URL
     697d92fa-8d41-4b8a-aa0e-2ef464d14a9a: Name # Name
     702b4ab5-aec1-4d04-8d6e-1972ef29664d: Heading # Heading
+    706a7c05-d62a-469a-9d9f-0c307db9c4f7: 'Card Link URL' # Card Link URL
     711fa1de-ef75-4399-bbfe-badcb165f8ec: 'Projects Limit' # Projects Limit
     750a6a46-5608-44ac-963d-8472c1d3cd40: Title # Title
     753acc38-d212-4067-8c54-326b6007ffac: 'Background Color' # Background Color
@@ -240,6 +246,7 @@ meta:
     5663a898-2246-4b0e-bd1f-a2d7e7c83d78: Title # Title
     5745f234-8fc6-45ba-a8e1-ea167f768afc: Author # Author
     6333f983-d637-4788-90b6-722a343922f6: 'Projects Rollup' # Projects Rollup
+    6590dc4b-f1f2-4771-aedc-ac9da2e0dfe4: 'Card Summary' # Card Summary
     06686b29-4528-4e4b-b21d-d2bc339313d3: 'Link Url' # Link Url
     7985ea83-d7ac-42b3-9801-dc8348a43ad2: Default # Default
     8007fc25-3d33-4ee5-ade0-cadfb61b1591: 'Image Position' # Image Position
@@ -257,6 +264,7 @@ meta:
     52756a4b-7e10-4fec-a57a-8599921de625: Company # Company
     64868fe3-409c-48a4-988b-b52ac547cd98: 'Contact Link URL' # Contact Link URL
     74461e4b-8289-4afd-ad7c-2768066aad62: 'Subject Right' # Subject Right
+    80598ea6-b86d-49e6-9b6e-395a803ea9a5: Project # Project
     82543b94-e029-479e-87c5-9a486bd77e1f: Articles # Articles
     84950cbc-dc7b-4aa4-9c7e-884d62b0e417: 'Title Right' # Title Right
     91458f3d-5347-4b47-a507-b691e9a17943: 'Navigation Items' # Navigation Items
@@ -270,6 +278,7 @@ meta:
     425293cb-cfab-442c-98cd-d824660ea3df: 'Footer Line' # Footer Line
     486228bf-ae70-4231-82fc-8b86719a7388: Value # Value
     512736c9-b13f-45b8-b3d7-4d96d3c07397: 'Super Title' # Super Title
+    810803b0-55de-44e2-bbcf-de2cae65fa01: Slug # Slug
     818276ab-339c-4835-80cf-0d925ad564cc: 'Hero Link Url' # Hero Link Url
     951602bb-1e48-456b-886c-67fe46ab4cb3: 'Title Left' # Title Left
     975669f6-1e7a-4565-a122-632b27c87106: Content # Content
@@ -303,12 +312,15 @@ meta:
     ada35ad0-4d42-4ca8-bed9-59ff6816f33f: 'Tangent Services' # Tangent Services
     ae857f6a-20ef-4267-ba7e-2569f68bfb1a: Heading # Heading
     aebc4fab-59b8-4d1c-a3e4-4857b13a6be1: 'Services Panel Heading' # Services Panel Heading
+    af54f917-7fe8-486c-b610-5d5d135e73d9: 'Card Link Text' # Card Link Text
     af634fe2-c5c4-4c82-89ed-b8208b175bf2: 'Sub Heading' # Sub Heading
     afd0ea6f-4716-40cf-9cab-998b877589f6: 'Link Text' # Link Text
     b1e0c5fb-3990-45b6-ba81-90c7d963dd65: Title # Title
     b3d6f87a-a321-46e7-91f8-b0039347d167: Start-up # Start-up
     b4b55ce3-b751-45e8-bbfd-00f7a2db916d: Image # Image
     b5eaf565-cf00-461d-b3e2-7b81dbe777a5: Bullets # Bullets
+    b9e2d390-ea5e-4695-8924-4d14a6577534: 'Non-Project Card' # Non-Project Card
+    b28bb66f-d2ab-44bf-b209-dddf0278abc3: 'Card Link Url' # Card Link Url
     b70b86da-d0c4-4374-af28-cfa953994451: Item # Item
     b241b239-8363-48e7-b5be-f74aaa0912c1: 'Title Left' # Title Left
     b317f030-c8e7-4f72-8330-6068ecff69c3: Heading # Heading
@@ -322,6 +334,7 @@ meta:
     b5807a47-39e7-480a-ab04-0e0c4d998d82: Title # Title
     b147087a-beb7-4822-9a72-e618dfd1852e: Title # Title
     b1059532-e19c-4e58-933f-33e128d0e2ed: Image # Image
+    b2236215-c720-4eb3-925a-05cb3e4d42ca: 'Content Card Title' # Content Card Title
     b2623688-8e4c-4d5a-9406-28c978d3196d: Quote # Quote
     ba713a50-5f2f-4866-8967-ff7e83003bff: 'Image Behavior' # Image Behavior
     baf0a779-4e63-44a6-89de-05fb119b24ff: 'Subject Right' # Subject Right
@@ -351,6 +364,7 @@ meta:
     d94b6905-bfc8-4062-8d2f-8446e7a208c3: 'Content Right' # Content Right
     da59a3ae-6178-4f7c-b665-5ce3ae7e29d7: Video # Video
     db62a3b5-a50d-4140-9a44-5fda6bbf4455: Heading # Heading
+    dbedc28e-17a7-4351-acba-e9f288716991: 'Card Title' # Card Title
     dcba9ee0-5811-4684-8ef3-4e80ba9e2ed6: 'Image Position' # Image Position
     dd527bbc-9bc5-4fd3-96cc-99f1f11478cb: 'Articles Limit' # Articles Limit
     dd599877-f293-452e-b2b3-185203a70ee2: Content # Content

@@ -1,0 +1,46 @@
+field: 51dda47a-1f3e-4d90-9c5e-231c491a11e5 # Featured Projects Items
+fieldLayouts:
+  16130d8a-fc2d-4ba1-8f4a-156ac5263f38:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 810803b0-55de-44e2-bbcf-de2cae65fa01 # Slug
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0f2adc33-77e4-4d76-b871-6e1ef43b0a51
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b6113cae-5ca5-4275-a8de-a6bc7ba249fb
+        userCondition: null
+fields:
+  810803b0-55de-44e2-bbcf-de2cae65fa01: # Slug
+    columnSuffix: ysotktkr
+    contentColumnType: text
+    fieldGroup: null
+    handle: projectSlug
+    instructions: null
+    name: Slug
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: project
+name: Project
+sortOrder: 1

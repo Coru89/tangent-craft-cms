@@ -6,11 +6,10 @@
         {% set slugs = entry.relatedProjectsSlug %}
         {% for slug in slugs %}
             {% set project = craft.entries.section('projects').slug(slug).one() %}
-                {% if project %}
-                    <div id="project-item" class="related-projects__item">
-    
-                        {% set image = project.projectsRollupImage.one() %}
-                        <a class="related-projects__anchor" href={{ project.uri }}>
+            {% if project %}
+                <div id="project-item" class="related-projects__item">
+                    {% set image = project.projectsRollupImage.one() %}
+                    <a class="related-projects__anchor" href={{ project.uri }}>
                         <picture class="related-projects__picture">
                             <div class="related-projects__overlay">
                                 <p class="related-projects__description">{{project.projectsRollupDescription}}</p>
@@ -37,5 +36,19 @@
                 </div>
             {% endif %}
         {% endfor %}
+
+        {% if slugs | length < 3 %}
+            <div id="project-item" class="related-projects__item">
+                <div class="related-projects__inner related-projects__inner--no-image">
+                    <div class="related-projects__content">
+                        <h3 class="related-projects__title">{{entry.relatedProjectsContentCardTitle}}</h3>
+                        <span class="related-projects__summary">{{entry.relatedProjectsContentCardSummary}}</span>
+                        {% if (entry.relatedProjectsContentCardLinkText | length) and (entry.relatedProjectsContentCardLinkUrl | length) %}
+                            <a href={{entry.relatedProjectsContentCardLinkUrl}} class="button button--arrow button--secondary">{{entry.relatedProjectsContentCardLinkText}}</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endif %}
     </div>
 </section>

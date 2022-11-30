@@ -86,18 +86,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 86832c8f-0e26-4321-892d-3f2b670e5d40
-            instructions: null
-            label: 'Title (line 2)'
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 6f74255d-00ff-4313-8e06-af2568ac044e
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 112efcad-1a5a-40bd-87f8-dc0ea2e5f742 # Subtitle
             instructions: null
             label: null
@@ -296,6 +284,24 @@ fieldLayouts:
             width: 100
         name: 'Service Cards'
         uid: 9e17abcd-dec1-41c8-9e5b-ed03ec08a381
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 51dda47a-1f3e-4d90-9c5e-231c491a11e5 # Featured Projects Items
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7ee9311b-023f-4980-848c-77306541353a
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Featured Projects'
+        uid: 9023b4ca-9139-40be-99c3-d53ff0a67513
         userCondition: null
 handle: home
 hasTitleField: true

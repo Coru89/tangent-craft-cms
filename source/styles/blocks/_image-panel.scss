@@ -26,13 +26,12 @@ $block-full-width: 'image-panel-full-width';
 	}
 
 	&__picture {
-		background-color: $grey;
 		width: 100%;
 	}
 
 	&__image {
+		background-color: $grey;
 		display: block;
-		//box-shadow: $box-shadow;
 		height: auto;
 		margin: 0 auto;
 		max-width: 100%;
