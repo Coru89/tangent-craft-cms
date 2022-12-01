@@ -21,7 +21,7 @@ $block: 'primary-nav';
 		text-decoration: none;
 
 		&::after {
-			background-color: $white;
+			background-color: $ghost-white;
 			bottom: -4px;
 			content: '';
 			display: block;

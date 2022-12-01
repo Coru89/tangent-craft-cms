@@ -3,7 +3,7 @@
 $block: 'header';
 
 .#{$block} {
-	background-color: #fafafb;
+	background-color: $ghost-white;
 	width: 100%;
 	z-index: $z-index-hotel;
 

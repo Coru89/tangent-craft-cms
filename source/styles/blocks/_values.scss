@@ -3,7 +3,11 @@
 $block: 'values';
 
 .#{$block} {
-    padding: 3rem 0;
+    margin: 3rem 0;
+
+    @include media-min(md) {
+		margin: 6rem 0;
+	}
 
     &__heading {
         margin-bottom: 4rem;
