@@ -1,4 +1,4 @@
-dateModified: 1669882396
+dateModified: 1670383557
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -65,7 +65,6 @@ meta:
     2b2271de-7d81-4a96-8a7d-a22ee9982c33: Description # Description
     2c098049-a68a-47fd-a4e2-21c2b59e38ae: Tagline # Tagline
     2ce30b21-fd7e-48cb-9035-15fdf918f29e: Video # Video
-    2e0867dd-afe5-4f7c-ae62-4f027839a0ca: 'Featured Projects' # Featured Projects
     3a25d975-5d0c-431a-94d6-a3a578faebf1: 'Primary Navigation' # Primary Navigation
     3a66029f-ef5b-468f-933e-ed82347b358b: Subject # Subject
     3b528b40-e6e8-4a80-ae6e-252e1f0a6068: Heading # Heading
@@ -151,7 +150,6 @@ meta:
     28a1c353-7659-4d04-b2e2-a258326489e1: Image # Image
     28e3771c-eac9-4dab-be8f-b640e70b4e10: Title # Title
     30ce25e1-5493-463f-8fe4-999eb6849126: 'Picture Column Width' # Picture Column Width
-    33c8db87-ec18-4e54-bc4a-495da94bc995: Default # Default
     36a33da4-6d74-4cb6-8775-ff859f01289c: Title # Title
     36cde833-6bde-43bd-b40d-d47db1bc4577: 'Content 2' # Content 2
     36f9f18e-e389-4ced-b786-e83ee704d921: 'Image Box Shadow' # Image Box Shadow
