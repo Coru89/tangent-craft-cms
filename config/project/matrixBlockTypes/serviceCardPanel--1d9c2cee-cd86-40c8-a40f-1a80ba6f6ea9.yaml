@@ -1,0 +1,324 @@
+field: 8d7b11e3-8a9f-4551-8e59-559d5a419a6d # Content Home
+fieldLayouts:
+  3145f13a-1d98-4f96-a84d-e6dc5641fa62:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 9d68d433-5e56-432e-acc2-fe2e3ed3bc2e # Card Heading Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 281f4a4e-29aa-4422-910d-4e05eec1128d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f9f1f4e6-4673-4ca0-a5a4-8eb1d6a6b971 # Sub Heading Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8298208b-5fd6-4b2e-8a17-c1f8036bbe07
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c52641e7-980a-4ebf-b64e-89a15d4d568c # Card Summary Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ff738a69-e154-4046-aa60-7f8786ed430c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 700c3953-6764-484f-9481-8604d81f8528 # Link Text Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: be2ac522-7d10-423c-ad70-6b578944ead6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 547de770-8ac7-4c68-a584-255114c0ca6b # Link URL Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6c6652bd-62e1-40c9-806a-3bb52231233c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 49373cef-63d8-4884-90ff-45f202b4ada0 # Card Heading Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6779b792-1f39-46ff-b663-2f7da10057ea
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4733ac12-a33b-4614-9c00-dcf0ccaf97fa # Sub Heading Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d1b67ca0-0469-4a7d-a171-677312837f14
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 46c72db7-3203-4a74-a893-9d8752063027 # Card Summary Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80fa50f4-a05e-4503-8c59-4026c4f4ada7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6fbbb73f-ab63-47cb-a56f-f2cef56e7bf3 # Link Text Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6fdfc788-b7a0-4630-bce2-43d55f18003b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2e12c29f-7cd2-4ea7-b057-1d1e2cab35db # Link URL Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 285db24e-c492-4836-824a-3aa4fb4eb8d4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1772e94c-42a6-4ee4-8e8d-746fd83003bb
+        userCondition: null
+fields:
+  2e12c29f-7cd2-4ea7-b057-1d1e2cab35db: # Link URL Right
+    columnSuffix: lqeavrhn
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: serviceCardLinkUrlRight
+    instructions: null
+    name: 'Link URL Right'
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  6fbbb73f-ab63-47cb-a56f-f2cef56e7bf3: # Link Text Right
+    columnSuffix: hdblhruk
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceCardLinkTextRight
+    instructions: null
+    name: 'Link Text Right'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9d68d433-5e56-432e-acc2-fe2e3ed3bc2e: # Card Heading Left
+    columnSuffix: zqrwfjzu
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceCardHeadingLeft
+    instructions: null
+    name: 'Card Heading Left'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  46c72db7-3203-4a74-a893-9d8752063027: # Card Summary Right
+    columnSuffix: bzhivefi
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceCardSummaryRight
+    instructions: null
+    name: 'Card Summary Right'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  547de770-8ac7-4c68-a584-255114c0ca6b: # Link URL Left
+    columnSuffix: hqozgtvl
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: serviceCardLinkUrlLeft
+    instructions: null
+    name: 'Link URL Left'
+    searchable: false
+    settings:
+      maxLength: 255
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  700c3953-6764-484f-9481-8604d81f8528: # Link Text Left
+    columnSuffix: zfffmiau
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceCardLinkTextLeft
+    instructions: null
+    name: 'Link Text Left'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  4733ac12-a33b-4614-9c00-dcf0ccaf97fa: # Sub Heading Right
+    columnSuffix: gbouxmjh
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceCardSubHeadingRight
+    instructions: null
+    name: 'Sub Heading Right'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  49373cef-63d8-4884-90ff-45f202b4ada0: # Card Heading Right
+    columnSuffix: vtntbnbp
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceCardHeadingRight
+    instructions: null
+    name: 'Card Heading Right'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c52641e7-980a-4ebf-b64e-89a15d4d568c: # Card Summary Left
+    columnSuffix: haxtfodn
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardSummaryLeft
+    instructions: null
+    name: 'Card Summary Left'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: true
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f9f1f4e6-4673-4ca0-a5a4-8eb1d6a6b971: # Sub Heading Left
+    columnSuffix: ybusyriq
+    contentColumnType: text
+    fieldGroup: null
+    handle: serviceCardSubHeadingLeft
+    instructions: null
+    name: 'Sub Heading Left'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: serviceCardPanel
+name: 'Service Card Panel'
+sortOrder: 5

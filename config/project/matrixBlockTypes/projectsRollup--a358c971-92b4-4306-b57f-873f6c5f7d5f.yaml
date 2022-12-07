@@ -1,45 +1,45 @@
-field: 36cde833-6bde-43bd-b40d-d47db1bc4577 # Content 2
+field: 8d7b11e3-8a9f-4551-8e59-559d5a419a6d # Content Home
 fieldLayouts:
-  33623c4e-5ce5-44d6-92ec-2e7dd70e268c:
+  e85ce59e-1ba4-43a4-94c6-5e69a7af36ff:
     tabs:
       -
         elementCondition: null
         elements:
           -
             elementCondition: null
-            fieldUid: 333b5bb7-a3ff-462a-a446-d6abf71f99c4 # Services Panel Subheading
+            fieldUid: b393f2a5-c4a8-417b-bfee-c7b5bd24da3d # Heading
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6aeaca7b-32d4-469e-829d-00fb44cc343d
+            uid: 553aa694-60f7-4e84-a553-a7ddd7d9502b
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1e7343e7-5a3c-4976-ab37-e07c94b7c944 # Services Panel Heading
+            fieldUid: f20ce4f8-d4bc-4b8d-87ea-2d11082c5156 # Projects Limit
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1f564f2d-4d6a-4a5b-b7cd-2c2ddcbff99a
+            uid: 888d4291-58ce-48cc-ac8e-665f541513ed
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: ff7bac76-5caa-4e51-8ad2-c326feba4e89
+        uid: bee091a9-0b3b-46cf-8c48-0e787e3a47b1
         userCondition: null
 fields:
-  1e7343e7-5a3c-4976-ab37-e07c94b7c944: # Services Panel Heading
-    columnSuffix: byyagxtp
+  b393f2a5-c4a8-417b-bfee-c7b5bd24da3d: # Heading
+    columnSuffix: gpfhhkvl
     contentColumnType: text
     fieldGroup: null
-    handle: servicesPanelHeading
+    handle: projectsPanelHeading
     instructions: null
-    name: 'Services Panel Heading'
+    name: Heading
     searchable: false
     settings:
       byteLimit: null
@@ -53,26 +53,27 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  333b5bb7-a3ff-462a-a446-d6abf71f99c4: # Services Panel Subheading
-    columnSuffix: thohmxoc
-    contentColumnType: text
+  f20ce4f8-d4bc-4b8d-87ea-2d11082c5156: # Projects Limit
+    columnSuffix: ccmxnddm
+    contentColumnType: integer(10)
     fieldGroup: null
-    handle: servicesPanelSubheading
+    handle: projectsLimit
     instructions: null
-    name: 'Services Panel Subheading'
+    name: 'Projects Limit'
     searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
+      decimals: 0
+      defaultValue: 9
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: none
+      size: null
+      suffix: null
     translationKeyFormat: null
     translationMethod: none
-    type: craft\fields\PlainText
-handle: servicesRollup
-name: 'Services Rollup'
-sortOrder: 10
+    type: craft\fields\Number
+handle: projectsRollup
+name: 'Projects Rollup'
+sortOrder: 4

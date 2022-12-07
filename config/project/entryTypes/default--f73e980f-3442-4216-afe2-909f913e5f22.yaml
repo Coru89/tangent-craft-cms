@@ -5,6 +5,24 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            elementCondition: null
+            fieldUid: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: df3156de-6146-4d1d-9618-bd2ac26a1832
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b8f6afd5-4eb0-4f9f-9791-88b26e03e9e8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -32,36 +50,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 211f8030-0715-4db5-85d0-7c70298eb02d # Content Sections Panel Width
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: c9c0b605-5873-4752-8140-24b22011d0ae
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: decd8b6d-bb52-417b-9572-0a9e873b774c # Content
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: df3156de-6146-4d1d-9618-bd2ac26a1832
-            userCondition: null
-            warning: null
-            width: 100
-        name: Content
-        uid: b8f6afd5-4eb0-4f9f-9791-88b26e03e9e8
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
             fieldUid: 12c4284f-ef55-4f05-b11c-ef3e46a06a5b # Client
             instructions: null
             label: null
@@ -86,7 +74,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: a5b8be6a-fa7e-4457-ba84-2dbf40eac704 # Filter Tags
+            fieldUid: a5b8be6a-fa7e-4457-ba84-2dbf40eac704 # Project Tags
             instructions: null
             label: 'Featured Filter Tags'
             required: false
