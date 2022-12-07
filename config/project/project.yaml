@@ -1,4 +1,4 @@
-dateModified: 1670383557
+dateModified: 1670398663
 email:
   fromEmail: corey.james.keller@gmail.com
   fromName: 'Tangent Services'
@@ -65,6 +65,7 @@ meta:
     2b2271de-7d81-4a96-8a7d-a22ee9982c33: Description # Description
     2c098049-a68a-47fd-a4e2-21c2b59e38ae: Tagline # Tagline
     2ce30b21-fd7e-48cb-9035-15fdf918f29e: Video # Video
+    2f54c914-b290-4262-a899-9015af4f4d50: Heading # Heading
     3a25d975-5d0c-431a-94d6-a3a578faebf1: 'Primary Navigation' # Primary Navigation
     3a66029f-ef5b-468f-933e-ed82347b358b: Subject # Subject
     3b528b40-e6e8-4a80-ae6e-252e1f0a6068: Heading # Heading
@@ -83,7 +84,7 @@ meta:
     3f64dd4b-f512-46bb-9f6a-4a4b9afb2810: 'Rollup Description' # Rollup Description
     3f91a3c8-c8cd-4c77-a00f-f9cfa4e72ca0: 'Articles Limit' # Articles Limit
     4aac6b9c-38e0-4868-b088-91fa9254f0dc: Content # Content
-    4be11f43-1bc9-4775-909b-2b8573351e97: 'Text Columns' # Text Columns
+    4be11f43-1bc9-4775-909b-2b8573351e97: 'Double Text Columns' # Double Text Columns
     4cb46986-1520-4dea-b94b-64b8b7d942d1: 'Related Projects Heading' # Related Projects Heading
     4cf96222-ec19-41f0-9d90-1a47030a540e: 'Link Url' # Link Url
     4d9fd9f9-49cb-4c71-aec0-c2907bd1886e: 'Sub Heading Left' # Sub Heading Left
@@ -124,7 +125,7 @@ meta:
     8c5adc8c-5eec-42ca-a6e3-016f94507311: 'Articles Limit' # Articles Limit
     8c86aa0c-506c-4214-9a07-72229738379b: 'Title Right' # Title Right
     8e2d0d22-60a3-43c4-9b2c-06542b3c09db: 'Subject Left' # Subject Left
-    8ede4e2a-8caa-4df3-9feb-0181f0d54467: 'Text Columns' # Text Columns
+    8ede4e2a-8caa-4df3-9feb-0181f0d54467: 'Double Text Columns' # Double Text Columns
     9a58d64f-544c-4f99-88e8-417fcb0f0081: 'Include Image Margin' # Include Image Margin
     9a90286f-31db-40f8-ad01-58e70ea03998: Subject # Subject
     9b621c92-31f6-4a6d-a754-ce4987fae7a3: 'Stat Digit' # Stat Digit
@@ -211,6 +212,7 @@ meta:
     511cc746-7196-4f29-a18f-7282e709e701: 'Image Back' # Image Back
     539a2967-dc5c-46ab-8aec-c3aaec63f94a: 'Articles Rollup' # Articles Rollup
     560d95b7-aa2f-434d-a4c6-e4b4ae11c104: 'Link URL' # Link URL
+    570a2853-0b4d-4b86-b142-0d7ad3c1a37f: Items # Items
     580ead99-292c-46b6-8a9d-92d5a33da487: Company # Company
     597cef0a-b5bd-4e4c-aec4-2fe935e3b539: Title # Title
     690cb815-b85f-467e-a047-43e23b08ee2b: Video # Video
@@ -220,7 +222,7 @@ meta:
     702b4ab5-aec1-4d04-8d6e-1972ef29664d: Heading # Heading
     706a7c05-d62a-469a-9d9f-0c307db9c4f7: 'Card Link URL' # Card Link URL
     711fa1de-ef75-4399-bbfe-badcb165f8ec: 'Projects Limit' # Projects Limit
-    750a6a46-5608-44ac-963d-8472c1d3cd40: Title # Title
+    750a6a46-5608-44ac-963d-8472c1d3cd40: 'Title (h2)' # Title
     753acc38-d212-4067-8c54-326b6007ffac: 'Background Color' # Background Color
     782e1b6a-790a-43e7-ac90-96687597e319: Image # Image
     0802bee3-675f-4232-bd79-25b304c1a052: 'Projects Limit' # Projects Limit
@@ -241,6 +243,7 @@ meta:
     4554b864-9bc7-4e0d-9a92-41307f4cef13: Projects # Projects
     4566f2f9-cc72-4524-95e2-5a83af98f5c8: Heading # Heading
     005220a4-ab87-4642-b55a-e04e0fb6e503: Default # Default
+    5285d044-2d86-4727-8d1a-324eec0a25c9: Bullets # Bullets
     5663a898-2246-4b0e-bd1f-a2d7e7c83d78: Title # Title
     5745f234-8fc6-45ba-a8e1-ea167f768afc: Author # Author
     6333f983-d637-4788-90b6-722a343922f6: 'Projects Rollup' # Projects Rollup
@@ -256,7 +259,7 @@ meta:
     18995cfd-16c6-457d-8ead-6dadaf3f1d09: Video # Video
     20318baf-14d6-49f8-964e-a646e56d5446: Footer # Footer
     28330bb5-d77c-4cd6-87bd-3e92e71f4ae3: 'Image and Text Panel' # Image and Text Panel
-    33356ed5-ee39-4b15-8762-22970231ddf4: 'Sub Heading' # Sub Heading
+    33356ed5-ee39-4b15-8762-22970231ddf4: 'Sub Heading (h3)' # Sub Heading
     43642b25-873b-4bff-9c7f-1701db58684a: 'Services Panel Subheading' # Services Panel Subheading
     52401f4b-7fb8-42e1-98d5-420030c54889: 'Card Heading Right' # Card Heading Right
     52756a4b-7e10-4fec-a57a-8599921de625: Company # Company

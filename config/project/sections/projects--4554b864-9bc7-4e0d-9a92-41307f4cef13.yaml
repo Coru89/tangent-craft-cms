@@ -9,7 +9,4 @@ siteSettings:
     hasUrls: true
     template: _pages\interior_projects
     uriFormat: 'projects/{slug}'
-structure:
-  maxLevels: 1
-  uid: 781736a6-6edf-4cb8-8ed1-dd9e46c85b43
-type: structure
+type: channel

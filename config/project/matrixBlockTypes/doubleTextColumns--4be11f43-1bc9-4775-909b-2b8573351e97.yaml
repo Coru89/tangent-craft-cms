@@ -202,5 +202,5 @@ fields:
     translationMethod: none
     type: craft\fields\PlainText
 handle: doubleTextColumns
-name: 'Text Columns'
+name: 'Double Text Columns'
 sortOrder: 5

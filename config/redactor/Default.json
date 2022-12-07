@@ -6,8 +6,7 @@
     "italic",
     "unorderedlist",
     "orderedlist",
-    "link",
-    "line"
+    "link"
   ],
   "plugins": [
     "fullscreen",
@@ -22,5 +21,5 @@
   "imageCaption": false,
   "imageResizable": true,
   "imageLink": false,
-  "formatting": ["p", "pre", "h2", "h3", "h4"]
+  "formatting": ["p", "pre", "h4", "h5", "h6"]
 }

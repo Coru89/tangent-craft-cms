@@ -339,4 +339,4 @@ fields:
     type: craft\fields\RadioButtons
 handle: imageTextPanel
 name: 'Image and Text Panel'
-sortOrder: 2
+sortOrder: 3

@@ -11,35 +11,40 @@
 	{% if block.type == "imagePanel" %}
 		{% set image = block.image.one() %}
 		{% if block.imageBehavior == 'full' %}
-			<section class="image-panel-full-width">
-				{% if block.heading | length %}
-					<h2 class="image-panel__heading">{{block.heading}}</h2>
-				{% endif %}
-				<picture class="image-panel-full-width__picture" role="presentation">
-					<source {{ attr({
-						type: 'image/webp',
-						srcset: image.getSrcset(
-							[320, 360, 412, 600, 768, 1024, 1280, 1440, 1600, 1920, 2560],
-							{ format: 'webp', }
-						),
-						sizes: '100vw',
-					}) }}>
-					<source {{ attr({
-						type: 'image/jpeg',
-						srcset: image.getSrcset(
-							[320, 360, 412, 600, 768, 1024, 1280, 1440, 1600, 1920, 2560],
-							{ format: 'jpeg', }
-						),
-						sizes: '100vw',
-					}) }}>
+			<section class="image-panel-full-width{% if block.heading | length %} image-panel-full-width--hasHeader{% endif %}">
+				<figure class="image-panel__figure">
+					{% if block.heading | length %}
+						<h2 class="image-panel__heading">{{block.heading}}</h2>
+					{% endif %}
+					<picture class="image-panel-full-width__picture" role="presentation">
+						<source {{ attr({
+							type: 'image/webp',
+							srcset: image.getSrcset(
+								[320, 360, 412, 600, 768, 1024, 1280, 1440, 1600, 1920, 2560],
+								{ format: 'webp', }
+							),
+							sizes: '100vw',
+						}) }}>
+						<source {{ attr({
+							type: 'image/jpeg',
+							srcset: image.getSrcset(
+								[320, 360, 412, 600, 768, 1024, 1280, 1440, 1600, 1920, 2560],
+								{ format: 'jpeg', }
+							),
+							sizes: '100vw',
+						}) }}>
 
-					<img class="image-panel-full-width__image{% if block.imageBoxShadow == 'yes' %} image-panel__image--shadow{% endif %}" alt="{{ image.alt }}" src={{image.url}} width={{image.width}} height={{image.height}} loading="lazy" />
-				</picture>
+						<img class="image-panel-full-width__image{% if block.imageBoxShadow == 'yes' %} image-panel__image--shadow{% endif %}" alt="{{ image.alt }}" src={{image.url}} width={{image.width}} height={{image.height}} loading="lazy" />
+					</picture>
+					{% if (block.imageCaption | length) %}
+						<figcaption>{{block.imageCaption}}</figcaption>
+					{% endif %}
+				</figure>
 			</section>
 		{% else %}
 			<section class="image-panel">
 				<div class={{ container }}>
-					<figure class="image-panel__figure">
+					<figure class="image-panel__figure{% if block.imageBehavior == 'contained' %} image-panel__image--100{% endif %}">
 						{% if block.heading | length %}
 							<h2 class="image-panel__heading">{{block.heading}}</h2>
 						{% endif %}
@@ -78,7 +83,9 @@
 						{% if block.subject %}
 							<div class="image-text-panel__subject">{{ block.subject }}</div>
 						{% endif %}
-						<h2 class="image-text-panel__title">{{block.panelTitle}}</h2>
+						{% if block.panelTitle %}
+							<h2 class="image-text-panel__title">{{block.panelTitle}}</h2>
+						{% endif %}
 						{% if block.panelSubtitle %}
 							<h3 class="image-text-panel__subtitle">{{block.panelSubtitle}}</h3>
 						{% endif %}
@@ -158,7 +165,7 @@
 			{% set color = 'transparent' %}
 		{% endif %}
 
-		<section class="content-panel{% if block.panelBackgroundColor != 'transparent' %} content-panel--padded{% endif %}" style="background-color: {{ color }}">
+		<section class="content-panel{% if block.panelBackgroundColor == 'grey' %} content-panel--padded{% endif %}" style="background-color: {{ color }}">
 			<div class={{ container }}>
 				<div class="content-panel__container">
 				{% if block.panelTitle %}

@@ -42,7 +42,7 @@
                 <div class="related-projects__inner related-projects__inner--no-image">
                     <div class="related-projects__content">
                         <h3 class="related-projects__title">{{entry.relatedProjectsContentCardTitle}}</h3>
-                        <span class="related-projects__summary">{{entry.relatedProjectsContentCardSummary}}</span>
+                        <div class="related-projects__summary">{{entry.relatedProjectsContentCardSummary}}</div>
                         {% if (entry.relatedProjectsContentCardLinkText | length) and (entry.relatedProjectsContentCardLinkUrl | length) %}
                             <a href={{entry.relatedProjectsContentCardLinkUrl}} class="button button--arrow button--secondary">{{entry.relatedProjectsContentCardLinkText}}</a>
                         {% endif %}

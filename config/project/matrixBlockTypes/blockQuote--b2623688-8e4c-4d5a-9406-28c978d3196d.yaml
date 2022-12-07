@@ -75,4 +75,4 @@ fields:
     type: craft\fields\PlainText
 handle: blockQuote
 name: Quote
-sortOrder: 7
+sortOrder: 6

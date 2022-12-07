@@ -105,7 +105,7 @@ fields:
           __assoc__:
             -
               - label
-              - Default
+              - 'Max Width 800px'
             -
               - value
               - default
@@ -239,4 +239,4 @@ fields:
     type: craft\fields\Assets
 handle: imagePanel
 name: 'Image Panel'
-sortOrder: 3
+sortOrder: 2

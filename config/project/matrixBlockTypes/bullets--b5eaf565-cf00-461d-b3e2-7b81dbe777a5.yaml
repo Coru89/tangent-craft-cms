@@ -95,4 +95,4 @@ fields:
     type: craft\fields\Table
 handle: bullets
 name: Bullets
-sortOrder: 11
+sortOrder: 7
