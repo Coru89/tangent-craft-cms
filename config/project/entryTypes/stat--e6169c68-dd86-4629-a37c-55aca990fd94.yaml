@@ -13,7 +13,7 @@ fieldLayouts:
             elementCondition: null
             id: null
             instructions: null
-            label: __blank__
+            label: 'Stat Description'
             max: null
             min: null
             name: null
@@ -39,18 +39,6 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 9823fc75-75ba-4ec0-8c6d-96cd70a67e32
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 3c39a42e-f679-45e3-9e08-2bf5c8db0852 # Stat Description
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 73119737-1920-4274-81c6-a5803baaaf98
             userCondition: null
             warning: null
             width: 100
